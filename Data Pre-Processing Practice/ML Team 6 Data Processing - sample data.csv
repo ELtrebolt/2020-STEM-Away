@@ -1,0 +1,3571 @@
+Category,Topics,Content,Tag,Votes,Number_of_Answers,Date_posted
+python,Restrictons of Python compared to Ruby: lambda's,"
+            I was going over some pages from WikiVS, that I quote from:
+  because lambdas in Python are restricted to expressions and cannot
+  contain statements
+I would like to know what would be a good ...
+        ","['python', 'ruby', 'lambda', 'restriction']",6,"
+5answers
+            ",Apr 16 '10 at 16:02
+python,Scale image in matplotlib without changing the axis,"
+            I have a GUI that displays a plot. I want to fit that plot to an existing image. I displayed the image under the plot using:
+
+myaxe.plot(...)
+myaxeimage = myaxe.imshow(myimage, axpect='auto', extent=...
+        ","['python', 'matplotlib']",6,"
+2answers
+            ",May 24 '13 at 19:13
+python,UnboundLocalError on nested module reimport,"
+            I get an UnboundLocalError when I reimport an already imported module in python 2.7. A minimal example is
+
+#!/usr/bin/python
+
+import sys
+
+def foo():
+    print sys
+    import sys
+
+foo()
+
+Traceback (...
+        ",['python'],6,"
+2answers
+            ",Dec 16 '15 at 12:16
+python,"How to convert 3D RGB label image (in semantic segmentation) to 2D gray image, and class indices start from 0?","
+            I have a rgb semantic segmentation label, if there exists 3 classes in it, and each RGB value is one of:
+
+[255, 255, 0], [0, 255, 255], [255, 255, 255]
+respectively, then I want to map all values in ...
+        ","['python', 'numpy', 'array-broadcasting']",6,"
+4answers
+            ",Oct 30 '18 at 7:19
+python,Python minidom/xml : How to set node text with minidom api,"
+            I am currently trying to load an xml file and modify the text inside a pair of xml tags, like this:
+
+   <anode>sometext</anode>
+I currently have a helper function called getText that I ...
+        ","['python', 'xml']",6,"
+1answer
+            ",Nov 27 '12 at 15:58
+json,iphone Json POST request to Django server creates QueryDict within QueryDict,"
+            I'm creating a JSON POST request from Objective C using the JSON library like so:
+NSMutableURLRequest *request;
+request = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:[NSString ...
+        ","['iphone', 'objective-c', 'django', 'json']",6,"
+3answers
+            ",Apr 5 '10 at 15:36
+sql,Find conflicted date intervals using SQL,"
+            Suppose I have following table in Sql Server 2008:
+
+ItemId StartDate   EndDate
+1      NULL        2011-01-15
+2      2011-01-16  2011-01-25
+3      2011-01-26  NULL
+As you can see, this table has ...
+        ","['sql', 'sql-server', 'tsql']",6,"
+5answers
+            ",May 17 '11 at 13:06
+python,How do you overlap widgets/frames in python tkinter?,"
+            I was wondering if this is even possible. My goal is to have a small white box in the bottom right hand corner, on top of a larger text field. The white box will be used as an ""info box"" while the ...
+        ","['python', 'tkinter', 'overlay', 'overlap', 'ttk']",6,"
+1answer
+            ",Nov 25 '13 at 17:52
+python,Tuning Postgresql performance and memory use in a python workflow,"
+            I use Postgresql 9.4 for a model database. My table looks somewhat like this:
+
+CREATE TABLE table1 (
+sid INTEGER PRIMARY KEY NOT NULL DEFAULT nextval('table1_sid_seq'::regclass),
+col1 INT, 
+col2 INT,
+...
+        ","['python', 'performance', 'postgresql', 'memory', 'psycopg2']",6,"
+1answer
+            ",Dec 25 '15 at 15:13
+python,Are random seeds compatible between systems?,"
+            I  made a random forest model using python's sklearn package where I set the seed to for example to 1234. To productionise models, we use pyspark. If I was to pass the same hyperparmeters and same ...
+        ","['python', 'random', 'scikit-learn', 'pyspark', 'apache-spark-mllib']",6,"
+3answers
+            ",Sep 12 '18 at 11:17
+python,pyaudio-OSError: [Errno -9999] Unanticipated host error,"
+            I just want to run a simple python audio code:
+
+import pyaudio
+import wave
+import sys
+
+CHUNK = 1024
+wf = wave.open(""4.wav"", 'rb')
+# instantiate PyAudio (1)
+p = pyaudio.PyAudio()
+# open stream (2)
+...
+        ","['python', 'record', 'pyaudio']",6,"
+4answers
+            ",Jan 7 '17 at 7:16
+sql,Many to many association without join table,"
+            I'd like to apply JPA in the following (simplified) database:
+
+NODE                         AUTHORITY
+-----                        ----------
+idNode int                   idAuthorities int
+nameNode ...
+        ","['java', 'sql', 'hibernate', 'jpa', 'jpa-2.0']",6,"
+1answer
+            ",Jul 29 '14 at 11:52
+sql,Python psycopg2 not in utf-8,"
+            I use Python to connect to my postgresql data base like this:
+
+conn=psycopg2.connect(database=""fedour"", user=""fedpur"", password=""***"", host=""127.0.0.1"", port=""5432"")
+No problem for that.
+
+But when I ...
+        ","['python', 'sql', 'psycopg2', 'utf']",6,"
+2answers
+            ",Apr 24 '17 at 8:33
+python,Progress Line in Matplotlib Graphs,"
+            Objective: To plot a graph(x,y) and move a vertical line over the graph w.r.t to timer.
+
+I started implementing this using matplotlib. Its possible to implement this using draw() feature of matplotlib ...
+        ","['python', 'matplotlib']",6,"
+1answer
+            ",Aug 13 '12 at 21:57
+sql,Pivot / crosstab with more than one value column,"
+            I have a view that produces the following resultset:
+
+CREATE TABLE foo
+AS
+  SELECT client_id, asset_type, current_value, future_value
+  FROM ( VALUES
+    ( 1, 0, 10 , 20 ),
+    ( 1, 1, 5  , 10 ),
+    (...
+        ","['sql', 'postgresql', 'crosstab']",6,"
+1answer
+            ",May 4 '15 at 13:27
+python,Controlling the fan speed and detecting the inside temperature of the pc with python?,"
+            Since my pc's fan is very loud, I'd like to make myself a program to ""shut it up"" when it's not required to be running at full speed. I want to make it with python, so is there any module that can ...
+        ","['python', 'cpu']",6,"
+3answers
+            ",Mar 19 '10 at 18:07
+python,Why xgboost.cv and sklearn.cross_val_score give different results?,"
+            I'm trying to make a classifier on a data set. I first used XGBoost:
+
+import xgboost as xgb
+import pandas as pd
+import numpy as np
+
+train = pd.read_csv(""train_users_processed_onehot.csv"")
+labels = ...
+        ","['python', 'machine-learning', 'scikit-learn', 'cross-validation', 'xgboost']",6,"
+1answer
+            ",Dec 14 '16 at 6:15
+python,Pandas add column from one dataframe to another based on a join,"
+            Assume I have 2 dataframes. I want to add a column of dataframe 1 to dataframe 2 based on a column lookup. If the join is not possible, I want in the extra column a certain constant (so I can filter ...
+        ","['python', 'pandas', 'join', 'dataframe']",6,"
+1answer
+            ",Sep 14 '17 at 6:25
+python,python removing whitespace from string in a list,"
+            I have a list of lists. I want to remove the leading and trailing spaces from them. The strip() method returns a copy of the string without leading and trailing spaces. Calling that method alone does ...
+        ","['python', 'list']",6,"
+6answers
+            ",Oct 25 '12 at 14:40
+sql,How to join two tables based on substring values of fields?,"
+            I am having problem with sql. I want to join two tables,  employee and class instructor. Condition is that employee is having unid column like  'u0871457' where as class instructor is having EmplId as ...
+        ","['sql', 'oracle', 'join', 'inner-join']",6,"
+4answers
+            ",Feb 20 '15 at 18:45
+python,django: exclude certain form elements based on a condition,"
+            I have some form fields that I want to include/exclude based on whether or not a certain condition is met. I know how to include and exclude form elements, but I am having difficulty doing it when I ...
+        ","['python', 'django', 'forms']",6,"
+2answers
+            ",May 21 '11 at 16:47
+python,Area intersection in Python,"
+            I have a code that takes a condition C as an input, and computes the solution to  my problem as an 'allowed area' A on the (x,y) space. This area is made of several 'tubes', which are defined by 2 ...
+        ","['python', 'numpy', 'matplotlib', 'intersection', 'area']",6,"
+1answer
+            ",Jun 1 '16 at 8:38
+python,Compact but pretty JSON output in python?,"
+            JSON is written either with indent=None (default) as a single line (unreadable to a human eye) or with ident=N with a newline after each comma.
+
+What I would like to see is a more compact but still ...
+        ","['python', 'json', 'python-2.7', 'pretty-print']",6,"
+2answers
+            ",Aug 14 '17 at 19:27
+python,Numpy Matrix class: Default constructor attributes for inherited class,"
+            I want to implement my own matrix-class that inherits from numpy's matrix class.
+
+numpy's matrix constructor requires an attribute, something like (""1 2; 3 4'""). In contrast, my constructor should ...
+        ","['python', 'inheritance', 'constructor', 'numpy', 'init']",6,"
+1answer
+            ",Oct 30 '12 at 17:30
+json,Display a list from nested json: Sencha Touch 2,"
+            I have a list that displays a list of restaurants with the logo of the restaurant etc.
+
+The view
+
+Ext.define('Test.view.Contacts', {
+    extend: 'Ext.List',
+    xtype: 'contacts',
+
+    config: {
+      ...
+        ","['json', 'extjs', 'javascript-framework', 'sencha-touch-2']",6,"
+1answer
+            ",Mar 30 '12 at 19:21
+sql,MS SQL datetime precision problem,"
+            I have a situation where two persons might work on the same order (stored in an MS SQL database) from two different computers. To prevent data loss in the case where one would save his copy of the ...
+        ","['sql', 'sql-server', 'datetime', 'precision']",6,"
+6answers
+            ",Apr 12 '10 at 8:10
+sql,Duplicate postgresql schema including sequences,"
+            My database layout needs to create new schema for each new customer. Currently I use internal function I found on the net and modified a little bit.
+
+CREATE FUNCTION copy_schema(
+    source_schema ...
+        ","['sql', 'postgresql', 'database-schema', 'multi-tenant']",6,"
+2answers
+            ",Sep 24 '12 at 20:03
+python,Python Errno 9 Bad file descriptor in Mac OS X,"
+            I have the following code running without any problem multiple times after
+each other in Linux:
+
+def test_ftp(ftpserver):
+    with FTP() as f:
+        f.connect(""localhost"", port=ftpserver.server_port)...
+        ","['python', 'macos', 'multiprocessing', 'tornado']",6,"
+1answer
+            ",Aug 1 '17 at 12:49
+sql,#1136 - Column count doesn't match value count at row 1,"
+            I am trying to insert ID field from one table to another using below query:
+
+INSERT INTO `srikprag_db`.`acbalance`
+SELECT `id` FROM `srikprag_mlm`.`member_table`
+Error is showing:
+  #1136 - Column ...
+        ","['mysql', 'sql']",6,"
+3answers
+            ",Apr 30 '13 at 6:34
+sql,Sorting VARCHAR column with alphanumeric entries,"
+            I am using SQL Server, the column is a VARCHAR(50) and I want to sort it like this:
+
+1A        
+1B        
+2        
+2        
+3        
+4A        
+4B        
+4C        
+5A        
+5B        
+5C       ...
+        ","['sql', 'sql-server', 'sorting', 'alphanumeric']",6,"
+4answers
+            ",May 31 '13 at 16:47
+sql,Is it possible to add a logic Constraint to a Foreign Key?,"
+            I've got two tables and I've added a foreign key constraint. Kewl - works great. Now, is it possible to further constrain that relationship against some data in the parent table?
+Basically, I have ...
+        ","['sql', 'tsql', 'foreign-keys', 'constraints']",6,"
+7answers
+            ",Jun 24 '09 at 3:05
+sql,MySQL: Unknown column in where clause error,"
+            I have a PHP script and for some reason mysql keeps treating the value to select/insert as a column. Here is an example of my sql query:
+
+$query = mysql_query(""SELECT * FROM tutorial.users WHERE (...
+        ","['php', 'mysql', 'sql', 'mysql-error-1054']",6,"
+5answers
+            ",Sep 26 '09 at 3:10
+python,How to add header files in setup.py so dependencies are observed when building the extensions?,"
+            The question seems long, but it all comes down to how I can add header files to specific extension specification.
+
+The motivation is that if I change one of the header files, issuing
+
+python setup.py ...
+        ","['python', 'distutils', 'setup.py']",6,"
+1answer
+            ",Jul 26 '12 at 17:30
+python,Getting timezone name from UTC offset,"
+            How can I get the timezone name from a given UTC offset in Python?
+
+For example, I have,
+
+""GMT+0530""
+And I want to get,
+
+""Asia/Calcutta""
+If there are multiple matches, the result should be a list of ...
+        ","['python', 'datetime']",6,"
+1answer
+            ",Jan 29 '16 at 13:04
+python,Running a Python script on a PHP server,"
+            I am running a nginx web server, along with PHP-CGI.
+
+I would like to know if it is possible to execute a Python script inside PHP pages, allowing both languages to be combined. I've attempted it ...
+        ","['php', 'python']",6,"
+1answer
+            ",May 30 '12 at 1:40
+sql,How to get all children of a node in tree structure ? SQL query?,"
+            table - user
+
+columns - 
+(userId ,name, managerId)
+
+rows -
+
+(1,nilesh,0)
+(2,nikhil,1)    
+(3,nitin ,2)  
+(4,Ruchi,2)
+if I give id of user it should list all reporting people to him .
+if I give userId ...
+        ","['sql', 'database', 'tree']",6,"
+4answers
+            ",Jun 8 '11 at 6:25
+sql,MySQL: Unknown column in where clause error,"
+            I have a PHP script and for some reason mysql keeps treating the value to select/insert as a column. Here is an example of my sql query:
+
+$query = mysql_query(""SELECT * FROM tutorial.users WHERE (...
+        ","['php', 'mysql', 'sql', 'mysql-error-1054']",6,"
+5answers
+            ",Sep 26 '09 at 3:10
+sql,Selecting an item matching multiple tags,"
+            This seems very basic but I can't figure it out.
+
+I've got a table ""item_tags"", and I want to select all of the items that match tags 1 and 2 (as in, each item has to have both tags).
+
+How would I do ...
+        ","['sql', 'mysql', 'many-to-many']",6,"
+2answers
+            ",Jun 25 '10 at 16:51
+python,Update primary key Django MySQL,"
+            sorry for my poor english, my problem is:
+
+I try to update the PK in Django with the method .save() but when i save the object Django duplicate the object withe the same data but differetn PK, example:...
+        ","['python', 'mysql', 'django', 'django-models', 'primary-key']",6,"
+3answers
+            ",Apr 15 '15 at 17:51
+sql,SQL Server - stored procedure suddenly become slow,"
+            I have written a stored procedure that, yesterday, typically completed in under a second. Today, it takes about 18 seconds. I ran into the problem yesterday as well, and it seemed to be solved by ...
+        ","['sql', 'stored-procedures', 'indexing', 'spatial']",6,"
+3answers
+            ",Mar 17 '10 at 12:58
+sql,SQL using trigger for constraint,"
+            I am studying triggers and constraints.
+
+And I got a question to use trigger (To be honest, I am not really sure how to use trigger..)
+
+Let's say we have a Teachers table.
+
+And this teacher table ...
+        ","['sql', 'triggers', 'constraints']",6,"
+1answer
+            ",Mar 12 '12 at 7:37
+sql,Auto Increment a non-identity Column in sql-server,"
+            We have Non-Identity Column in our Database Which have a specific value . We have a requirement as below,
+
+Whenever a record insert into that column, value should be incremented by one.
+
+how to handle ...
+        ","['sql', 'sql-server', 'tsql', 'sql-server-2012']",6,"
+3answers
+            ",Nov 20 '15 at 8:08
+sql,SP_EXECUTESQL and Output Parameter,"
+            I would like get the ID from the query, but I am getting a NULL, where is my mistake?
+
+DECLARE @TblZimz    NVARCHAR(256)
+DECLARE @IdModul    INTEGER
+DECLARE @Id         INTEGER
+
+SET @TblZimz        = '...
+        ","['sql', 'sql-server', 'tsql', 'stored-procedures']",6,"
+2answers
+            ",Dec 15 '14 at 14:15
+python,Python: string to a list of lists,"
+            I'm new to python and confused about converting a string to a list. I'm unsure how to create a list within a list to accomplish the following: 
+
+Ex. 
+
+string = '2,4,6,8|10,12,14,16|18,20,22,24' 
+I'm ...
+        ","['python', 'string', 'list', 'split']",6,"
+2answers
+            ",Aug 10 '12 at 5:05
+sql,Regarding Users in Oracle 12c,"
+            I have installed an Oracle 12c database on my system. I had an application which need to access the database.
+
+Previously in Oracle 11g, I used the following commands to create an user.  
+
+create user ...
+        ","['sql', 'oracle', 'oracle12c']",6,"
+3answers
+            ",Nov 21 '13 at 7:03
+sql,PySpark / Spark Window Function First/ Last Issue,"
+            From my understanding first/ last function in Spark will retrieve first / last row of each partition/ I am not able to understand why LAST function is giving incorrect results.
+
+This is my code.
+
+...
+        ","['sql', 'apache-spark', 'pyspark', 'apache-spark-sql', 'window-functions']",6,"
+1answer
+            ",Sep 11 '18 at 9:48
+sql,Pivot / crosstab with more than one value column,"
+            I have a view that produces the following resultset:
+
+CREATE TABLE foo
+AS
+  SELECT client_id, asset_type, current_value, future_value
+  FROM ( VALUES
+    ( 1, 0, 10 , 20 ),
+    ( 1, 1, 5  , 10 ),
+    (...
+        ","['sql', 'postgresql', 'crosstab']",6,"
+1answer
+            ",May 4 '15 at 13:27
+python,Check if multiple substrings are in pandas dataframe [duplicate],"
+            I have a pandas dataframe which I want to check for substrings of a certain column. 
+At the moment I have 30 lines of code of this kind:
+
+df['NAME'].str.upper().str.contains('LIMITED')) |
+(df['NAME']....
+        ","['python', 'pandas', 'select', 'substring']",6,"
+1answer
+            ",Mar 27 '18 at 8:47
+sql,How do I convert mySql SQL script to MS SQL one?,"
+            I have to migrate customer MySql database schema/data to MS SQL SERVER 2008. Finally I've received 70 Mb SQL file with mySQL dialect that is incompatible with MSSQL. 
+
+DROP TABLE IF EXISTS `kladr`;
+...
+        ","['mysql', 'sql', 'sql-server']",6,"
+4answers
+            ",Oct 19 '11 at 11:27
+sql,#1136 - Column count doesn't match value count at row 1,"
+            I am trying to insert ID field from one table to another using below query:
+
+INSERT INTO `srikprag_db`.`acbalance`
+SELECT `id` FROM `srikprag_mlm`.`member_table`
+Error is showing:
+  #1136 - Column ...
+        ","['mysql', 'sql']",6,"
+3answers
+            ",Apr 30 '13 at 6:34
+python,Python ROUND_HALF_UP not working as expected,"
+            I can't seem to understand the decimal docs to get 2.775 to round to 2.78 using the decimal class.
+
+import decimal
+decimal.getcontext().prec = 7
+print(decimal.Decimal(2.775).quantize(
+    decimal....
+        ","['python', 'decimal', 'currency', 'rounding']",6,"
+1answer
+            ",Mar 24 '14 at 2:03
+python,ImportError: No module named lxml.etree,"
+            I'm trying to import premailer in my project, but it keeps failing at the etree import. I installed the 2.7 binary for lxml. The lxml module imports fine, and it's showing the correct path to the ...
+        ","['python', 'google-app-engine', 'lxml']",6,"
+6answers
+            ",Jul 17 '13 at 0:02
+sql,SQL 'LIKE BINARY' any slower than plain 'LIKE'?,"
+            I'm using a django application which does some 'startswith' ORM operations comparing longtext columns with a unicode string.  This results in a LIKE BINARY comparison operation with a u'mystring' ...
+        ","['mysql', 'sql']",6,"
+3answers
+            ",Nov 11 '11 at 17:55
+python,SqlAlchemy: export table to new database,"
+            Only recently started using python, and I like it! However, I am stuck with SqlAlchemy.
+
+I am trying to write a script that reads an MS SQL database, query a table (all fields, only a filter on some ...
+        ","['python', 'sql-server', 'sqlite', 'sqlalchemy']",6,"
+2answers
+            ",Sep 19 '12 at 12:22
+python,Why adding multiple 'nan' in python dictionary giving multiple entries?,"
+            Example problem:
+
+import numpy as np
+dc = dict()
+dc[np.float('nan')] = 100
+dc[np.float('nan')] = 200
+It is creating multiple entries for nan like
+
+dc.keys() will produce {nan: 100, nan: 200} but it ...
+        ","['python', 'dictionary']",6,"
+3answers
+            ",Jul 25 '17 at 10:18
+python,PyQt: How to get most of QListWidget,"
+            The code builds a dialog box with a single QListWidget and a single QPushButton. 
+
+Clicking the button adds a single List Item. 
+
+Right-click on a List Item brings up a right-click menu with ""Remove ...
+        ","['python', 'drag-and-drop', 'pyqt', 'pyqt4', 'qlistwidget']",6,"
+1answer
+            ",Mar 18 '14 at 19:21
+sql,Calculate closest working day in Postgres,"
+            I need to schedule some items in a postgres query based on a requested delivery date for an order.  So for example, the order has a requested delivery on a Monday (20120319 for example), and the order ...
+        ","['sql', 'postgresql', 'date']",6,"
+4answers
+            ",Mar 16 '12 at 20:04
+json,Display a list from nested json: Sencha Touch 2,"
+            I have a list that displays a list of restaurants with the logo of the restaurant etc.
+
+The view
+
+Ext.define('Test.view.Contacts', {
+    extend: 'Ext.List',
+    xtype: 'contacts',
+
+    config: {
+      ...
+        ","['json', 'extjs', 'javascript-framework', 'sencha-touch-2']",6,"
+1answer
+            ",Mar 30 '12 at 19:21
+sql,Add “field” of table name to SQL results from UNION?,"
+            If I have a simple union
+
+select name, phone from users union select name, phone from vendors;
+Is there a way to add the table name to the results?
+
+So instead of
+
++--------+-------+
+| name   | phone ...
+        ","['mysql', 'sql', 'select', 'union']",6,"
+1answer
+            ",Oct 20 '12 at 20:18
+sql,Many to many association without join table,"
+            I'd like to apply JPA in the following (simplified) database:
+
+NODE                         AUTHORITY
+-----                        ----------
+idNode int                   idAuthorities int
+nameNode ...
+        ","['java', 'sql', 'hibernate', 'jpa', 'jpa-2.0']",6,"
+1answer
+            ",Jul 29 '14 at 11:52
+sql,Python psycopg2 not in utf-8,"
+            I use Python to connect to my postgresql data base like this:
+
+conn=psycopg2.connect(database=""fedour"", user=""fedpur"", password=""***"", host=""127.0.0.1"", port=""5432"")
+No problem for that.
+
+But when I ...
+        ","['python', 'sql', 'psycopg2', 'utf']",6,"
+2answers
+            ",Apr 24 '17 at 8:33
+json,jQuery function to create table using JSON data,"
+            How do you retrieve a JSON object from a local file and display it in a table using jQuery? Here is the content of JSON file (jsondata.json):
+
+{
+""scores"" : [ [""3/1/2011"", 610],[""4/1/2011"", 610],[""5/1/...
+        ","['jquery', 'json']",6,"
+3answers
+            ",Oct 18 '11 at 6:18
+python,Msys2 with python 3.8: ImportError: cannot import name 'open_code' from 'io',"
+            NOTE: There have been several EDITs to the question, as per comments. They are indicated below, and separated by lines.
+As of now, the only remaining issue seems to be that numpy cannot load, possibly ...
+        ","['python', 'python-3.7', 'msys2', 'python-3.8']",6,"
+1answer
+            ",Apr 4 at 13:15
+sql,MS Access Create Table with Autoincrement and default date,"
+            I try to create MS Access Table with autoincrement ID and Default Date field, but next query always says ""Syntax error in CREATE TABLE statement."":
+
+CREATE TABLE Table1
+(
+    [ID] AUTOINCREMENT,
+    [...
+        ","['sql', 'ms-access']",6,"
+2answers
+            ",May 14 '11 at 6:51
+python,Can I stop rendering variables in Django?,"
+            So, 
+
+can I somehow stop django rendering specific template variables?
+
+Background is, that I wanted to try vuejs in a django app, 
+which kind of worked.
+
+Problem is, both share the same syntax for ...
+        ","['python', 'django', 'vue.js']",6,"
+1answer
+            ",Nov 23 '15 at 19:13
+sql,Execution of the command requires an open and available connection. The connection's current state is broken.,"
+            After some use in qa we get the following error
+
+Execution of the command requires an open and available connection. The connection's current state is broken.
+
+We’re using a singleton instance of ...
+        ","['c#', 'asp.net', 'sql', 'entity-framework']",6,"
+2answers
+            ",Jan 16 '13 at 13:12
+python,python logging set level in basicConfig,"
+            python logging set level in basicConfig:
+
+import logging
+
+def show(level):
+    logging.basicConfig(level=level)
+    logging.info('info')
+    logging.debug('debug')
+    logging.warn('warn')
+    logging....
+        ",['python'],6,"
+1answer
+            ",Jul 25 '13 at 3:00
+sql,How to analyze 'dbcc memorystatus' result in SQL Server 2008,"
+            Currently I am facing a SQL memory pressure issue. i have run dbcc memorystatus, here is part of my result:
+
+Memory Manager                           KB
+---------------------------------------- -------...
+        ","['sql', 'sql-server-2008']",6,"
+3answers
+            ",May 11 '10 at 12:50
+sql,"SQL joins, “there is an entry for table but it cannot be referenced”","
+            I have a SQL query which is failing, giving me the error:
+  ""There is an entry for table but it cannot be referenced from this part of the query""
+Going through the query, I need both all 3 tables, ...
+        ","['sql', 'postgresql', 'postgis']",6,"
+1answer
+            ",Aug 3 '16 at 17:55
+python,Python List Comprehension vs For [closed],"
+            Why does list comprehension have better performance than a for loop, in Python?
+
+list comprehension:
+
+new_items = [a for a in items if a > 10]
+for loop:
+
+new_items = []
+for a in items:
+    if a &...
+        ",['python'],6,"
+3answers
+            ",Jun 3 '13 at 22:50
+sql,Joining arrays within group by clause,"
+            We have a problem grouping arrays into a single array.
+We want to join the values from two columns into one single array and aggregate these arrays of multiple rows.
+
+Given the following input:
+
+| id |...
+        ","['sql', 'arrays', 'postgresql', 'group-by', 'postgresql-9.1']",6,"
+2answers
+            ",Jul 3 '14 at 15:08
+html,Get value from div with javascript: Always get undefined [duplicate],"
+            I had this problem when I get the value from a div:
+
+function sync(){
+    var n1 = document.getElementById('editor').value;
+    alert(n1);
+    var n2 = document.getElementById('news');
+    n2.value = ...
+        ","['javascript', 'html', 'undefined']",6,"
+3answers
+            ",Nov 25 '14 at 16:30
+python,Create a pandas dataframe from a nested lists of unequal lengths,"
+            So I have a list as follows:
+
+aa = ['aa1', 'aa2', 'aa3', 'aa4', 'aa5']
+bb = ['bb1', 'bb2', 'bb3', 'bb4']
+cc = ['cc1', 'cc2', 'cc3']
+Which is then created into a nested list: 
+
+nest = [aa, bb, cc]
+I ...
+        ","['python', 'list', 'pandas', 'nested']",6,"
+3answers
+            ",Sep 26 '17 at 16:34
+react js,How to send image from image Uri through HTTP request? (React Native and Django Backend),"
+            I’m using Expo’s image picker and I’m getting this output:
+
+Object {
+  ""cancelled"": false,
+  ""height"": 468,
+  ""uri"": ""file:///data/user/0/host.exp.exponent/cache/ExperienceData/%2540jbaek7023%...
+        ","['javascript', 'image', 'reactjs', 'http', 'react-native']",6,"
+3answers
+            ",Oct 26 '17 at 10:10
+react js,"Gulp, Reactify, and Babelify not transforming together","
+            This is my gulpfile code:
+
+gulp.task('react', function () {
+  browserify('app/src/main.jsx')
+    .transform(reactify)
+    .transform(babelify)
+    .bundle()
+    .pipe(source('app.js'))
+    .pipe(...
+        ","['reactjs', 'gulp', 'browserify', 'babeljs', 'reactify']",6,"
+1answer
+            ",Dec 8 '15 at 17:24
+react js,How to style nested elements in react?,"
+            I'm using styled components and would like to style a child inside a div via nested css. See my demo here
+
+const styles = theme => ({
+  root: {
+    ...theme.typography.button,
+    backgroundColor: ...
+        ","['css', 'reactjs']",6,"
+1answer
+            ",Jun 25 '18 at 11:41
+react js,Material-ui: open menu by event hover,"
+            Currently the menuItem only opens your children after a click. Is there an attribute that I agree to open via Hover?
+
+<MenuItem key={index}
+  menuItems={menuitems}
+  **onHover={true}**
+>
+ ...
+        ","['reactjs', 'material-ui', 'menu-items']",6,"
+1answer
+            ",Dec 15 '17 at 12:59
+react js,How to know the useful height of an iOS device in React Native?,"
+            In some very specific cases I need to set the height of a View to the full height of the device useful area (without using flex).
+
+I was using a hardcoded ""notch height"" to calculate this useful ...
+        ","['ios', 'reactjs', 'react-native', 'react-native-android', 'react-native-ios']",6,"
+4answers
+            ",Nov 15 '18 at 12:55
+react js,Fastest way to add pre-existing static HTML page to a React/Gatsby site,"
+            I have a simple project working nicely using JSX / React / Gatsby.
+
+I have a pre-existing page (think landing page) in HTML in another project, quite complex, nicely styled using Bootstrap 4, let's ...
+        ","['reactjs', 'react-router', 'gatsby']",6,"
+2answers
+            ",Jun 17 '18 at 9:42
+react js,Proper way to implement jwplayer in react component using webpack (react-starter-kit),"
+            i am making VideoPlayer react component with jwpalyer and i am using webpack es6 for loading module
+webpack support npm module loading & there is no npm for jwplayer
+
+so am trying to include ...
+        ","['reactjs', 'jwplayer', 'webpack', 'jwplayer6', 'es6-module-loader']",6,"
+2answers
+            ",Jan 8 '16 at 12:32
+react js,React PropTypes: range of numbers,"
+            Is there a better way to validate if a number is inside a range? 
+
+Avoiding to write
+
+PropTypes.oneOf(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+        ","['javascript', 'reactjs', 'range', 'react-proptypes']",6,"
+4answers
+            ",May 23 '18 at 13:15
+react js,Stateless React components with controlled input,"
+            Currently to make controlled inputs work inside Stateless React components I am wrapping the stateless component inside a Sate full component. 
+
+For example,
+
+const InputComponent = (props) => {
+  ...
+        ","['javascript', 'reactjs']",6,"
+2answers
+            ",Jun 10 '17 at 17:16
+react js,run response interceptor only once when multiple API calls,"
+            I have an interceptor like this
+
+axios.interceptors.response.use(undefined, err=> {
+    const error = err.response;
+    console.log(error);
+    if (error.status===401 && error.config &&...
+        ","['javascript', 'asynchronous', 'reactjs', 'promise', 'axios']",6,"
+2answers
+            ",Sep 15 '16 at 10:52
+react js,Change readonly attribute of input element: ReactJS,"
+            I want to add or remove an attribute from an html input element.
+
+What i'm done is this:
+
+constructor(props) {
+    super(props);
+    this.state = {inputState: 'readOnly'};
+}
+And the render function:
+
+...
+        ","['javascript', 'reactjs']",6,"
+3answers
+            ",Sep 7 '17 at 10:05
+react js,Is there a generic way to set state in React Hooks?,"
+            I have a question, if I can use 'useState' generic in React Hooks, just like I can do this in React Components?
+
+In React Components I can do it like this:
+
+handleChange(event) {
+  const {name, value} ...
+        ","['javascript', 'reactjs', 'react-hooks']",6,"
+3answers
+            ",Jul 9 '19 at 10:29
+statistics,"
+Q: MySql very slow count on query with joins        ","
+                 |                 0 |     0 | optimize              | sql_optimizer.cc |         138 |
+| statistics           |   0.000063 |  0.000000 |   0.000000 |                 0 |                   0 |            0 … 
+            ","['mysql', 'sql', 'query-optimization']",6,"
+9answers
+                    ",Jun 28 '12
+react js,Populating ReactJS HTML Form via Javascript,"
+            I'm working on an app in which I'm able to run my own Javascript inside browser context after opening a 3rd party website. As a sample website which is build on reactjs and has a login form, you can ...
+        ","['javascript', 'jquery', 'reactjs']",6,"
+1answer
+            ",Jun 23 at 17:35
+python,How can “NameError: free variable 'var' referenced before assignment in enclosing scope” occur in real code?,"
+            While I was hanging out in the Python chatroom, someone dropped in and reported the following exception:
+
+NameError: free variable 'var' referenced before assignment in enclosing scope
+I'd never seen ...
+        ","['python', 'exception', 'scope', 'closures', 'free-variable']",6,"
+1answer
+            ",Jul 11 '14 at 22:12
+react js,ReactJS + Socket.IO - Best way to handle socket connection,"
+            I'm trying to make a ReactJS realtime application with Node and Socket.IO, but I'm having a hard time figuring out the best way to handle my socket connection on the clientside.
+
+I have multiple React ...
+        ","['node.js', 'reactjs', 'sockets', 'socket.io']",6,"
+2answers
+            ",Feb 14 '18 at 19:36
+react js,How to provide a history instance to a saga?,"
+            I would like to redirect to a new page after successful login.
+The routes (V4) are used like this:
+
+import { browserHistory } from '....browser_history_signleton';
+...
+
+class App extends Component {
+  ...
+        ","['reactjs', 'react-router-v4', 'redux-saga', 'react-router-redux']",6,"
+2answers
+            ",Mar 19 '17 at 22:39
+react js,How to dispatch redux action outside of a component?,"
+            I'm using redux in my react-native mobile app.
+The communication with the backend is via websockets using socket.io.  
+
+I organize the project in a way where I have a file (you could call it an object)...
+        ","['javascript', 'reactjs', 'react-native', 'redux']",6,"
+1answer
+            ",Jun 10 '18 at 20:27
+react js,util.crypto.lib. randomBytes is not a function : aws cognito js throws error on authentication,"
+            I get the following error:
+
+TypeError: __WEBPACK_IMPORTED_MODULE_0_aws_sdk_global__.util.crypto.lib.
+randomBytes is not a function
+when I try to authenticate the user using the following code I wrote:...
+        ","['javascript', 'reactjs', 'amazon-web-services', 'amazon-cognito']",6,"
+2answers
+            ",Jan 9 '18 at 18:06
+react js,How to load AJAX in react,"
+            Im trying to get my json result into my react code
+
+The code looks like the following
+
+_getComments() {
+
+ const commentList = ""AJAX JSON GOES HERE""
+
+return commentList.map((comment) => {
+  return ( ...
+        ","['ajax', 'reactjs']",6,"
+4answers
+            ",Aug 21 '16 at 17:32
+python,redis.exceptions.ConnectionError: Error -2 connecting to localhost:6379. Name or service not known,"
+            I have this error when I run my code in server, my env is debian, and Python2.7.3
+
+Traceback (most recent call last):
+  File ""fetcher.py"", line 4, in <module>
+    import mirad.fetcher_tasks as ...
+        ","['python', 'redis', 'database-connection', 'redis-py']",6,"
+1answer
+            ",Aug 7 '14 at 6:51
+python,Making all variables global,"
+            I have a function in my Python script where multiple variables are created, and I want to use them in other functions. I thought of using global for this but I thought it would be the incorrect way to ...
+        ","['python', 'variables', 'global-variables']",6,"
+4answers
+            ",May 27 '12 at 16:12
+python,Fast way to get N Min or Max elements from a list in Python,"
+            I currently have a long list which is being sorted using a lambda function f. I then choose a random element from the first five elements. Something like:
+
+f = lambda x: some_function_of(x, ...
+        ","['python', 'sorting']",6,"
+2answers
+            ",Feb 18 '10 at 13:56
+python,Dynamic list that automatically expands,"
+            How can I make a Python equivalent of pdtolist from Pop-11?
+
+Assume I have a generator called g that returns (say) integers one at a time.  I'd like to construct a list a that grows automatically as I ...
+        ","['python', 'pop-11']",6,"
+4answers
+            ",Jun 29 '12 at 16:08
+python,Django on GoogleAppEngine: performance howto,"
+            I asked this question a few weeks ago. Today I have actually written and released a standard Django application, i.e. a fully-functional relational DB-backed (and consequently fully-functional Django ...
+        ","['python', 'django', 'google-app-engine', 'python-2.7', 'google-cloud-sql']",6,"
+2answers
+            ",Mar 30 '12 at 11:01
+python,Statement decorators,"
+            We have some code that looks like this:
+
+from third_party_library import foo
+
+for n in range(3):
+    try:
+        foo(args)
+        break
+    except:
+        print ""Retry %i / 3"" % n
+I would like to ...
+        ","['python', 'function', 'decorator']",6,"
+5answers
+            ",Jan 30 '15 at 22:07
+python,Flask app hangs while processing the request,"
+            I have a simple flask app, single page, upload html and then do some processing on it on the POST; at POST request; i am using beautifulsoup, pandas and usually it takes 5-10 sec to complete the task. ...
+        ","['python', 'flask', 'tornado']",6,"
+2answers
+            ",Mar 11 '14 at 11:50
+python,numpy fromiter with generator of list,"
+            import numpy as np
+def gen_c():
+    c = np.ones(5, dtype=int)
+    j = 0
+    t = 10
+    while j < t:
+        c[0] = j
+        yield c.tolist()
+        j += 1 
+
+# What I did:
+# res = np.array(list(...
+        ","['python', 'arrays', 'numpy', 'generator']",6,"
+2answers
+            ",Oct 7 '15 at 16:02
+python,cxfreeze aiohttp cannot import compat,"
+            I'm trying to use cx_freeze to build a binary dist for an web application written in Python 3 using the aiohttp package.
+
+Basically I did:
+
+cxfreeze server.py
+and got a dist output
+
+But when running ...
+        ","['python', 'python-3.5', 'cx-freeze']",6,"
+1answer
+            ",Jan 16 '17 at 4:02
+python,Where is the python path set when I don't have a .bash_profile?,"
+            I am running ubuntu, and I don't have a .bash_profile.
+
+So my question is, where exactly is my python path set then?
+
+How can I see what the current python path is, doing:
+
+$PYTHON_PATH
+doesn't ...
+        ",['python'],6,"
+4answers
+            ",Apr 9 '11 at 2:41
+neural networks,"
+            A: Keras embedding layers: how do they work?
+        ","
+                Suppose you have N objects that do not directly have a mathematical representation. For example words.
+
+As neural networks are only able to work with tensors you should look for some way to translate … 
+            ",[],6,,Jan 15 '19
+react js,How can I use react-router to trigger state changes?,"
+            I'm still coming to grips with React and react-router, but I'm wondering how to use react-router to simply update application state without re-rendering DOM nodes.
+
+For example, suppose I have:
+
+<...
+        ","['reactjs', 'react-router']",6,"
+1answer
+            ",Mar 27 '16 at 13:12
+react js,How to show loading UI when calling getComponent in react-router?,"
+            I'm really new to React and I can't figure out how to render a ""loading..."" screen when a route is being loaded with getComponent. The getComponent call works fine and displays the component, but ...
+        ","['javascript', 'reactjs', 'react-router', 'react-redux']",6,"
+4answers
+            ",Apr 1 '16 at 6:56
+react js,Error rendering React.js using JVM Nashorn (Play Framework). I get “null is not a function”,"
+            I've been going through this tutorial: http://tylermcginnis.com/reactjs-tutorial-a-comprehensive-guide-to-building-apps-with-react/, and run into an issue when rendering React on the JVM using Nashorn....
+        ","['java', 'playframework', 'java-8', 'reactjs', 'nashorn']",6,"
+1answer
+            ",Apr 3 '15 at 9:57
+react js,React-table change style for each row on hover,"
+            I'm using react-table npm module, I want to change the style of a row on hover(onMouseEnter). I found the below option in their documentation which lets style all the rows, but I want to style each ...
+        ","['javascript', 'reactjs', 'redux']",6,"
+3answers
+            ",Apr 20 '17 at 14:17
+react js,componentDidMount() is not getting called but only in a particular circumstance,"
+            Just a heads up: this is a really strange problem. I'll do my best to clearly explain the issue. This is happening in my ReactJs app using React Router.
+
+I have some components that require some type ...
+        ","['javascript', 'reactjs', 'react-router', 'react-router-v4', 'react-router-dom']",6,"
+2answers
+            ",Jun 13 '18 at 0:47
+react js,How can I pass event to setState callback function?,"
+            Is it possible in React to pass an external event to the callback function of setState? 
+
+Example  
+
+someFunc(event) { 
+    this.setState(
+        {
+            value: event.target.value
+        },
+   ...
+        ","['javascript', 'reactjs', 'callback', 'setstate']",6,"
+2answers
+            ",Jun 12 '18 at 21:27
+react js,React Native Parse Firestore Timestamp,"
+            i realize there is absolutely 0 documentation on how to parse a firebase/firestore timestamp in react.
+
+As it shows here 
+https://firebase.google.com/docs/reference/android/com/google/firebase/...
+        ","['javascript', 'reactjs', 'firebase', 'google-cloud-firestore']",6,"
+2answers
+            ",May 12 '18 at 13:21
+react js,Code coverage on JSX tests with Istanbul,"
+            I am trying to instrument my code to get some coverage up and running, but something is slipping through my fingers.
+
+I launch istanbul with:
+
+node_modules/.bin/istanbul cover ./node_modules/mocha/bin/...
+        ","['reactjs', 'code-coverage', 'react-jsx', 'istanbul']",6,"
+2answers
+            ",May 18 '15 at 10:27
+react js,Does the className attribute take on the role of the id attribute in Reactjs?,"
+            Since id attributes are rarely used in Reactjs components due to the fact that id attributes imply that the component will not be reused, then are  className attributes used instead of id's? If this ...
+        ","['reactjs', 'react-jsx']",6,"
+4answers
+            ",Feb 14 '15 at 18:53
+react js,How to use react unstated outside of render method?,"
+            I am using ustated library in my project.
+
+In render method, I am using set like this:
+
+render() {
+    return (
+            <ApiSubscribe>
+                {api => (
+                    <...
+        ","['reactjs', 'unstated']",6,"
+2answers
+            ",Jul 28 '18 at 18:12
+react js,Staggering components on enter with react css transition group,"
+            I would like to add a stagger effect to all children that get rendered within a ReactCssTransitionsGroup but do not know how to go about it. I looked at this question but would like to try do it using ...
+        ","['reactjs', 'reactcsstransitiongroup']",6,"
+2answers
+            ",Jul 29 '15 at 13:36
+react js,Warning about calling setState on an unmounted component,"
+            The warning:
+
+Warning: setState(...): Can only update a mounted or mounting component. This usually means you called setState() on an unmounted component. This is a no-op. Please check the code for ...
+        ","['reactjs', 'react-router']",6,"
+2answers
+            ",Oct 27 '16 at 22:40
+react js,Click on <div> to focus <input> (React) [closed],"
+            I know how to do this with jquery. But I am stuck with React: How would I focus an input field, whenever the user clicks on a div?
+        ","['javascript', 'html', 'reactjs']",6,"
+3answers
+            ",May 5 '17 at 12:36
+react js,Changing components based on url with react router,"
+            This is more of an architectural question regarding react than a specific issue, but what is considered best practice for managing state/props with a layout component and a several child components ...
+        ","['javascript', 'reactjs', 'flux']",6,"
+1answer
+            ",Jun 24 '16 at 5:55
+react js,Error rendering React.js using JVM Nashorn (Play Framework). I get “null is not a function”,"
+            I've been going through this tutorial: http://tylermcginnis.com/reactjs-tutorial-a-comprehensive-guide-to-building-apps-with-react/, and run into an issue when rendering React on the JVM using Nashorn....
+        ","['java', 'playframework', 'java-8', 'reactjs', 'nashorn']",6,"
+1answer
+            ",Apr 3 '15 at 9:57
+react js,Add custom theme variable object to createMuiTheme(),"
+            By default the material UI theme is a combination of several pre-defined objects such as typography: {...}, palette: {...} etc. 
+
+Is is possible to add a custom object into this setup and still use ...
+        ","['reactjs', 'material-ui']",6,"
+1answer
+            ",Sep 30 '19 at 13:20
+python,Keyboard input using stdio.StandardIO in twisted python,"
+            I have a doubt in twisted python related to my multiclient chat server program. 
+
+that is, when we give input from keyboard using stdio.StandardIO, where it is stored when we run the reactor? Can ...
+        ","['python', 'twisted', 'keyboard-input']",6,"
+1answer
+            ",Nov 28 '11 at 17:35
+python,Pythonic way to “round()” like Javascript “Math.round()”?,"
+            I want the most Pythonic way to round numbers just like Javascript does (through Math.round()). They're actually slightly different, but this difference can make huge difference for my application.
+
+...
+        ","['javascript', 'python', 'python-3.x', 'math']",6,"
+3answers
+            ",Jan 19 '16 at 12:15
+python,Launch Openstack Instances using python-boto,"
+            I am trying to launch instances on opensatck setup with multiple networks configured using python-boto.
+
+But I got following error,
+
+EC2ResponseError: EC2ResponseError: 400 Bad Request
+<?xml ...
+        ","['python', 'amazon-ec2', 'boto', 'openstack']",6,"
+2answers
+            ",Jan 13 '14 at 11:49
+react js,How to add marker on map by Click using react-google-maps?,"
+            I'm struggling to find a very simple example of how to add a marker(s) to a Google Map when a user left clicks on the map using React-google-maps in components based. Need help.
+
+const Map = ...
+        ","['javascript', 'reactjs', 'google-maps', 'google-maps-api-3', 'react-google-maps']",6,"
+2answers
+            ",Mar 14 '18 at 10:06
+react js,React setState() not updating state after $.ajax() request,"
+            I'm using react with react-router. After checking authentication with onEnter Asynchronous hook on IndexRoute, App component gets rendered. App component has an initial state auth which is set to ...
+        ","['reactjs', 'react-router']",6,"
+4answers
+            ",Apr 15 '16 at 13:16
+react js,run response interceptor only once when multiple API calls,"
+            I have an interceptor like this
+
+axios.interceptors.response.use(undefined, err=> {
+    const error = err.response;
+    console.log(error);
+    if (error.status===401 && error.config &&...
+        ","['javascript', 'asynchronous', 'reactjs', 'promise', 'axios']",6,"
+2answers
+            ",Sep 15 '16 at 10:52
+react js,How to provide a history instance to a saga?,"
+            I would like to redirect to a new page after successful login.
+The routes (V4) are used like this:
+
+import { browserHistory } from '....browser_history_signleton';
+...
+
+class App extends Component {
+  ...
+        ","['reactjs', 'react-router-v4', 'redux-saga', 'react-router-redux']",6,"
+2answers
+            ",Mar 19 '17 at 22:39
+python,I'm trying to count all letters in a txt file then display in descending order,"
+            As the title says:
+
+So far this is where I'm at my code does work however I am having trouble displaying the information in order. Currently it just displays the information randomly.
+
+def frequencies(...
+        ","['python', 'python-3.x', 'dictionary', 'display']",6,"
+4answers
+            ",Jan 8 '17 at 8:17
+python,How to install TA-lib in google colab?,"
+            I'm trying to install TA-Lib package in google colab notebook but without success.
+I tried this guide and also
+Installing TA-Lib on python x64
+
+I get this error:
+
+import platform
+print (platform....
+        ","['python', 'google-colaboratory', 'ta-lib']",6,"
+2answers
+            ",Apr 4 '18 at 10:11
+python,Pandas: Difference to previous value,"
+            Given a Pandas Data Frame that looks like this
+
+GROUP   VALUE    MASK
+  1        5     false
+  2       10     false
+  2       20     false
+  1        7     true
+  3        17    false
+  3        18    ...
+        ","['python', 'pandas']",6,"
+2answers
+            ",Oct 21 '16 at 21:31
+python,Using cross_val_predict against test data set,"
+            I'm confused about using cross cross_val_predict in a test data set.
+
+I created a simple Random Forest model and used cross_val_predict to make predictions
+
+from sklearn.ensemble import ...
+        ","['python', 'machine-learning', 'scikit-learn', 'data-science']",6,"
+2answers
+            ",Jan 10 '17 at 2:28
+python,Python - why does time.sleep cause memory leak?,"
+            When I ran the code below, the memory was increasing. However if I deleted time.sleep(3), it was 0.1 in top and never increased.
+
+It seems process not be terminated correctly, but why?
+
+Code(Python 2....
+        ","['python', 'python-2.7', 'memory-leaks', 'multiprocessing']",6,"
+1answer
+            ",Jan 19 '16 at 10:17
+Machine Learning,"
+            A: A good machine learning technique to weed out good URLs from bad
+        ","
+                I think that steve and StompChicken both make excellent points:
+
+
+Picking the best algorithm is tricky, even for machine learning experts.  Using a general-purpose package like Weka will let you …  ’05), New York, NY, pp. 325–326.
+Devi, M. I., Rajaram, R., and Selvakuberan, K. 2007. Machine Learning Techniques for Automated Web Page Classification Using URL Features. In Proceedings of the … 
+            ",[],6,,Mar 12 '10
+python,How to color surface with stronger contrast,"
+            In Matlab, I am trying to plot a function on 2-dim Euclidean space with following code
+
+s=.05;
+x=[-2:s:2+s];
+y=[-1:s:3+s];
+[X,Y]=meshgrid(x,y);
+Z=(1.-X).^2 + 100.*(Y-X.*X).^2;
+surf(X,Y,Z)
+colormap jet
+...
+        ","['python', 'matlab', 'plot']",6,"
+2answers
+            ",Feb 22 '11 at 4:06
+python,Adjust the distance only between two subplots in matplotlib,"
+            I have 3 subplots (3 rows and 1 column). We can use fig.subplots_adjust(hspace=0.2) to adjust the distance between the subplots. this will change the distance between subplots for all case. How can I ...
+        ","['python', 'matplotlib']",6,"
+1answer
+            ",Dec 18 '13 at 16:00
+react js,how to unsubscribe with useQuery and subscribeToMore,"
+            Another post shared an example of how to unsubscribe, where the Apollo docs don't. The Apollo docs do mention what subscribeToMore returns...
+  subscribeToMore: A function that sets up a subscription....
+        ","['reactjs', 'apollo', 'apollo-client']",6,"
+1answer
+            ",Mar 3 at 21:02
+react js,Post an object with fetch using react js and express API server,"
+            I am getting troubles with the post method in fetch because my server is receiving an empty object from the client. I've checked in the client side and can't send the value that I want to send.
+
+This ...
+        ","['node.js', 'api', 'reactjs', 'express', 'fetch']",6,"
+5answers
+            ",Jul 24 '17 at 19:02
+react js,History object issue with React-Router,"
+            I am building a very simple webpage using React and React Router. I have installed the latest version of React Router module (v3.0.0) using NPM, written 3 very simple routes in my index.js file:
+
+...
+        ","['javascript', 'reactjs', 'react-router']",6,"
+1answer
+            ",Nov 7 '16 at 0:05
+python,render html strings in flask templates,"
+            I'm building a  web page to show articles. 
+In my database, I have to attributes, one of which is used to put Markdown code and the other to save HTML code converted from the Markdown code. I want to ...
+        ","['python', 'html', 'templates', 'flask', 'jinja2']",6,"
+1answer
+            ",Feb 5 '16 at 3:32
+python,letsencrypt failed with ImportError: No module named interface,"
+            I'm using Amazon linux, and I followed some steps for using letsencrypt that easily found in google search, but all it fails with:
+
+Error: couldn't get currently installed version for /root/.local/...
+        ","['python', 'linux', 'lets-encrypt', 'amazon-linux']",6,"
+5answers
+            ",Mar 11 '17 at 10:21
+react js,How can I use factor-bundle with browserify programmatically?,"
+            I want to use factor-bundle to find common dependencies for my browserify entry points and save them out into a single common bundle:
+
+https://www.npmjs.org/package/factor-bundle
+
+The factor-bundle ...
+        ","['node.js', 'reactjs', 'browserify']",6,"
+2answers
+            ",Mar 6 '14 at 12:44
+react js,ReactRouter v4 - Redirect doesn't work with Switch,"
+            I have a code:
+
+import React from 'react';
+import ReactDOM from 'react-dom';
+import Navigation from './Navigation';
+import PublicPage from './PublicPage';
+import LoginPage from './LoginPage';
+import ...
+        ","['reactjs', 'redirect', 'react-router']",6,"
+2answers
+            ",Mar 18 '17 at 15:05
+python,Manipulating x axis tick labels in matplotlib,"
+            I have noticed that when I have 5 or less bars of data in my bar graph the x-axis automatically adds in extra ticks:
+
+What I want is something like this:
+Is there any way I can force matplotlib to ...
+        ","['python', 'matplotlib', 'pandas', 'bar-chart']",6,"
+1answer
+            ",Apr 3 '13 at 2:37
+react js,How to unmount a previously mounted component in stack navigator (react-navigation 2.X)?,"
+            This is a simplified flow of my app:-
+login
+homepage (has options to color diagram or create diagram)
+colorInDiagram (user colors parts of a diagram)
+makePayment
+homepage(back to homepage)
+Now, ...
+        ","['reactjs', 'react-native', 'react-native-navigation']",6,"
+1answer
+            ",Feb 6 '19 at 21:42
+react js,Unhandled JS Exception: getPropertyAsObject: property '__fbRequireBatchedBridge',"
+            I've been having errors after errors to the point where I've reset my Metro Bundle and performed updates, errors from required module ""699"" to ""700"" have been coming up and now this. I believe I have ...
+        ","['reactjs', 'react-native', 'frontend', 'navigation-drawer', 'ionicons']",6,"
+3answers
+            ",Feb 12 '19 at 23:02
+react js,How to add marker on map by Click using react-google-maps?,"
+            I'm struggling to find a very simple example of how to add a marker(s) to a Google Map when a user left clicks on the map using React-google-maps in components based. Need help.
+
+const Map = ...
+        ","['javascript', 'reactjs', 'google-maps', 'google-maps-api-3', 'react-google-maps']",6,"
+2answers
+            ",Mar 14 '18 at 10:06
+react js,Access prop outside of class in React when calling Higher Order Component,"
+            I am trying to use a Higher Order Component(HOC) pattern to reuse some code that connects to state and uses the Redux Form formValueSelector method.
+
+formValueSelector requires a sting referencing the ...
+        ","['javascript', 'reactjs', 'react-redux', 'redux-form']",6,"
+1answer
+            ",Oct 6 '16 at 1:39
+react js,Compare with previous props in getDerivedStateFromProps,"
+            Think of a component that has a prop 'name' and state 'elapse'.
+
+new Component(name) => ""Hi {name}. It's been {elapse} seconds""
+{elapse} should be reset to 0 when the prop {name} changes.
+
+If the ...
+        ",['reactjs'],6,"
+4answers
+            ",Apr 8 '18 at 21:37
+react js,npm WARN react-native-maps@0.14.0 requires a peer of react@>=15.4.0 but none was installed,"
+            Problem
+
+I'm trying to install react-native-maps by Airbnb in my project. Installation instructions: 
+airbnb/react-native-maps/installation
+
+When I run the following command in cmd: npm install react-...
+        ","['android', 'ios', 'google-maps', 'reactjs', 'react-native']",6,"
+2answers
+            ",Apr 13 '17 at 23:53
+react js,Changing components based on url with react router,"
+            This is more of an architectural question regarding react than a specific issue, but what is considered best practice for managing state/props with a layout component and a several child components ...
+        ","['javascript', 'reactjs', 'flux']",6,"
+1answer
+            ",Jun 24 '16 at 5:55
+python,"Python, thread and gobject","
+            I am writing a program by a framework using pygtk. The main program doing the following things:
+Create a watchdog thread to monitor some resource 
+Create a client to receive data from socket
+call ...
+        ","['python', 'multithreading', 'pygtk']",6,"
+2answers
+            ",Nov 25 '09 at 12:25
+react js,Add custom theme variable object to createMuiTheme(),"
+            By default the material UI theme is a combination of several pre-defined objects such as typography: {...}, palette: {...} etc. 
+
+Is is possible to add a custom object into this setup and still use ...
+        ","['reactjs', 'material-ui']",6,"
+1answer
+            ",Sep 30 '19 at 13:20
+neural networks,"
+            A: RNN model (GRU) of word2vec to regression not learning
+        ","
+                TL;DR: Use permute instead of view when swapping axes, see the end of answer to get an intuition about the difference.
+
+About RegressorNet (neural network model)
+
+
+No need to freeze embedding layer …  lengths of each sentence to be passed into neural network).
+Using sorted and padded features and their lengths I'm using torch.nn.pack_sequence inside neural network's forward method (do it after … 
+            ",[],6,,Feb 26 '19
+python,Python Errno 9 Bad file descriptor in Mac OS X,"
+            I have the following code running without any problem multiple times after
+each other in Linux:
+
+def test_ftp(ftpserver):
+    with FTP() as f:
+        f.connect(""localhost"", port=ftpserver.server_port)...
+        ","['python', 'macos', 'multiprocessing', 'tornado']",6,"
+1answer
+            ",Aug 1 '17 at 12:49
+python,Is this not a tuple?,"
+            I can't figure out what I'm doing wrong here. My error is: ImproperlyConfigured at /admin/ 'CategoryAdmin.fields' must be a list or tuple.
+
+Isn't the CategoryAdmin.fields a tuple? Am I reading this ...
+        ","['python', 'django', 'tuples']",6,"
+4answers
+            ",Mar 14 '13 at 14:29
+python,ValueError: Argument must be a dense tensor - Python and TensorFlow,"
+            I'm extracting some portions of my code that might be relevant to the issue I'm having:
+
+from PIL import Image
+import tensorflow as tf
+
+data = Image.open('1-enhanced.png')
+...
+...
+raw_data = data
+...
+        ","['python', 'tensorflow']",6,"
+1answer
+            ",Mar 16 '17 at 1:24
+statistics,"
+Q: Retry Pattern Vs fall back pattern in rest client        ","
+statistics to defend either arguments at this time. How about implementing a fall back URL (a replica of original http resource) and use fall back service during failures. 
+
+Any suggestions based on your prior experience?  
+ … 
+            ","['java', '.net', 'algorithm', 'rest', 'design-patterns']",6,"
+2answers
+                    ",Dec 8 '14
+statistics,"
+Q: How to query the metadata of indexes in PostgreSQL        ","
+                 that the STATISTICS table of INFORMATION_SCHEMA is a SQL Server extension. How can I do the equivalent in PostgreSQL?
+
+EDIT: I'm specifically trying to return a denormalized result set as follows … 
+            ","['postgresql', 'schema', 'metadata']",6,"
+4answers
+                    ",Nov 9 '10
+python,Python: How do I access an decorated class's instance from inside a class decorator?,"
+            Here's an example of what I mean:
+
+class MyDecorator(object):    
+    def __call__(self, func):
+        # At which point would I be able to access the decorated method's parent class's instance?
+      ...
+        ","['python', 'decorator']",6,"
+3answers
+            ",Feb 2 '10 at 1:07
+statistics,"
+Q: Pyspark: Serialized task exceeds max allowed. Consider increasing spark.rpc.message.maxSize …        ","
+                I'm doing calculations on a cluster and at the end when I ask summary statistics on my Spark dataframe with df.describe().show() I get an error:
+Serialized task 15:0 was 137500581 bytes, which … 
+            ","['dataframe', 'pyspark', 'message', 'rpc', 'max-size']",6,"
+3answers
+                    ",Jan 31 '19
+html,jQuery toggle class,"
+            I'm having trouble adding in jQuery's toggleClass function into the rest of my code. The page has several HTML5 audio tags on it which are controlled via jQuery. I attempted to add the toggle function ...
+        ","['jquery', 'class', 'html', 'audio', 'toggle']",6,"
+2answers
+            ",Apr 19 '11 at 22:14
+html,"HTML5 File api, reading in an xml/text file and displaying it on the page?","
+            I have tried using the below code modified from http://www.html5rocks.com/tutorials/file/dndfiles/ to read in a text or xml file and display the contents below.
+
+<!DOCTYPE html> 
+<html> 
+&...
+        ","['javascript', 'file', 'html']",6,"
+2answers
+            ",Apr 21 '11 at 12:24
+statistics,"
+Q: Lottery algorithm - PHP - math seems good, but is the function valid?        ","
+                 PHP function that gets called once and returns the prize (0, 10, 50 or 500). I created the function below, and after 70 000 trials the statistics are:
+
+
+9.11% for 10$
+.91% for 50$
+.01% for 500 … 
+            ","['php', 'algorithm']",6,"
+2answers
+                    ",May 15 '15
+big data,"
+Q: Convert table into a vector to use hist() on r        ","
+                I'm learning some of R this days, I have some data on a file:
+
+0.7300719696546073 0.5508739992014652 0.2371535688287479
+0.9359803887798046 0.8249035576959065 0.3715476175169042
+0.3403916445508408 …  0.8036890953987708 0.8079012937499597
+
+
+Just like that... (but way bigger)
+
+data = read.table(""data.txt"")
+
+
+In some operations I would like to have all the data on a single vector to use hist(data)
+but I … 
+            ","['r', 'vector']",6,"
+2answers
+                    ",Dec 7 '12
+statistics,"
+Q: Useful book(s) on learning Object Oriented Programming in R? [closed]        ","
+                I was reading an interesting post on R-bloggers on ''Object Oriented Programming in R using S4 Classes"". The book ""Statistics and Computing"" written by Venables and Ripley has some chapters … 
+            ","['r', 's4']",6,"
+1answer
+                    ",Aug 20 '12
+big data,"
+Q: Geospatial data in SQL        ","
+                ) fields to geography type. I have calculated the size of both types and Lat/Long way of representing a point is 28 bytes for a single point whereas geography type is 26. Not a big gain in space but … . Will geography data type require more space for indexing the data? I have a feeling that it will, even though the actual data stored in columns is less, I thing the way geospatial indices work will … 
+            ","['sql-server', 'geospatial', 'sqlgeography']",6,"
+3answers
+                    ",May 9 '11
+python,Remove particular permission using os.chmod,"
+            How can we remove a particular permission for all using os.chmod ?
+
+In short, how can we write the below using os.chmod
+
+chmod a-x filename
+I do know that we can add permission to an existing one and ...
+        ","['python', 'unix', 'permissions']",6,"
+2answers
+            ",Sep 23 '14 at 6:38
+big data,"
+Q: jQueryUI Autocomplete with clickable results        ","
+                , an other page loads instead of the default behaviour which is filling the input with the data.
+
+I have created a demo on jsfiddle so you can see what's happening
+http://jsfiddle.net/fJ22W (datas are …  contained in the js here)
+
+Your help is more than welcome, I guess this is not such a big deal but my poor skills in jQuery prevents me to resolve that problem...
+
+Bertrand
+ … 
+            ","['jquery', 'jquery-ui', 'autocomplete', 'onclick', 'jquery-ui-autocomplete']",6,"
+1answer
+                    ",Sep 6 '12
+statistics,"
+Q: Amazon S3 Programmatically Access Usage Data        ","
+                 won't be able to directly monitor downstream usage.
+
+As such, my plan is to check download usage regularly. Is there anywhere in the AWS API where I can access usage statistics?
+ … 
+            ","['python', 'amazon-s3', 'amazon-web-services']",6,"
+2answers
+                    ",Sep 4 '11
+statistics,"
+Q: how to traverse page cache tree (radix tree) of a file address space in linux kernel        ","
+                I need to get page-cache statistics of an open file. There is a address_space pointer(f_mapping) in file struct which in turn has the root of the radix tree called page_tree. I need to traverse that … 
+            ","['linux', 'caching', 'linux-kernel', 'radix-tree']",6,"
+1answer
+                    ",Apr 24 '15
+statistics,"
+Q: How can you read keystrokes when the python program isn't in the foreground?        ","
+                I'm trying to analyze my keystrokes over the next month and would like to throw together a simple program to do so. I don't want to exactly log the commands but simply generate general statistics on … 
+            ","['python', 'keyboard', 'background', 'keylogger']",6,"
+4answers
+                    ",Jun 28 '09
+statistics,"
+Q: How to get campaign ID or referrer inside iOS app        ","
+                /id0000000000?pt=0000&ct=&mt=8
+
+Everything is OK and I can see statistics in App Analytics in iTunes Connect.
+
+But is there any way to get campaign ID inside my app? I want to track that particular user install my app by clicking at some banner or link in newsletter and so on.
+
+Thanks in advance.
+ … 
+            ","['ios', 'iphone', 'idfa']",6,"
+1answer
+                    ",Nov 19 '15
+python,numpy 'module' object has no attribute 'stack',"
+            I am trying to run some code (which is not mine), where is used 'stack' from numpy library. 
+
+Looking into documentation, stack really exists in numpy: 
+https://docs.scipy.org/doc/numpy-1.10.1/...
+        ","['python', 'numpy']",6,"
+2answers
+            ",Feb 20 '16 at 1:18
+big data,"
+Q: Encoding a scipy sparse matrix as TFRecords        ","
+                I am building a tensorflow model where the input data is a big scipy sparse matrix, each row being a sample of dimension >50k where only few hundreds values are non-zero.
+
+Currently, I store this …  matrix as a pickle, then load it fully into memory, batch it and converting the samples in the batch to a dense numpy array that I feed into the model. It works ok as soon as the whole data can fit into … 
+            ","['scipy', 'tensorflow']",6,"
+0answers
+                    ",Oct 20 '16
+python,Parallelise nested for-loop in IPython,"
+            I have a nested for loop in my python code that looks something like this:
+
+results = []
+
+for azimuth in azimuths:
+    for zenith in zeniths:
+        # Do various bits of stuff
+        # Eventually ...
+        ","['python', 'parallel-processing', 'ipython']",6,"
+5answers
+            ",Feb 20 '12 at 14:54
+statistics,"
+Q: find a matrix in a big matrix        ","
+                 possibly some method to optimize the brute force approach?)
+
+PS the statistics data
+
+A total of 8 S
+On average, each S will be matched against about 44 F.
+The probability of success match (i.e. F appears in a S) is 
+19%.
+
+ … 
+            ","['c++', 'algorithm']",6,"
+9answers
+                    ",May 25 '13
+statistics,"
+Q: Easy access to instagram users public profile        ","
+                I'm building an simple osx app, that will fetch my follower count and other public available stats from my instagram-user, and keep statistics on them. I'm know that there is a method for getting … 
+            ","['rest', 'instagram', 'instagram-api']",6,"
+0answers
+                    ",Jun 3 '16
+big data,"
+Q: Convert table into a vector to use hist() on r        ","
+                I'm learning some of R this days, I have some data on a file:
+
+0.7300719696546073 0.5508739992014652 0.2371535688287479
+0.9359803887798046 0.8249035576959065 0.3715476175169042
+0.3403916445508408 …  0.8036890953987708 0.8079012937499597
+
+
+Just like that... (but way bigger)
+
+data = read.table(""data.txt"")
+
+
+In some operations I would like to have all the data on a single vector to use hist(data)
+but I … 
+            ","['r', 'vector']",6,"
+2answers
+                    ",Dec 7 '12
+statistics,"
+            A: App Crashes saying Memory Warning Using Arc
+        ","
+                 allocations. It's therefore sometimes useful to see where in your code those objects were allocated. If you switch from ""Statistics"" - ""Object Summary"" to ""Call tree"", it will now show you how much memory … 
+            ",[],6,,Sep 6 '13
+statistics,"
+            A: index on url or hashing considering RAM
+        ","
+                 your application and go encode/decode URLs using it, very fast, making your database much lighter.
+
+Since you already have +50M URLs, you can generate statistics based on them, to generate a better … 
+            ",[],6,,Sep 15 '11
+Machine Learning,"
+Q: What are the implications of node.js?        ","
+                 am currently learning javascript and jQuery, the project has gotten my attention. I get that many people are excited about it, but I don't quite understand what the implications are.
+
+I understand …  that later maybe someone will create the Ruby on Rails or ASP.NET MVC equivalent for node.js/Javascript? Perhaps there already are web frameworks out there, but if so I haven't heard the hype machine yet.
+
+I hope my question is clear.
+ … 
+            ","['javascript', 'node.js', 'web-frameworks']",6,"
+4answers
+                    ",Sep 12 '10
+statistics,"
+            A: For loops in R and computational speed
+        ","
+                 I needed to know from a book called C Programming in Easy Steps. Another good reference, which is available online for free, is the book Modeling with Data by Ben Klemens, which is a statistics … 
+            ",[],6,,Jun 23 '13
+big data,"
+Q: Pythonic way to filter data with overlapping dates        ","
+                I have this data structure where each team has list of issues with start/end dates. 
+
+For each team, I would like to merge issues with same key and overlapping dates, where in result issue the start …  %p""
+
+
+Update, new test data
+
+Input
+
+d = {
+""N/A"": [
+  {'start': '23/Jun/14 8:48 PM', 'end': '01/Aug/14 11:00 PM', 'issue': 'KEY-12157'}
+  ,{'start': '09/Jul/13 1:57 PM',  'end': '29/Jul/13 1:57 PM … 
+            ","['python', 'date', 'dictionary', 'readability']",6,"
+3answers
+                    ",May 5 '15
+big data,"
+Q: Can I get “BULK INSERT”-like speeds when inserting from JAVA into SQL Server?        ","
+                During my quest to find the fastest method to get data from JAVA to SQL Server, I have noticed that the fastest JAVA-method I can come up with, is still 12 times slower than using BULK INSERT.  
+
+My …  data is being generated from within JAVA, and BULK INSERT only supports reading data from a text file, so using BULK INSERT is not an option unless I output my data to a temporary text file. This in … 
+            ","['java', 'sql-server', 'performance', 'sql-server-2014', 'bulkinsert']",6,"
+2answers
+                    ",Nov 7 '16
+python,Can I use a machine learning model as the objective function in an optimization problem?,"
+            I have a data set for which I use Sklearn Decision Tree regression machine learning package to build a model for prediction purposes. Subsequently, I am trying to utilize scipy.optimize package to ...
+        ","['python', 'machine-learning', 'optimization', 'scikit-learn', 'scipy']",6,"
+1answer
+            ",Feb 22 '19 at 19:18
+python,Pandas group by weekday (M/T/W/T/F/S/S),"
+            I have a pandas dataframe containing a time series (as index) of the form YYYY-MM-DD ('arrival_date') and I'd like to group by each of the weekdays (Monday to Sunday) in order to calculate for the ...
+        ","['python', 'pandas', 'pandas-groupby']",6,"
+1answer
+            ",Dec 18 '17 at 8:40
+python,Using Mocks inside Doctests?,"
+            I am using doctests. I am wondering what is the correct way to doctest a function that performs an external action (e.g. sends email, connects to a server, etc)? Using Mock seems like the answer but ...
+        ","['python', 'testing', 'mocking', 'python-3.5', 'doctest']",6,"
+0answers
+            ",Dec 22 '16 at 18:00
+python,how to find the height of a node in binary tree recursively,"
+            path = 0 # the lenght of the path
+    while self.right != None or self.left != None:
+        while self.right != None:
+            self = self.right
+            path = path +1 
+        while self.left ...
+        ","['python', 'algorithm', 'binary-tree']",6,"
+6answers
+            ",Nov 10 '12 at 13:50
+python,Maximum value from a list of lists and its index,"
+            li = [[1,2], [2,3], [7,6]]
+How can I find the max value and its index efficiently? Suppose for li I want:
+
+max_value = 7
+
+max_index = (2, 0)
+I can do this as below:
+
+max_value = 0
+for row_idx, row ...
+        ","['python', 'list', 'python-2.7', 'nested-lists']",6,"
+2answers
+            ",Aug 2 '15 at 13:00
+python,calculate histogram peaks in python,"
+            In Python, how do I calcuate the peaks of a histogram?  
+
+I tried this:
+
+import numpy as np
+from scipy.signal import argrelextrema
+
+data = [0, 1, 2, 3, 4, 0, 1, 2, 3, 4, 0, 1, 2, 3, 4, 1, 2, 3, 4,
+
+   ...
+        ",['python'],6,"
+3answers
+            ",Aug 10 '15 at 1:35
+python,Is there a way to stop time.sleep in windows?,"
+            In *nix python signaling allows me to stop sleep before it is ready. Is there any similar mechanism available in windows -- seems that all the methods end up intercepting code only after the sleep?
+
+...
+        ","['python', 'windows']",6,"
+2answers
+            ",Dec 8 '11 at 12:22
+python,How to get the numbers of data rows from sqlite table in python,"
+            I am trying to get the numbers of rows returned from an sqlite3 database in python but it seems the feature isn't available:
+
+Think of php mysqli_num_rows() in mysql
+
+Although I devised a means but it ...
+        ","['python', 'sqlite']",6,"
+7answers
+            ",Feb 17 '14 at 12:34
+python,Python Plotly format axis numbers as %,"
+            Here's the dataframe
+
+df = pd.DataFrame({""col_1"":[0.00143,0.00653,0.00732],""col_2"":[0.00984,0.00192,0.00751]},index=['A','B','C'])
+Here's my plotly code:
+
+trace0 = go.Bar(
+x=[df.columns[0],df.columns[...
+        ","['python', 'formatting', 'plotly']",6,"
+2answers
+            ",Jan 11 '17 at 3:41
+python,keras LSTM feeding input with the right shape,"
+            I am getting some data from a pandas dataframe with the following shape
+
+df.head()
+>>>
+Value USD   Drop 7  Up 7    Mean Change 7   Change      Predict
+0.06480     2.0     4.0     -0.000429    ...
+        ","['python', 'tensorflow', 'keras']",6,"
+3answers
+            ",Aug 23 '18 at 9:10
+python,Self-referencing inside class definition,"
+            How do I reference class object inside class definition? Could you advice me how you would do it? Or more specifically how do you pass class object inside decorator of class method? 
+Here is a simple ...
+        ","['python', 'class', 'decorator', 'python-decorators', 'class-members']",6,"
+1answer
+            ",Nov 17 '13 at 19:33
+html,How to get horizontal scroll bar in select box in IE?,"
+            I try to implement the following code
+
+
+
+<div class=""functionitem"" id=""selector_cat"">
+  <select name=""sets"" style=""overflow:auto;width:100px;"">
+    <option value=""general"">happy ...
+        ","['html', 'css', 'internet-explorer', 'drop-down-menu', 'scrollbar']",6,"
+2answers
+            ",Oct 27 '11 at 14:54
+python,Python file upload from url using requests library,"
+            I want to upload a file to an url. The file I want to upload is not on my computer, but I have the url of the file. I want to upload it using requests library. So, I want to do something like this:
+
+...
+        ","['python', 'python-requests']",6,"
+2answers
+            ",Aug 29 '13 at 17:50
+python,Check if multiple substrings are in pandas dataframe [duplicate],"
+            I have a pandas dataframe which I want to check for substrings of a certain column. 
+At the moment I have 30 lines of code of this kind:
+
+df['NAME'].str.upper().str.contains('LIMITED')) |
+(df['NAME']....
+        ","['python', 'pandas', 'select', 'substring']",6,"
+1answer
+            ",Mar 27 '18 at 8:47
+python,Set background color of layout,"
+            As the layout object has no attribute "".setStyleSheet()"", how can one set the background color for a given layout?
+
+As a visual explanation, I can set both the label and the button background color, ...
+        ","['python', 'qt', 'pyqt', 'qtstylesheets', 'qlayout']",6,"
+1answer
+            ",Dec 16 '14 at 8:44
+python,Python - Intersectiing strings,"
+            Trying to write a for function that takes two strings and returns the characters that intersect in the order that they appear in the first string.
+
+Here's what I tried:
+
+def strIntersection(str1, str2)...
+        ","['python', 'string', 'intersection']",6,"
+6answers
+            ",Mar 16 '12 at 11:36
+python,SQLite not saving data between uses,"
+            I made a module with the following contents:
+
+import sqlite3 as sq
+connection = sq.connect(""test.db"")
+cursor = connection.cursor()
+cursor.execute(""DROP TABLE IF EXISTS test"")
+cursor.execute(""CREATE ...
+        ","['python', 'python-3.x', 'sqlite']",6,"
+1answer
+            ",Aug 23 '13 at 2:35
+big data,"
+Q: Read File byte for byte and parse to int        ","
+                I have to read data from an file. This data was written by an server byte-wise into the file. The file has an fix structure, now I want to read the Information in it with JS.
+
+I have found http … );
+
+}
+
+document.querySelector('.readBytesButtons').addEventListener('click', function(evt) {
+    if (evt.target.tagName.toLowerCase() == 'button') {
+        var startByte = evt.target.getAttribute('data-startbyte … 
+            ","['javascript', 'parsing']",6,"
+1answer
+                    ",Jul 31 '15
+big data,"
+Q: Random sampling from a dataset, while preserving original probability distribution        ","
+                I have a set of >2000 numbers, gathered from measurement. I want to sample from this data set, ~10 times in each test, while preserving probability distribution overall, and in each test (to extent …  approximately possible). For example, in each test, I want some small value, some middle class value, some big value, with the mean and variance approximately close to the original distribution … 
+            ","['java', 'sampling', 'probability-density']",6,"
+2answers
+                    ",Sep 12 '15
+big data,"
+Q: Can I get “BULK INSERT”-like speeds when inserting from JAVA into SQL Server?        ","
+                During my quest to find the fastest method to get data from JAVA to SQL Server, I have noticed that the fastest JAVA-method I can come up with, is still 12 times slower than using BULK INSERT.  
+
+My …  data is being generated from within JAVA, and BULK INSERT only supports reading data from a text file, so using BULK INSERT is not an option unless I output my data to a temporary text file. This in … 
+            ","['java', 'sql-server', 'performance', 'sql-server-2014', 'bulkinsert']",6,"
+2answers
+                    ",Nov 7 '16
+statistics,"
+Q: Why modifying an instruction cause huge i-cache and i-TLB misses on x86?        ","
+                 following icache and iTLB statistics:
+
+perf stat -e L1-icache-load-misses -e iTLB-load-misses ./a.out 
+
+Performance counter stats for './a.out':
+
+   805,516,067      L1-icache-load-misses …  statistics on the same machine.
+
+perf stat -e L1-icache-load-misses -e iTLB-load-misses ./a.out 
+
+Performance counter stats for './a.out':
+
+        11,738      L1-icache-load-misses … 
+            ","['performance', 'x86', 'x86-64', 'performancecounter', 'perf']",6,"
+1answer
+                    ",Sep 16 '18
+html,Convert HTML to Image in PHP without shell,"
+            I want the option of converting HTML to image and showing the result to the user. I would be creating an $html variable with PHP, and instead of displaying using echo $html, I want to display it as an ...
+        ","['php', 'html', 'image']",6,"
+5answers
+            ",Oct 23 '12 at 21:32
+statistics,"
+Q: PySpark: retrieve mean and the count of values around the mean for groups within a dataframe        ","
+                ], Time [datetime], Value [float]
+
+
+The data is stored as Parquet in HDFS and loaded into a Spark Dataframe (df). From that dataframe.
+
+Now I want to calculate default statistics like Mean, Standard …  for each variable first. This is why I'm using GroupBy to get the statistics for each variable (not for the whole dataset).
+
+df_stats = df.groupBy(df.Variable).agg( \
+    count(df.Variable).alias … 
+            ","['python', 'sql', 'apache-spark', 'apache-spark-sql', 'window-functions']",6,"
+1answer
+                    ",Jul 6 '16
+neural networks,"
+Q: Does Convolutional Neural Network possess localization abilities on images?        ","
+                As far as I know, CNN rely on sliding window techniques and can only indicate if a certain pattern is present or not anywhere in given bounding boxes. Is that true?
+
+Can one achieve localization with  … 
+            ","['computer-vision', 'neural-network', 'feature-detection', 'deep-learning']",6,"
+2answers
+                    ",Jan 27 '15
+python,Is it possible to run a command that is in a list?,"
+            I am trying to make a program that will pick a random number, and run a corresponding command to that number. I put multiple commands in a list as seen below
+
+list = [cmd1(), cmd2(), cmd3(), cmd4()]
+x ...
+        ","['python', 'python-3.x']",6,"
+1answer
+            ",Apr 26 '16 at 14:47
+statistics,"
+            A: Proper way to define a few hundred GDGs at once
+        ","
+                 an iterative process, and if you really want to be methodical about it, create a test job that allocates a bunch of your GDG files and collect performance statistics on it. Different allocation … 
+            ",[],6,,May 9 '17
+statistics,"
+Q: Do I need permission for services like Fabric Crashlytics in iOS?        ","
+                I have developed an app which has nice download figures, however when I look at App Statistics on iTunes Connect, I can see that it does crash a couple of times. I'd like to take that out by using a … 
+            ","['ios', 'debugging', 'crashlytics', 'twitter-fabric']",6,"
+4answers
+                    ",Jan 18 '16
+big data,"
+            A: Flattening multiple repeated fields in Google BigQuery
+        ","
+                 documentation on this topic, it's really well written and you'll learn a lot on new techniques to process big data.
+ … 
+            ",[],6,,Jun 8 '17
+data analytics,"
+            A: Cloud Functions for Firebase: purchase trigger on test purchase
+        ","
+                 measure of purchase verification on
+  both iOS and Android. However, this only affects your analytics data.
+  If you want to combat piracy in your app, you need to implement
+  verification yourself.
+  
+  Let me know if you have any other questions.
+
+
+Hope, this will be useful for someone
+ …  renewal, refunds, monthly/early subscriptions are counted towards
+  in_app_purchases.
+  
+  
+    
+    Is it works with test purchases? Or I must test on real purchase? 
+    
+  
+  
+  Firebase Analytics … 
+            ",[],6,,May 3 '17
+json,Map JSON string column of a JPA entity to Java object automatically,"
+            I have a JPA entity object with following structure:
+
+@Table(name=""item_info"")
+class Item(){
+    @Id
+    @GeneratedValue(strategy=GenerationType.IDENTITY)
+    private Long id;
+
+    @Column(name=""...
+        ","['java', 'json', 'jpa', 'jackson']",6,"
+3answers
+            ",Feb 24 '16 at 21:29
+json,Convert MySQL record set to JSON string in PHP,"
+            Is there a function or class in PHP that I can pass a MySQL recordset and I get a JSON string returned that can be passed back to a JavaScript function in an Ajax request?
+
+something like this:
+
+...
+        ","['php', 'mysql', 'json']",6,"
+3answers
+            ",Aug 7 '10 at 12:49
+json,How do I Unmarshal JSON?,"
+            I am still learning Go. I am trying to unmarshal a json into a struct. However, the struct has a field with a tag. Using reflection, I try to see if the tag has the string ""json"" in it. If it does, ...
+        ","['json', 'go']",6,"
+3answers
+            ",May 22 '14 at 5:13
+json,Count particular key value from array of object,"
+            I have following JSON array I want to create object form status key count
+
+[
+  {
+    ""id"": ""65:0"",    
+    ""status"": ""ORANGE""
+  },
+  {
+    ""id"": ""65:0"",
+    ""status"": ""GREEN""
+  },
+  {
+    ""id"": ""65:0"",...
+        ","['javascript', 'arrays', 'angularjs', 'json', 'object']",6,"
+3answers
+            ",Aug 1 '16 at 9:09
+json,jQuery JSON Decode ( PHP to Javascript),"
+            I'm trying to make an autocomplete script. I pass variables through JSON, and then I don't know how to go on to decode JSON.
+
+This is an example of the JSON code I got, and I'd like to convert it in a ...
+        ","['php', 'javascript', 'jquery', 'arrays', 'json']",6,"
+2answers
+            ",Jul 21 '13 at 0:53
+json,Jackson - Modify an attribute at runtime without annotation,"
+            Let's say I have a bean:
+
+public class Msg {
+  private int code;
+  private Object data;
+
+   ... Getter/setters...
+}
+And I convert it into JSON or XML with this kind of test code:
+
+public String ...
+        ","['java', 'json', 'jackson']",6,"
+2answers
+            ",Sep 20 '13 at 11:26
+statistics,"
+            A: pandas dataframe as latex or html table nbconvert
+        ","
+                . t-statistics} & & & & & & & & & & \\
+    \hline
+    Low            & </%text>${' & '.join(df.ix[9].map(format_helper).values[0:6])}<%text>  & & </%text>${' & '.join(df.ix[9].map(format_helper).values … 
+            ",[],6,,Dec 19 '13
+json,importing JSON to mongoDB using pymongo,"
+            i am trying to import a JSON file i pull from a URL and send it to mongoDB as is, using the pymongo module.
+
+I have the following code
+
+#!/usr/bin/env python
+import sys, urllib2, json, pymongo
+from ...
+        ","['python', 'json', 'mongodb', 'pymongo']",6,"
+2answers
+            ",Mar 29 '17 at 14:02
+big data,"
+            A: reading and writing in chunks on linux using c
+        ","
+                 of knowing how much data was actually read, or if there was an error.
+Use fgets (see man fgets) instead of fread.  This will search for the line breaks for you.
+
+char linebuf[1000];
+FILE *file …  = ...;
+while (fgets(linebuf, sizeof(linebuf), file) {
+    // decode one line
+}
+
+There is a problem with your code.
+
+char buffer[104857600]; // too big
+
+
+If you try to allocate a large buffer (105 MB is … 
+            ",[],6,,May 10 '12
+json,How to parse nested JSON objects with JSON framework and Objective-C/iPhone/Xcode?,"
+            I'm writing an iPhone native app using the JSON framework.
+
+My app is accessing web services using JSON. The JSON data we send has nested objects, below is an example of the data served up:
+
+{
+    ""...
+        ","['objective-c', 'iphone', 'xcode', 'json']",6,"
+4answers
+            ",Mar 28 '09 at 5:09
+statistics,"
+Q: Can you restrict viewing access for revenue in Firebase Analytics Dashboard?        ","
+                 prevent the revenue from being seen and also, the Develop role seems to give access to all Analytics statistics.
+ … 
+            ","['firebase', 'firebase-analytics', 'firebase-console']",6,"
+1answer
+                    ",Mar 7 '19
+statistics,"
+Q: Arithmetic with NAN's        ","
+                We've time-stream of regularly taken data, but at some points no data is taken so we place a QNAN in the array at that point. Only problem is, whenever we do any statistics on the data, every time we … 
+            ",['c++'],6,"
+4answers
+                    ",Nov 12 '13
+Machine Learning,"
+            A: What is the difference between labeled and unlabeled data?
+        ","
+                There are many different problems in Machine Learning so I'll pick classification as a case in point. In classification, labelled data typically consists of a bag of multidimensional feature vectors … 
+            ",[],6,,Oct 3 '13
+statistics,"
+Q: Python: How to get local maxima values from 1D-array or list        ","
+                 a csv-file.
+Values range from 0 to 0.5 or so.
+
+I just need to get a list of those local maxima of one data row (""Werte"", array or ""N"", list) to do statistics on them.
+
+This is what I have got:
+
+import … 
+            ","['python', 'numpy', 'local']",6,"
+2answers
+                    ",Sep 19 '13
+statistics,"
+Q: Is it bad to use ALTER TABLE to resize a varchar column to a larger size?        ","
+                 resources including SO), you can use an ALTER statement for the resize.
+
+Does the ALTER affect the way the data is stored in any way?  Indexes?  Statistics?  I want to avoid performance hits because of this modification due to the fact that the table can get large.
+ … 
+            ","['sql-server', 'tsql', 'sql-server-2008-r2']",6,"
+4answers
+                    ",Aug 31 '11
+data analytics,"
+            A: How does google analytics collect its data?
+        ","
+                Google Analytics web page provides detailed information of how Google Analytics server collect data. http://code.google.com/apis/analytics/docs/concepts/gaConceptsOverview.html
+
+All Google Analytics …  data is collected and packed into the Request URL's query string and sent to Google Analytics server. The http request is made by a gif image(http://www.google-analytics.com/__utm.gif) activated by Google Analytics JS.
+ … 
+            ",[],6,,Apr 7 '11
+json,DataTable to Json using jquery,"
+            I'm trying to execute a web service which returns a DataTable with the following piece of code:
+
+$.ajax({  
+    type: ""POST"",  
+    url: url,  
+    data: data,   
+    contentType: ""application/json; ...
+        ","['asp.net', 'jquery', 'json', '.net-3.5', 'datatable']",6,"
+9answers
+            ",Feb 13 '09 at 14:28
+Machine Learning,"
+            A: What is the difference between labeled and unlabeled data?
+        ","
+                There are many different problems in Machine Learning so I'll pick classification as a case in point. In classification, labelled data typically consists of a bag of multidimensional feature vectors … 
+            ",[],6,,Oct 3 '13
+data analytics,"
+Q: Calculate trendline and predict future results        ","
+                I'm writing some analytics modules for the site I'm working on and I need to estimate the total views after the current hour.  I have data for every minute up to the current minute, so if the time is …  data I have so far and project that up to the 60th minute.  This would take into account acceleration and deceleration.
+
+With the method I'm currently using, I'm effectively assuming the trend is a … 
+            ","['javascript', 'node.js', 'math', 'polynomial-math', 'trendline']",6,"
+1answer
+                    ",Aug 3 '12
+javascript,Reactjs - Setting State from props using setState in child component,"
+            I'm having the following class that renders users based on a sort dropdown. Users will be listed in alphabetical order if i choose ""alphabetical"" and in group order when i choose ""group"".
+
+render(){
+  ...
+        ","['javascript', 'reactjs']",6,"
+2answers
+            ",May 4 '17 at 9:47
+neural networks,"
+Q: Neural Networks and Image Processing to Shoot Caterpillars w/ Lasers        ","
+                 supremely camouflaged and very difficult for my naive eyes to detect.  
+
+I've seen research using artificial neural networks (ANNs) for all sorts of things such as recognizing people's faces, etc., and so …  that I could train a neural network to look for branches that are thin, get fat for a short period, and then get thin again. I have a problem though with branches crossing all over the place. Is … 
+            ","['image-processing', 'neural-network']",6,"
+2answers
+                    ",Aug 25 '10
+statistics,"
+Q: boost::accumulators::rolling_mean returning incorrect mean value        ","
+                 example:
+
+#include <boost/accumulators/accumulators.hpp>
+#include <boost/accumulators/statistics.hpp>
+#include <boost/accumulators/statistics/rolling_mean.hpp>
+
+namespace ba = boost::accumulators … 
+            ","['c++', 'boost', 'boost-accumulators']",6,"
+1answer
+                    ",Oct 5 '15
+statistics,"
+            A: Get title from YouTube videos
+        ","
+                
+
+APIKEY = ""YOUR_GOOGLE_APIKEY""
+VideoID = ""YOUR_VIDEO_ID""
+
+params = {'id': VideoID, 'key': APIKEY,
+          'fields': 'items(id,snippet(channelId,title,categoryId),statistics)',
+          'part … ': 'snippet,statistics'}
+
+url = 'https://www.googleapis.com/youtube/v3/videos'
+
+query_string = urllib.parse.urlencode(params)
+url = url + ""?"" + query_string
+
+with urllib.request.urlopen(url) as response … 
+            ",[],6,,Oct 5 '18
+Machine Learning,"
+Q: Connecting over internet to WCF service using wsDualHttpBinding times out        ","
+                Still on the WCF learning curve:
+
+I've set up a self-hosted WCF Service (WSDualHttpBinding), which works fine on my own computer, which resides behind a firewall.  If I run the client on my own … .  My port forwarding issues were taken care of in a previous question; I can now see the service is up in my browser.
+
+But now when I try to run the client on the other machine, I get the following … 
+            ","['c#', 'wcf']",6,"
+1answer
+                    ",Dec 24 '10
+statistics,"
+Q: delete temporary files in postgresql        ","
+                 a message that disk space is full. After looking at the statistics I realized that the dB has about 400GB of temporary files. I believe these temp files where created while I was running the query … 
+            ","['postgresql', 'memory', 'temp-tables']",6,"
+1answer
+                    ",Aug 29 '16
+statistics,"
+Q: R - how to use rpart?        ","
+                 essence, I would like to find out:
+
+
+what tests were run by rpart before it gave me the output above?
+did rpart include a test (V2 == 2) -> response statistics, and if not, how can I make it include such a test and result?
+
+
+I have read the rpart vignette, but I do not find the answers.
+ … 
+            ",['r'],6,"
+2answers
+                    ",Apr 30 '14
+statistics,"
+            A: Algorithms for finding a look alike face?
+        ","
+                 a ""statistic"" i.e. a feature vector is a vector containing statistics that characterizes the object it represents. For e.g., for the task of face recognition, the simplest feature vector would be the … 
+            ",[],6,,Jan 3 '13
+statistics,"
+            A: How to save two camera's data but not influence their picture-acquire speed?
+        ","
+                 appropriate number of frames (you can implement any other kind of stop-condition you desire), we cancel the work queues, and wait for the worker threads to complete.
+
+Finally we write some statistics about the … 
+            ",[],6,,May 10 '16
+statistics,"
+Q: Incremental code coverage for Python unit tests?        ","
+                .
+
+I'm using unittest and coverage (and coveralls.io) to get the code coverage statistics, which work great. But I'm involved only with a part of the project, and at first I'm concerned with what my last … 
+            ","['python', 'unit-testing', 'code-coverage', 'python-unittest', 'coverage.py']",6,"
+2answers
+                    ",Mar 23 '18
+Machine Learning,"
+Q: Python multiprocessing pipe recv() doc unclear or did I miss anything?        ","
+                I have been learning how to use the Python multiprocessing module recently, and reading the official doc.  In 16.6.1.2. Exchanging objects between processes there is a simple example about using pipe … ()   # prints ""[42, None, 'hello']""
+    try:
+        print parent_conn.recv()
+    except EOFError:
+        pass
+    p.join()
+
+
+But, when I tried the revised example on my Ubuntu 11.04 machine, Python 2.7.2, the script hang.  
+
+If anyone can point out to me what I missed, I would be very appreciative.
+ … 
+            ","['python', 'multiprocessing', 'pipe']",6,"
+1answer
+                    ",Dec 21 '11
+Machine Learning,"
+Q: Why is `NaN` a possible value for type `Int` in Elm?        ","
+                I recently started learning Elm. When I saw the Int type I assumed it was something like Haskell's Int, which is (I think) a machine integer.
+
+But I was surprised to see this:
+
+> Result.withDefault 0 … 
+            ",['elm'],6,"
+2answers
+                    ",Jul 1 '17
+statistics,"
+Q: Keep record of login time and session duration - Java - Spring Security        ","
+                 not sure how to deal with it. Is there some other framework that deals with this kind of usage statistics?
+
+Is there some way to use Spring Security itself to deal with it?
+
+// I'm reading more about Spring Security and it seems that its filters can help me. Any progress will be shared here.
+ … 
+            ","['security', 'spring', 'login', 'usage-statistics']",6,"
+2answers
+                    ",Dec 18 '11
+statistics,"
+            A: AWS Athena too slow for an api?
+        ","
+                 GetQueryExecution to get query statistics (see the documentation for QueryExecution.Statistics for what each property means). With this information you can figure out if your slow queries are because … 
+            ",[],6,,27-Apr
+statistics,"
+Q: MySQL taking up nearly100% CPU all the time - how to diagnose what's wrong? [closed]        ","
+                MySQL is eating up nearly all the CPU all the time. How does one go about diagnosing this issue? Here are the vital statistics: 
+
+Our machine:
+
+Windows Server 2008 R2 Enterprise
+
+Intel G6950 2.80GHz … 
+            ",['mysql'],6,"
+0answers
+                    ",Apr 29 '13
+big data,"
+Q: How to fix the size of a ggplot in R while saving it with png()?        ","
+                ?  height and width isn't enough?
+
+EDIT: full code
+
+library(maps)
+library(ggplot2)
+data <- read.csv(""data.csv"", header=TRUE)
+lat = data$lat
+long = data$long
+world<-map_data('usa')
+sf<-data.frame(long=long … ,lat=lat)
+p <- ggplot(height=600, width=800) +
+geom_polygon( data=world, aes(x=long, y=lat,group=group)) 
+p <- p + geom_point(data=sf,aes(long,lat),colour=""white"",size=1)
+p
+
+
+data file:
+
+""lat"",""long … 
+            ","['r', 'ggplot2']",6,"
+1answer
+                    ",Mar 3 '12
+statistics,"
+            A: Haskell Servant Get Current Route / URL From Handler
+        ","
+                 route information into vault, and that information may be used by wai
+Middleware to collect statistics. This way we can make an improved version of
+servant-ekg, as currently servant-ekg may get … 
+            ",[],6,,Feb 26 '19
+bioinformatics,"
+            A: Best way to organize bioinformatics projects?
+        ","
+                For bioinformatics-specific answers, you'll likely be interested in these two question over at BioStar (the bioinformatics StackExchange 1.0 site)
+
+
+How do you manage your files & directories for your projects?
+How to organize a pipeline of small scripts together?
+
+ … 
+            ",[],6,,Sep 21 '10
+big data,"
+            A: Combining variables together into a list
+        ","
+                 from the use of reshape and generally data.table is faster for big data.
+Ag study solution is slower because of the subsetting for each row , not like Tyler solution which subset before using apply.
+am solution is slow because of the use of reshape and merge..
+
+ … 
+            ",[],6,,Mar 6 '13
+statistics,"
+Q: Android Facebook SDK Share dialog: never return Completion Gesture        ","
+                I am using facebook android sdk v3.5 in my app for messsage sharing. For statistics I need to track if the message was successfully posted or not. However I always get null by getting … 
+            ","['android', 'facebook', 'facebook-android-sdk']",6,"
+1answer
+                    ",Sep 25 '13
+bioinformatics,"
+            A: bioinformatics resources
+        ","
+                Blue Collar Bioinformatics
+ … 
+            ",[],6,,Jan 16 '10
+statistics,"
+            A: AWS / SES Email sending… What's been your experience?
+        ","
+                 the current limits and produce low or no bounces etc. - this is addressed in Monitoring Your Sending Limits as well as Monitoring Usage Statistics accordingly:
+
+
+  We strongly encourage you to monitor … 
+            ",[],6,,Mar 19 '12
+big data,"
+            A: Benchmarking datatables in R using lapply, is it slower?
+        ","
+                 data.table performance is convert any ID columns that may be floating point into an integer. Here we get a small increase in performance in lower datasets and a larger increase in bigger data sets.
+ … 
+            ",[],6,,Jun 19 '19
+big data,"
+            A: Indexing and searching in hadoop
+        ","
+                 regarding the use of hadoop in Apache Solr, here are some useful links that I found off the internet
+
+http://www.likethecolor.com/2010/09/26/using-hadoop-to-create-solr-indexes
+
+http://architects.dzone.com/articles/solr-hadoop-big-data-love
+ … 
+            ",[],6,,Aug 14 '12
+statistics,"
+Q: Why would the exact same SQL query result with a different execution plan when executed via …        ","
+                 seconds when run from SQL management Studio, where as the query run in management studio via sp_executeSQL will take 5 minutes.
+
+I've updated statistics, and reviewed indexes, but the fact remained … 
+            ","['sql-server', 'tsql', 'sql-execution-plan', 'sp-executesql']",6,"
+2answers
+                    ",Mar 30 '11
+statistics,"
+Q: Update {node_counter} table programmatically in drupal        ","
+                I currently use the statistics module (core) on my Drupal 6 install. This increments a count in the {node_counter} table every time the node is viewed, and this works.
+
+My question is - can I … 
+            ","['ajax', 'drupal', 'drupal-6', 'drupal-views', 'drupal-modules']",6,"
+1answer
+                    ",Mar 20 '10
+statistics,"
+Q: gfortran openmp no threading        ","
+                / --with-pkgversion='Gentoo 4.5.4 p1.0, pie-0.4.7'
+ Thread model: posix
+ gcc version 4.5.4 (Gentoo 4.5.4 p1.0, pie-0.4.7) 
+
+
+output of a testmp.f140t.optimized (the one before the *.statistics … 
+            ","['multithreading', 'fortran', 'openmp']",6,"
+2answers
+                    ",Oct 25 '13
+statistics,"
+Q: Table Valued Parameter has slow performance because of table scan        ","
+                 parameter has no statistics attached to it when I join my TVP to a table that has 2 mil rows I get a very slow query. 
+
+What alternatives do I have ? 
+
+Again, the goal is to pass certain values to a … 
+            ","['sql-server', 'performance', 'tsql', 'stored-procedures']",6,"
+5answers
+                    ",Dec 2 '10
+statistics,"
+            A: DNS query over TCP
+        ","
+                 server.
+  The retransmission interval should be based on prior statistics if possible.  Too aggressive retransmission can easily slow responses for the community at large.  Depending on how well … 
+            ",[],6,,Jan 6 '17
+statistics,"
+Q: How would I get psycopg2 logging of query execution time?        ","
+                I'm trying to get the performance statistics on queries executed by psycopg2, but the documentation / examples still seem fuzzy and not as clear as it could be.
+
+I've at least got debugging working … 
+            ","['python', 'postgresql']",6,"
+1answer
+                    ",Sep 18 '15
+data analytics,"
+            A: Fitting a curve to specific data
+        ","
+                Do you know some analytical function that the data should adhere to? If so, it could help you choose the form of the function, to fit to the data.
+
+Otherwise, since the data looks like exponential …  decay, try something like this in gnuplot, where a function with two free parameters is fitted to the data:
+
+ f(x) = exp(-x*c)*b
+ fit f(x) ""data.dat"" u 1:2 via b,c
+ plot ""data.dat"" w p, f(x)
+
+
+Gnuplot … 
+            ",[],6,,Jan 9 '13
+statistics,"
+Q: How to Determine ASP.NET Application Domain Lifetime        ","
+                We have an application gathering counter statistics and we would like the values to reset after executing the iisreset command and that's all. 
+
+Microsoft says Application_Start is:
+
+
+  Called when … 
+            ","['asp.net', 'iis', 'global-asax']",6,"
+2answers
+                    ",Sep 22 '10
+statistics,"
+            A: Can some explain the performance behavior of the following memory allocating C program?
+        ","
+                    : 0.312462317
+CPU arr1    : 0.32
+
+Itr arr2    : 0.312869158
+CPU arr2    : 0.31
+
+
+Also see: 
+
+
+Synopsis of compile-time options
+Vital statistics
+… actually the entire file is a nice read.
+
+
+
+
+Sub notes:
+
+So … 
+            ",[],6,,Apr 18 '12
+python,Conditional column arithmetic in pandas dataframe,"
+            I have a pandas dataframe with the following structure:
+
+import numpy as np
+import pandas as pd
+myData = pd.DataFrame({'x': [1.2,2.4,5.3,2.3,4.1], 'y': [6.7,7.5,8.1,5.3,8.3], 'condition':[1,1,np.nan,...
+        ","['python', 'numpy', 'pandas', 'dataframe']",6,"
+1answer
+            ",Jan 28 '15 at 10:56
+python,Combine two array's data using inner join,"
+            I've two data sets in array:
+
+arr1 = [
+  ['2011-10-10', 1, 1],
+  ['2007-08-09', 5, 3],
+  ...
+]
+
+arr2 = [
+  ['2011-10-10', 3, 4],
+  ['2007-09-05', 1, 1],
+  ...
+]
+I want to combine them into one array ...
+        ","['python', 'arrays', 'arrayofarrays']",6,"
+6answers
+            ",Jul 16 '13 at 17:02
+python,Embedding Python in C: Error in linking - undefined reference to PyString_AsString,"
+            I am trying to embed a python program inside a C program. My OS is Ubuntu 14.04
+
+I try to embed python 2.7 and python 3.4 interpreter in the same C code base (as separate applications). The ...
+        ","['python', 'c', 'python-3.x', 'python-internals', 'python-embedding']",6,"
+1answer
+            ",Apr 10 '16 at 13:52
+python,"Python / Pyspark - Count NULL, empty and NaN","
+            i want to count NULL, empty and NaN values in a column.
+I tried it like this:
+
+df.filter( (df[""ID""] == """") | (df[""ID""].isNull()) | ( df[""ID""].isnan()) ).count()
+But i always get this error message:
+
+...
+        ","['python', 'pyspark']",6,"
+1answer
+            ",Jan 12 '18 at 15:13
+python,Compare request.path with a reversed url in Django template,"
+            I understand that request.path will give me the current URL.
+
+I am currently working on my base.html template with CSS tabs and I want the template to know which tab is currently ""active"" and pass ...
+        ","['python', 'django', 'django-templates']",6,"
+9answers
+            ",Apr 21 '12 at 22:13
+python,How do I conditionally include a file in a Sphinx 'toctree'? [duplicate],"
+            I would like to include one of my files in my Sphinx TOC only when a certain tag is set, however the obvious approach fails:
+
+.. toctree::
+   :maxdepth: 5
+
+   index
+   core
+   utils
+   oec
+   plotting
+...
+        ","['python', 'conditional-statements', 'python-sphinx', 'toctree']",6,"
+1answer
+            ",Feb 2 '14 at 20:22
+python,influxdb python: 404 page not found,"
+            I am trying to use the influxdb-python lib which I found here. But I cant even get the tutorial programm to work. 
+
+When I run the following example code:
+
+$ python
+
+>>> from influxdb import ...
+        ","['python', 'influxdb']",6,"
+2answers
+            ",Apr 25 '16 at 17:14
+python,ply lexmatch regular expression has different groups than a usual re,"
+            I am using ply and have noticed a strange discrepancy between the token re match stored in t.lex.lexmatch, as compared with an sre_pattern defined in the usual way with the re module.  The group(x)'s ...
+        ","['python', 'regex', 'lex', 'ply']",6,"
+2answers
+            ",Sep 17 '11 at 1:16
+python,Python ROUND_HALF_UP not working as expected,"
+            I can't seem to understand the decimal docs to get 2.775 to round to 2.78 using the decimal class.
+
+import decimal
+decimal.getcontext().prec = 7
+print(decimal.Decimal(2.775).quantize(
+    decimal....
+        ","['python', 'decimal', 'currency', 'rounding']",6,"
+1answer
+            ",Mar 24 '14 at 2:03
+python,How to run WordCountTopology from storm-starter in Intellij,"
+            I work with Storm for a while already, but want to get started with development. As suggested, I am using IntelliJ (up to now, I was using Eclipse and did only write topologies against Java API).
+
+I ...
+        ","['python', 'intellij-idea', 'apache-storm']",6,"
+3answers
+            ",Aug 13 '15 at 10:36
+python,Python - decimal places (putting floats into a string),"
+            I have been using the format:
+
+print 'blah, blah %f' %variable
+to put variables into strings. I heard it was more pythonic than the '+str()+' approach, and have got quite used to it. 
+Is there a way ...
+        ","['python', 'string', 'floating-point']",6,"
+2answers
+            ",Jul 11 '11 at 11:45
+python,Python Plotly - Align Y Axis for Scatter and Bar,"
+            I'm trying to create a plotly graph with a Scatter and Graph elements. It all goes nicely, but one issue - the two Y axis don't align around 0. 
+
+I have tried playing with different attributes, such ...
+        ","['python', 'plotly']",6,"
+1answer
+            ",Mar 19 '16 at 12:32
+python,How are images actually saved with skimage (Python),"
+            I am currently applying the Zhang-Suen thinning algorithm to hone down on some filaments I would like to later track. This requires me to output a grayscale image in order to identify objects using ...
+        ","['python', 'image', 'opencv', 'image-processing', 'matplotlib']",6,"
+1answer
+            ",Jun 19 '15 at 14:59
+python,Fill na values by adding x to previous row pandas,"
+            I have a data frame with a column named SAM with following data
+
+SAM
+3
+5
+9
+Nan
+Nan
+24
+40
+Nan
+57
+Now I want to Insert 12, 15 and 43 respectively in the Nan values (because 9+3=12, 12+3=15, and 40+3=43)...
+        ","['python', 'pandas', 'dataframe']",6,"
+1answer
+            ",Dec 14 '16 at 15:10
+python,difference between python2 and python3 - int() and input(),"
+            I wrote below python code.
+And I found that python2 and python3 has totally difference running result for input of 1.1.
+Why is there such difference between python2 and python3? 
+For me, int(1.1) ...
+        ","['python', 'python-3.4']",6,"
+2answers
+            ",Jun 10 '16 at 4:13
+python,Multiple windows in PyQt4?,"
+            I've just begun using pyqt4. I followed a tutorial (http://zetcode.com/tutorials/pyqt4/)
+One thing that puzzles me is this part:
+
+def main():
+    app = QtGui.QApplication(sys.argv)
+    ex = GUI()
+    ...
+        ","['python', 'pyqt4']",6,"
+1answer
+            ",Apr 25 '13 at 14:44
+python,How do I post non-ASCII characters using httplib when content-type is “application/xml”,"
+            I've implemented a Pivotal Tracker API module in Python 2.7. The Pivotal Tracker API expects POST data to be an XML document and ""application/xml"" to be the content type.
+
+My code uses urlib/httplib ...
+        ","['python', 'django', 'urllib2', 'httplib', 'pivotaltracker']",6,"
+4answers
+            ",Nov 3 '11 at 10:15
+python,Why return type is not checked in python3?,"
+            Example from PEP 484 -- Type Hints
+
+def greeting(name: str) -> str:
+    return 'Hello ' + name
+Right way to call the function with str
+
+>>> greeting(""John"")
+'Hello John'
+If I call it ...
+        ","['python', 'python-3.x', 'function', 'types', 'typechecking']",6,"
+2answers
+            ",Aug 25 '17 at 7:10
+python,Obtaining module name: x.__module__ vs x.__class__.__module__,"
+            I want to obtain the module from which a Python object is from. Both
+
+x.__module__
+and
+
+x.__class__.__module__
+seem to work. Are these completely redundant? Is there any reason to prefer one over ...
+        ","['python', 'module', 'python-module']",6,"
+1answer
+            ",Mar 11 '11 at 9:25
+python,Running a Python script on a PHP server,"
+            I am running a nginx web server, along with PHP-CGI.
+
+I would like to know if it is possible to execute a Python script inside PHP pages, allowing both languages to be combined. I've attempted it ...
+        ","['php', 'python']",6,"
+1answer
+            ",May 30 '12 at 1:40
+python,Removing html tags from a text using Regular Expression in python,"
+            I'm trying to look at a html file and remove all the tags from it so that only the text is left but I'm having a problem with my regex. This is what I have so far.
+
+import urllib.request, re
+def test(...
+        ","['python', 'html', 'regex', 'tags']",6,"
+2answers
+            ",Jan 29 '10 at 23:22
+python,How to generate n dimensional random variables in a specific range in python,"
+            I want to generate uniform random variables in the range of [-10,10] of various dimensions in python. Numbers of 2,3,4,5.... dimension. 
+
+I tried random.uniform(-10,10), but that is only one ...
+        ","['python', 'numpy', 'scipy']",6,"
+2answers
+            ",Mar 4 '13 at 4:16
+python,Python list index out of range on return value of split,"
+            I'm writing a simple script that is trying to extract the first element from the second column of a .txt input file. 
+
+import sys
+
+if (len(sys.argv) > 1):
+    f = open(sys.argv[1], ""r"");
+    print ""...
+        ","['python', 'python-2.7']",6,"
+4answers
+            ",Jun 26 '12 at 23:28
+python,Cython Fatal Error: Python.h No such file or directory,"
+            I have been using Cython to compile my Python files into C files and then use MinGW to create an executable from the C file. Cython works fine, I can type cython test.pyx into the command line and get ...
+        ","['python', 'c', 'gcc', 'cython']",6,"
+2answers
+            ",Jan 8 '16 at 2:46
+python,"Resource Aquisition Is Initialization, in Python","
+            I am new to Python. I come from C++.
+
+In some code reviews, I've had several peers wanting me to move things from init and del to a start and stop method. Most of them time, this goes against the RAII ...
+        ","['python', 'raii']",6,"
+2answers
+            ",May 9 '19 at 0:21
+python,Python Regex - checking for a capital letter with a lowercase after,"
+            I am trying to check for a capital letter that has a lowercase letter coming directly after it. The trick is that there is going to be a bunch of garbage capital letters and number coming directly ...
+        ","['python', 'regex', 'string']",6,"
+2answers
+            ",Feb 16 '14 at 0:07
+python,"TypeError: function() argument after * must be a sequence, not generator","
+            While trying to write a tiny, obfuscated type checker, an unacceptable code pattern was discovered. However, it inconsistently fails to work properly. This is the code that was initally written to ...
+        ","['python', 'typeerror']",6,"
+1answer
+            ",Jul 27 '12 at 14:27
+python,XCode 3.2 Ruby and Python templates,"
+            Under xcode 3.2 my ObjectiveC + Python/Ruby projects can still be opened updated and compiled, but you cannot create new projects.
+
+Given that all traces of ruby and python are missing from xcode 3.2 (...
+        ","['python', 'ruby', 'cocoa', 'xcode', 'pyobjc']",6,"
+5answers
+            ",Sep 5 '09 at 2:14
+python,raise Assertionerror vs. assert python,"
+            What are the big differences between raise Assertionerror and assert to build in a ""fault"". What are the effects on the code ? and is one or the other more pythonic in a way ?
+
+The reason for my ...
+        ","['python', 'error-handling', 'assert']",6,"
+1answer
+            ",Jan 23 '18 at 18:41
+python,Generate a set of sorted random numbers from a specific range,"
+            I'd like to generate a set of x unique random numbers and sort them in Python. For example:
+range(1000, 10000)
+x = 100
+
+I've figured out to import random and use the random.randrange method, then loop ...
+        ","['python', 'random', 'generator']",6,"
+2answers
+            ",Feb 7 '13 at 10:31
+python,What is the most idiomatic way to index an object with a boolean array in pandas?,"
+            I am particularly talking about Pandas version 0.11 as I am busy replacing my uses of .ix with either .loc or .iloc. I like the fact that differentiating between .loc and .iloc communicates whether I ...
+        ","['python', 'pandas']",6,"
+2answers
+            ",May 17 '13 at 7:32
+python,How can I change the font size in GTK?,"
+            Is there an easy way to change the font size of text elements in GTK? Right now the best I can do is do set_markup on a label, with something silly like:
+
+lbl.set_markup(""<span font_desc='Tahoma 5....
+        ","['python', 'fonts', 'gtk', 'pygtk', 'gtk2']",6,"
+2answers
+            ",Aug 12 '09 at 23:46
+python,Update primary key Django MySQL,"
+            sorry for my poor english, my problem is:
+
+I try to update the PK in Django with the method .save() but when i save the object Django duplicate the object withe the same data but differetn PK, example:...
+        ","['python', 'mysql', 'django', 'django-models', 'primary-key']",6,"
+3answers
+            ",Apr 15 '15 at 17:51
+python,Check if string exists in a text file,"
+            So I've got:
+
+def CheckUserExists(user):
+    with open(""C:/~/database.txt"", 'r') as file:
+        if re.search(user, file.read()):
+            return True
+        else:
+            return False
+
+...
+        ","['python', 'regex']",6,"
+4answers
+            ",Oct 15 '14 at 20:45
+python,'Reversed' comparison operator in Python,"
+            class Inner():
+
+    def __init__(self, x):
+        self.x = x
+
+    def __eq__(self, other):
+        if isinstance(other, Inner):
+            return self.x == other.x
+        else:
+            raise ...
+        ","['python', 'comparison']",6,"
+1answer
+            ",Jul 18 '16 at 10:12
+python,Append dictionary to pandas dataframe in a loop,"
+            I have a requirement to create a dictionary within a loop and append them to a pandas data frame with matching key name of dict and column name of data frame. The key value pairs of dictionary in each ...
+        ","['python', 'python-3.x', 'pandas']",6,"
+3answers
+            ",May 13 '17 at 19:45
+python,ascii codec cant decode byte 0xe9,"
+            I have done some research and seen solutions but none have worked for me.
+
+Python - 'ascii' codec can't decode byte 
+
+This didn't work for me. And I know the 0xe9 is the é character. But I ...
+        ","['python', 'unicode', 'encoding', 'utf-8', 'decode']",6,"
+4answers
+            ",Mar 9 '15 at 16:55
+python,How Can Python Handle systemctl stop?,"
+            I have a Python script that is running as a service. It writes to disk. If a user calls systemctl stop on the service, I would like to handle the command in my own way to reduce the risk of file ...
+        ","['python', 'linux', 'systemd']",6,"
+1answer
+            ",Apr 30 '17 at 22:25
+python,read_csv with missing/incomplete header or irregular number of columns,"
+            I have a file.csv with ~15k rows that looks like this 
+
+SAMPLE_TIME,          POS,        OFF,  HISTOGRAM
+2015-07-15 16:41:56,  0-0-0-0-3,   1,    2,0,5,59,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,
+2015-07-15 16:...
+        ","['python', 'python-2.7', 'csv', 'pandas', 'dataframe']",6,"
+4answers
+            ",Dec 18 '15 at 14:48
+python,Invert colors when plotting a PNG file using matplotlib,"
+            I'm trying to display a PNG file using matplotlib and of course, python. For this test, I've generated the following image:
+Now, I load and transform the image into a multidimensional numpy matrix:
+
+...
+        ","['python', 'opencv', 'matplotlib']",6,"
+4answers
+            ",Jan 17 '13 at 20:36
+python,Keras Extremely High Loss,"
+            I'm trying to predict price by characteristics.
+I chose a pretty simple model, but it works very strange. Loss function is extremely high and I can't see where the problem is.
+
+Here is my model:
+# ...
+        ","['python', 'machine-learning', 'keras', 'prediction', 'loss']",6,"
+2answers
+            ",Sep 2 '17 at 14:20
+python,Randomly extract x items from a list using python,"
+            Starting with two lists such as:
+
+lstOne = [ '1', '2', '3', '4', '5', '6', '7', '8', '9', '10']
+lstTwo = [ '1', '2', '3', '4', '5', '6', '7', '8', '9', '10']
+I want to have the user input how many ...
+        ","['python', 'list', 'random', 'indices']",6,"
+3answers
+            ",May 4 '14 at 17:26
+python,django: exclude certain form elements based on a condition,"
+            I have some form fields that I want to include/exclude based on whether or not a certain condition is met. I know how to include and exclude form elements, but I am having difficulty doing it when I ...
+        ","['python', 'django', 'forms']",6,"
+2answers
+            ",May 21 '11 at 16:47
+python,How can I import Pandas with Jython,"
+            I'm new to python, and I've install Jython2.7.0
+
+Java
+
+import org.python.util.PythonInterpreter;
+import org.python.core.*; 
+
+public class Main {
+    public static void main(String[] args) {
+         ...
+        ","['python', 'pandas', 'jython-2.7']",6,"
+2answers
+            ",Mar 25 '16 at 4:16
+python,"Matplotlib: how to add xlabel, title to each subplot","
+            I'm trying to plot multiple heatmaps using the plt.subplots. An example I found is as follows:
+
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Generate some data that where each slice has a ...
+        ","['python', 'matplotlib']",6,"
+1answer
+            ",Aug 11 '17 at 9:40
+python,How to install MySQLdb in Python 2.6 CentOS,"
+            I am getting this message when I use yum install mysql-python to install MySQLdb.
+
+Loaded plugins: fastestmirror
+Loading mirror speeds from cached hostfile
+ * base: mirrors.sin3.sg.voxel.net
+ * extras:...
+        ","['python', 'centos', 'mysql-python']",6,"
+4answers
+            ",Jul 12 '13 at 17:18
+python,Python: Find count of the elements of one list in another list,"
+            Let's say I have two lists list1 and list2 as:
+
+list1 = [ 3, 4, 7 ]
+list2 = [ 5, 2, 3, 5, 3, 4, 4, 9 ]
+I want to find the count of the elements of list1 which are present in list2.
+
+Expected output ...
+        ",['python'],6,"
+4answers
+            ",Oct 21 '17 at 10:41
+python,How do I compile multiple py files as one?,"
+            I am new to Python and am totally lost as to where to even start to get this done.
+
+I have written many small modules (a toolset for maya) that need to be compiled into on single .pyc file. Is there a ...
+        ","['python', 'module', 'compilation', 'maya', 'pyc']",6,"
+2answers
+            ",Jul 10 '13 at 16:18
+python,Minimizing the performance issues of loading a many to many relationship,"
+            I've been tokenizing an extremely large corpus. Each Unigram can occur in multiple Comments multiple times. I'm storing the Comment.ids in a list that is attached to the Unigram in the database every ...
+        ","['python', 'sql', 'orm', 'many-to-many', 'flask-sqlalchemy']",6,"
+1answer
+            ",Jan 27 '14 at 1:16
+python,List of arguments with argparse,"
+            I'm trying to pass a list of arguments with argparse but the only way that I've found involves rewriting the option for each argument that I want to pass:
+
+What I currently use:
+
+main.py -t arg1 -a ...
+        ","['python', 'argparse']",6,"
+2answers
+            ",May 6 '14 at 8:55
+python,What is the advantage of Pip over Anaconda?,"
+            So, I have seen What is the difference between pip and conda?. However, all of the answers there appear to be from Anaconda supporters. So, that made me wonder: why is pip still the standard? why hasn'...
+        ","['python', 'pip', 'anaconda', 'package-managers']",6,"
+2answers
+            ",Mar 17 '16 at 18:35
+python,Decorating Python's builtin print() function,"
+            As we know in Python 3 print() is a function, is it possible to create a decorated version of it wrapped under json.dumps(indent=4)
+
+for ex.
+
+Calling print(mydict) should produce the same result as ...
+        ","['python', 'python-decorators']",6,"
+4answers
+            ",Oct 10 '17 at 4:28
+python,python string manipulation,"
+            I have a string s with nested brackets: s = ""AX(p>q)&E((-p)Ur)""
+
+I want to remove all characters between all pairs of brackets and store in a new string like this: new_string = AX&E
+
+i ...
+        ","['python', 'regex', 'string']",6,"
+8answers
+            ",May 1 '11 at 6:11
+python,Python: accept unicode strings as regular strings in doctests,"
+            Writing doctests for a method that abbreviates a dictionary by searching for a passed key word in the keys of the original dictionary, and returning the new, abbreviated dictionary. My docstring looks ...
+        ","['python', 'python-2.7', 'testing', 'pytest', 'doctest']",6,"
+1answer
+            ",Jun 22 '16 at 17:59
+python,Unpickling classes from Python 3 in Python 2,"
+            If a Python 3 class is pickled using protocol 2, it is supposed to work in Python 2, but unfortunately, this fails because the names of some classes have changed.
+
+Assume we have code called as ...
+        ","['python', 'python-3.x', 'pickle']",6,"
+1answer
+            ",Sep 6 '09 at 7:15
+python,python divide by zero encountered in log - logistic regression,"
+            I'm trying to implement a multiclass logistic regression classifier that distinguishes between k different classes.
+
+This is my code.
+
+import numpy as np
+from scipy.special import expit
+def cost(X,y,...
+        ","['python', 'machine-learning', 'logistic-regression', 'logarithm', 'divide-by-zero']",6,"
+5answers
+            ",Jun 30 '16 at 13:57
+python,Specifying the output file name in Apache Spark,"
+            I have a MapReduce job that I'm trying to migrate to PySpark. Is there any way of defining the name of the output file, rather than getting part-xxxxx?
+
+In MR, I was using the org.apache.hadoop.mapred....
+        ","['python', 'apache-spark']",6,"
+2answers
+            ",Aug 13 '14 at 18:51
+python,Installing tensorflow on windows,"
+            I'm trying to install tensorflow on windows. I have python3 (3.5.2) and pip3 (9.0.1):
+
+pip3 install --upgrade tensorflow
+
+Collecting tensorflow
+
+  Could not find a version that satisfies the ...
+        ","['python', 'tensorflow', 'pip']",6,"
+7answers
+            ",Mar 28 '17 at 12:25
+python,How to convert this for loop in list comprehension?,"
+            I have a for loop like this:
+
+for i in conversion:
+    for f in glob.glob(i):
+        print(os.path.getsize(f))
+I want to convert this into list comprehension:
+
+Tried this:
+
+[os.path.getsize(f) for f ...
+        ","['python', 'list']",6,"
+1answer
+            ",Mar 1 '13 at 4:24
+python,"How to convert 3D RGB label image (in semantic segmentation) to 2D gray image, and class indices start from 0?","
+            I have a rgb semantic segmentation label, if there exists 3 classes in it, and each RGB value is one of:
+
+[255, 255, 0], [0, 255, 255], [255, 255, 255]
+respectively, then I want to map all values in ...
+        ","['python', 'numpy', 'array-broadcasting']",6,"
+4answers
+            ",Oct 30 '18 at 7:19
+python,How to get an windows executable from my kivy app (Pyinstaller)?,"
+            I've done a kivy app and I packaged to an .apk with buildozer. The fact is that now I want to package in a .exe for windows with Pyinstaller but I have realised that this two programs (buildozer and ...
+        ","['python', 'linux', 'package', 'kivy', 'pyinstaller']",6,"
+3answers
+            ",Jun 8 '16 at 7:40
+python,Pythonic way to pass around many arguments,"
+            I'm working on a package that contains subpackages and several modules within each subpackage.
+Most of the functions need several arguments (~10) that are initiated in the ""main"" function. Usually, ...
+        ","['python', 'arguments']",6,"
+2answers
+            ",Feb 3 '14 at 12:35
+python,How to concisely represent if/else to specify CSS classes in Django templates,"
+            In a Django template, I'd like to add CSS classes to a DIV based on certain ""conditions"", for example:
+
+<div class=""pkg-buildinfo 
+            {% if v.release.version == pkg.b.release.version %}...
+        ","['python', 'django', 'django-templates']",6,"
+3answers
+            ",Apr 7 '11 at 16:31
+python,Use regular expression to handle nested parenthesis in math equation?,"
+            If I have:
+
+statement = ""(2*(3+1))*2""
+I want to be able to handle multiple parentheses within parentheses for a math reader I'm writing. Perhaps I'm going about this the wrong way, but my goal was to ...
+        ","['python', 'regex']",6,"
+3answers
+            ",Apr 19 '12 at 23:48
+python,Django uses ANSI_X3.4-1968 encoding instead of UTF-8,"
+            I'm running Ubuntu 14.04 server with Django + Gunicorn + Nginx. 
+
+Nginx config contains line for utf-8 charset.
+
+Locale output for user ""auction"" (this user runs the server):
+
+LANG=en_US.UTF-8
+...
+        ","['python', 'django', 'encoding', 'utf-8']",6,"
+1answer
+            ",May 16 '16 at 4:34
+python,Unpacking a struct ending with an ASCIIZ string,"
+            I am trying to use struct.unpack() to take apart a data record that ends with an ASCII string.
+
+The record (it happens to be a TomTom ov2 record) has this format (stored little-endian):
+1 byte
+4 byte ...
+        ","['python', 'struct']",6,"
+2answers
+            ",Aug 7 '12 at 17:19
+python,Pull Tag Value using BeautifulSoup,"
+            Can someone direct me as how to pull the value of a tag using BeautifulSoup? I read the documentation but had a hard time navigating through it.  For example, if I had:
+
+<span title=""Funstuff"" ...
+        ","['python', 'parsing', 'tags', 'beautifulsoup']",6,"
+2answers
+            ",Jul 23 '12 at 18:37
+python,Need to transfer multiple files from client to server,"
+            I'm recently working on a project in which I'm basically making a dropbox clone. The server and client are working fine but I'm having a slight issue. I'm able to transfer a single file from the ...
+        ","['python', 'sockets', 'server', 'client']",6,"
+3answers
+            ",Feb 6 '16 at 20:02
+python,'Expected String or Unicode' when reading JSON with Pandas,"
+            I try to read an Openstreetmaps API output JSON string, which is valid.
+
+I am using following code:
+
+import pandas as pd
+import requests
+
+# Links unten
+minLat = 50.9549
+minLon = 13.55232
+
+# Rechts ...
+        ","['python', 'json', 'pandas', 'openstreetmap', 'overpass-api']",6,"
+1answer
+            ",Jul 20 '14 at 7:41
+python,How to find all <li>'s within a specific <ul> class?,"
+            Environment:
+
+Beautiful Soup 4
+
+Python 2.7.5
+
+Logic:
+
+'find_all' <li> instances that are within a <ul> with a class of my_class eg:
+
+<ul class='my_class'>
+<li>thing one</li&...
+        ","['python', 'python-2.7', 'beautifulsoup']",6,"
+2answers
+            ",Jun 22 '13 at 3:05
+python,Python: How to loop a list of lists of varying depth?,"
+            I have a data structure like this (the actual lists of lists are very long and of varying depth).  I do know their depth beforehand.  
+
+ a=( [1,2], [2,3,[4,5]] )
+ b=( [[1,2],[2,3]] )
+A want to loop ...
+        ","['python', 'for-loop', 'recursion']",6,"
+4answers
+            ",Nov 11 '13 at 13:51
+python,Project Euler #18 - how to brute force all possible paths in tree-like structure using Python?,"
+            Am trying to learn Python the Atlantic way and am stuck on Project Euler #18.
+
+All of the stuff I can find on the web (and there's a LOT more googling that happened beyond that) is some variation on '...
+        ",['python'],6,"
+1answer
+            ",Oct 28 '12 at 22:35
+python,check if dictionary key has empty value,"
+            I have the following dictionary
+
+dict1 ={""city"":"""",""name"":""yass"",""region"":"""",""zipcode"":"""",
+       ""phone"":"""",""address"":"""",""tehsil"":"""", ""planet"":""mars""}
+I am trying to create a new dictionary that ...
+        ","['python', 'dictionary']",6,"
+5answers
+            ",May 22 '13 at 13:59
+python,md5 to integer bits in python,"
+            I'm trying to convert an MD5 hashed value into a a bit integer in python. Does anyone have any idea how I would go about doing this?
+
+I currently go through several ngrams applying a hash to each ...
+        ","['python', 'hash']",6,"
+1answer
+            ",Nov 3 '12 at 21:12
+python,"ctags, vim and python code","
+            I generate ctags with the following command
+
+ctags -R --fields=+l --languages=python --python-kinds=-iv -f ./tags apps/employees/models.py
+and this is my code
+
+from django.contrib.auth.models import ...
+        ","['python', 'vim', 'ctags', 'exuberant-ctags']",6,"
+1answer
+            ",Dec 22 '17 at 23:42
+python,How can I make a Post Request on Python with urllib3?,"
+            I've been trying to make a request to an API, I have to pass the following body:
+
+{
+""description"":""Tenaris"",
+""ticker"":""TS.BA"",
+""industry"":""Metalúrgica"",
+""currency"":""ARS""
+}
+Altough the code seems to ...
+        ","['python', 'json', 'curl', 'urllib3']",6,"
+1answer
+            ",Aug 3 '15 at 2:55
+python,is the python dict str() function reliably sorting keys?,"
+            in python, both the dict {1:1,2:2,3:3} and {3:3,2:2,1:1} produces ""{1:1,2:2,3:3}"" when str()'d?
+
+Can I rely on this sorting, or at least on the fact that dicts containing the same key/valuepairs will ...
+        ","['python', 'string', 'dictionary']",6,"
+4answers
+            ",Nov 27 '11 at 21:57
+python,Load BytesIO image with opencv,"
+            I'm trying to load an image with OPENCV from an io.BytesIO() structure.
+Originally, the code loads the image with PIL, like below:
+
+image_stream = io.BytesIO()
+image_stream.write(connection.read(...
+        ","['python', 'opencv', 'imread']",6,"
+2answers
+            ",Oct 7 '17 at 19:48
+python,Shelve module in python not working: “db type cannot be determined”,"
+            I am trying to make a simple password-storing program in Python, and it seems pretty simple so I am wondering if I am using shelve wrong. 
+
+I have the main .py file:
+
+import shelve
+
+passwords = shelve....
+        ","['python', 'python-2.7', 'persistent-storage', 'shelve', 'dbm']",6,"
+3answers
+            ",May 23 '13 at 2:56
+python,Python Pandas replace values by their opposite sign,"
+            I am trying to ""clean"" some data. I have values which are negative, which they cannot be. And I would like to replace all values that are negative to their corresponding positive values.
+
+A    | B     ...
+        ","['python', 'pandas', 'data-processing']",6,"
+2answers
+            ",Mar 27 '15 at 11:25
+python,pandas groupby transform custom function,"
+            Is it possible to do a groupby transform with custom functions?
+
+data = {
+        'a':['a1','a2','a3','a4','a5'],
+        'b':['b1','b1','b2','b2','b1'],
+        'c':[55,44.2,33.3,-66.5,0],
+        'd'...
+        ","['python', 'pandas']",6,"
+1answer
+            ",Jan 7 '19 at 18:02
+python,cxfreeze aiohttp cannot import compat,"
+            I'm trying to use cx_freeze to build a binary dist for an web application written in Python 3 using the aiohttp package.
+
+Basically I did:
+
+cxfreeze server.py
+and got a dist output
+
+But when running ...
+        ","['python', 'python-3.5', 'cx-freeze']",6,"
+1answer
+            ",Jan 16 '17 at 4:02
+python,How to apply a special methods 'Mixin' to a typing.NamedTuple,"
+            I love the typing.NamedTuple in Python 3.6. But there's often the case where the namedtuple contains a non-hashable attribute and I want to use it as a dict key or set member. If it makes sense that a ...
+        ","['python', 'python-3.6', 'namedtuple']",6,"
+1answer
+            ",Nov 16 '17 at 21:12
+python,"Python slow on fetchone, hangs on fetchall","
+            I'm writing a script to SELECT query a database and parse through ~33,000 records. Unfortunately I'm running into problems at the cursor.fetchone()/cursor.fetchall() phase of things.
+
+I first tried ...
+        ","['python', 'sqlite']",6,"
+1answer
+            ",Aug 20 '13 at 19:26
+python,How to watch a variable in pudb?,"
+            I'm debugging a python script, and I want to watch a variable and get notified whenever its value changes. 
+
+Is there a way to do this in pudb?
+        ","['python', 'pudb']",6,"
+1answer
+            ",Oct 19 '17 at 2:49
+python,Python Popen grep,"
+            I'd like Popen to execute:
+
+grep -i --line-buffered ""grave"" data/*.txt
+When run from the shell, this gives me the wanted result. If I start, in the very same directory where I test grep, a python ...
+        ",['python'],6,"
+2answers
+            ",Jan 23 '12 at 18:35
+python,Randomly sampling lines from a file,"
+            I have a csv file which is ~40gb and 1800000 lines. 
+
+I want to randomly sample 10,000 lines and print them to a new file.
+
+Right now, my approach is to use sed as:
+
+(sed -n '$vars' < input.txt) &...
+        ","['python', 'bash', 'sed']",6,"
+6answers
+            ",Jan 1 '18 at 14:53
+python,TypeError: compile() expected string without null bytes,"
+            I am trying to translate a string using google translate API.    
+
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+import sys
+import urllib
+import urllib2
+
+import ast
+url = 'http://ajax.googleapis.com/...
+        ",['python'],6,"
+2answers
+            ",Dec 9 '10 at 11:54
+python,Fail to validate URL in Facebook webhook subscription with python flask on the back end and ssl,"
+            I'm trying to start using new messenger platform from FB.
+So i have server with name (i.e.)  www.mysite.com
+I got a valid SSL certificate for that domain and apache is setup correctly - all good.
+
+I ...
+        ","['python', 'facebook', 'ssl', 'flask']",6,"
+3answers
+            ",Apr 15 '16 at 8:28
+python,Python dictionary iterator performance,"
+            When working with dictionaries in Python, this page says that the time complexity of iterating through the element of the dictionary is O(n), where n is the largest size the dictionary has been. 
+
+...
+        ","['python', 'performance', 'time-complexity', 'python-internals']",6,"
+1answer
+            ",Jul 3 '15 at 21:19
+python,How to make n-dimensional nested for-loops in Python? [duplicate],"
+            I have the following situation:
+
+for x1 in range(x1, x2):
+    for x2 in range(x3, x4):
+        for x3 ...
+            ...
+                f(x1, x2, x3, ...)
+How to convert this to a mechanism in ...
+        ","['python', 'loops', 'dimensions']",6,"
+4answers
+            ",Jun 14 '18 at 15:04
+python,Python - SkLearn Imputer usage,"
+            I have the following question: I have a pandas dataframe, in which missing values are marked by the string na. I want to run an Imputer on it to replace the missing values with the mean in the column. ...
+        ","['python', 'scikit-learn', 'imputation']",6,"
+4answers
+            ",Jul 1 '16 at 16:42
+python,Running a cron job in Elastic Beanstalk,"
+            So I have a functionality in a Django Elastic Beanstalk app that works like so:
+Download a file
+Parse the file, run some calls to API's with the data from the file
+Update the database of the EB ...
+        ","['python', 'django', 'amazon-web-services', 'cron', 'amazon-elastic-beanstalk']",6,"
+1answer
+            ",Jul 22 '16 at 9:34
+python,getpass.getpass() function in Python not working?,"
+            Running on Windows 7 and using PyCharm 2016.2.3 if that matters at all.
+
+Anyway, I'm trying to write a program that sends an email to recipients, but I want the console to prompt for a password to ...
+        ",['python'],6,"
+2answers
+            ",Oct 12 '16 at 20:30
+python,Tkinter and thread. out of stack space (infinite loop?),"
+            I'm experimenting with Tkinter and the threads mechanism. Can anyone explain why this raises the exception:
+
+<class '_tkinter.TclError'> out of stack space (infinite loop?)
+and how can I solve ...
+        ","['python', 'multithreading', 'tkinter']",6,"
+2answers
+            ",Mar 20 '14 at 18:13
+python,Apply migrations and models from all the apps,"
+            I'm using Django and I have an schema like
+
+mainapp
+|---mainapp
+|   |---migrations.py
+|   |---models/
+|---app2
+    |---migrations/
+    |---models/
+But, when I execute:
+
+python manage.py migrate it is ...
+        ","['python', 'django', 'django-models']",6,"
+2answers
+            ",May 16 '17 at 3:40
+python,Shouldn't __metaclass__ force the use of a metaclass in Python?,"
+            I've been trying to learn about metaclasses in Python. I get the main idea, but I can't seem to activate the mechanism. As I understand it, you can specify M to be as the metaclass when constructing a ...
+        ","['python', 'oop', 'python-3.x', 'metaclass']",6,"
+3answers
+            ",May 4 '09 at 1:18
+python,python 2 strange list comprehension behaviour,"
+            I was looking around list comprehension and saw smth strange.
+Code:
+
+a = ['a', 'a', 'a', 'b', 'd', 'd', 'c', 'c', 'c']
+print [(len(list(g)), k) if len(list(g)) > 1 else k for k, g in groupby(a)]
+...
+        ","['python', 'list-comprehension']",6,"
+2answers
+            ",Aug 4 '15 at 23:00
+python,How to use TextTestRunner class from Python unittest module in failfast mode?,"
+            All I found in documentation of unittest module is description of TextTestRunner's constructor and the following sample code using its run() method:
+unittest.TextTestRunner(verbosity=2).run(suite)
+
+I ...
+        ","['python', 'unit-testing']",6,"
+1answer
+            ",Nov 9 '11 at 16:33
+python,How do I convert a complex number?,"
+            I built a calculator for a bio equation, and I think I've narrowed down the source of my problem, which is a natural log I take:
+
+goldman = ((R * T) / F) * cmath.log(float(top_row) / float(bot_row))
+
+...
+        ",['python'],6,"
+3answers
+            ",Feb 16 '16 at 4:43
+python,python-docx style_id error while creating a word document,"
+            I'm following the tutorial available on python-docx site to create a MS-Word document but I'm getting an error:
+
+M:\Sites>python word.py
+C:\Program Files\IBM\SPSS\Statistics\22\Python\lib\site-...
+        ","['python', 'python-2.7', 'ms-word', 'python-docx']",6,"
+1answer
+            ",Mar 10 '15 at 20:16
+python,python zeep: send un-escaped xml as content,"
+            I think what I am trying to do is pretty much like github issue in zeep repo --- but sadly there is no response to this issue yet. I researched suds and installed and tried -- did not even get sending ...
+        ","['python', 'soap', 'soap-client', 'zeep']",6,"
+1answer
+            ",Feb 7 '18 at 3:44
+python,Is there a Python equivalent of MATLAB's conv2 function?,"
+            Does Python or any of its modules have an equivalent of MATLAB's conv2 function? More specifically, I'm interested in something that does the same computation as conv2(A, B, 'same') in MATLAB.
+        ","['python', 'matlab', 'matrix', 'convolution']",6,"
+4answers
+            ",Sep 16 '10 at 21:49
+python,How can I find endpoints of binary skeleton image in OpenCV?,"
+            I have a skeleton as binary pixels, such as this:
+I would like to find the coordinates of the end points of this skeleton (in this case there are four), using Open CV if applicable.
+
+Efficiency is ...
+        ","['python', 'c++', 'opencv', 'image-processing']",6,"
+2answers
+            ",Oct 23 '14 at 20:55
+python,How to update a progress bar in a loop?,"
+            What is the easy method to update Tkinter progress bar in a loop?
+
+I need a solution without much mess, so I can easily implement it in my script, since it's already pretty complicated for me.
+
+Let's ...
+        ","['python', 'python-2.7', 'user-interface', 'tkinter']",6,"
+1answer
+            ",Apr 9 '16 at 12:03
+python,Getting a grid of a matrix via logical indexing in Numpy,"
+            I'm trying to rewrite a function using numpy which is originally in MATLAB. There's a logical indexing part which is as follows in MATLAB:
+
+X = reshape(1:16, 4, 4).';
+idx = [true, false, false, true];
+...
+        ","['python', 'matlab', 'numpy', 'matrix-indexing']",6,"
+3answers
+            ",Jun 27 '13 at 6:28
+python,Mandelbrot set displays incorrectly,"
+            This is my attempt to program the Mandelbrot set in Python 3.5 using the Pygame module.
+
+import math, pygame
+pygame.init()
+
+def mapMandelbrot(c,r,dim,xRange,yRange):
+    x = (dim-c)/dim
+    y = (dim-r)...
+        ","['python', 'python-3.x', 'mandelbrot']",6,"
+2answers
+            ",Feb 5 '17 at 2:37
+python,pandas cut(): how to convert nans? Or to convert the output to non-categorical?,"
+            I am using pandas.cut() on dataframe columns with nans. I need to run groupby on the output of pandas.cut(), so I need to convert nans to something else (in the output, not in the input data), ...
+        ","['python', 'pandas', 'categorical-data']",6,"
+1answer
+            ",Nov 1 '17 at 11:27
+python,how to convert canvas to image to upload to flask?,"
+            Alright so I'm trying to upload a resized canvas image as a file to Flask. 
+
+First I tried to use the canvas.toDataURL() to convert it to a base64(?) string then tried to upload that as an image using ...
+        ","['javascript', 'python', 'ajax', 'canvas', 'flask']",6,"
+1answer
+            ",Dec 22 '13 at 19:52
+python,How to set timeout to threads? [duplicate],"
+            I'm using threading.Thread to multi-thread my code.
+I want to catch Timeout exception if at least 1 of the Threads did not finish their work in X seconds.
+I found some answers here, describing how to ...
+        ","['python', 'windows', 'multithreading', 'python-2.7', 'timeout']",6,"
+2answers
+            ",Feb 22 '16 at 7:58
+python,Accessing MySQL from Python 3: Access denied for user,"
+            I tried to access MySQL from Python 3.3 with the following methods:
+
+import mysql.connector
+
+config = {
+  'user': '###',
+  'password': '******',
+  'host': '##.##.#.##',
+  'database': '########',
+  '...
+        ","['python', 'mysql']",6,"
+8answers
+            ",Sep 29 '15 at 19:21
+python,Python monkey patch private function,"
+            I have a module with a function (call it a()) that calls another function defined in the same module (call it __b()).  __b() is a function which speaks to a website via urllib2 and gets some data back....
+        ","['python', 'monkeypatching']",6,"
+3answers
+            ",Dec 26 '12 at 21:43
+python,"What's the difference between a 'function', 'method' and 'bound method' in Python 3?","
+            I've observed at least 3 types related to functions in Python 3:
+
+>>> class A():
+...  def f(): pass
+...
+>>> A.f
+<function A.f at 0x7fcaef304268>
+>>> A().f
+<bound ...
+        ","['python', 'function', 'python-3.x', 'python-internals']",6,"
+1answer
+            ",Feb 3 '16 at 10:40
+bioinformatics,"
+Q: How to aggregate values over a bigger than RAM gzip'ed csv file?        ","
+                For starters I am new to bioinformatics and especially to programming, but I have built a script that will go through a so-called VCF file (only the individuals are included, one clumn = one … 
+            ","['python', 'csv', 'gzip', 'bioinformatics']",6,"
+2answers
+                    ",Nov 10 '16
+python,Controlling the fan speed and detecting the inside temperature of the pc with python?,"
+            Since my pc's fan is very loud, I'd like to make myself a program to ""shut it up"" when it's not required to be running at full speed. I want to make it with python, so is there any module that can ...
+        ","['python', 'cpu']",6,"
+3answers
+            ",Mar 19 '10 at 18:07
+python,HTTPS Request in Kivy,"
+            I've been struggling with HTTPS requests in a Kivy app tied to an API hosted through AWS API Gateway. First, I moved from Python3 to 2 and then from the requests library to kivy's URLRequest.
+
+The app ...
+        ","['android', 'python', 'ssl', 'kivy', 'aws-api-gateway']",6,"
+1answer
+            ",Sep 24 '18 at 14:58
+python,Cannot allocate 1.6 GB in Python,"
+            This code produces a MemoryError :
+
+from pylab import complex128
+import numpy
+
+x = numpy.empty(100000000, dtype=complex128)    # 100 millions complex128
+I have Win7 64 with 8 GB RAM (at least 5.3 GB ...
+        ","['python', 'memory-management', 'numpy']",6,"
+2answers
+            ",Nov 22 '13 at 17:26
+python,django-pytest setup_method database issue,"
+            I have the following set up on Ubuntu 14.04:
+python 2.7.6
+django 1.7 [though I reproduced the same behaviour with
+django 1.9 too]
+pytest-django 2.8.0 [also tested with 2.9.1]
+pytest 2.7.2 [also ...
+        ","['python', 'django', 'unit-testing', 'pytest', 'pytest-django']",6,"
+1answer
+            ",Dec 4 '15 at 13:25
+php,How can I rearrange array items moving dependencies on top?,"
+            I have the following array where each item may (or may not depend) on another one:
+$test = array(
+    'c' => array(
+        'depends' => 'b'
+    ),
+    'a' => array(),
+    'b' => array(
+  ...
+        ","['php', 'arrays', 'algorithm', 'multidimensional-array']",6,"
+5answers
+            ",Apr 9 '13 at 11:54
+php,PDO Setting PDO::MYSQL_ATTR_FOUND_ROWS fails,"
+            I'm trying to set PDO::MYSQL_ATTR_FOUND_ROWS attribute to true in PDO, but I cannot seem to set it. I am using PHP 5.4.16 and MySQL 5.5.PDO and pdo_mysql both appear in my phpinfo().
+
+Here is how I ...
+        ","['php', 'mysql', 'pdo']",6,"
+1answer
+            ",Sep 8 '13 at 12:03
+neural networks,"
+Q: Reasonable way to have different versions of None?        ","
+                . Eventually a recursive neural network, but that will come from a library so I will just have to but the data into an input form. So maybe nothing worse than linear algebra, it should all fit in the RAM if I am careful I think.
+
+What is a good strategy?
+ … 
+            ","['python', 'python-3.x', 'numpy', 'nonetype']",6,"
+5answers
+                    ",Mar 14 '19
+php,"MongoDB Exception: Server reports wire version 0, but version of libmongoc requires at least 3","
+            Fatal error: Uncaught MongoDB\Driver\Exception\ConnectionException: Server at localhost:27017 reports wire version 0, but this version of libmongoc requires at least 3 (MongoDB 3.0)
+I have PHP 7.0.13,...
+        ","['php', 'mongodb', 'mamp', 'libmongoc']",6,"
+1answer
+            ",Oct 5 '18 at 16:20
+php,How to use Laravel's hasManyThrough across 4 tables,"
+            I have 4 tables with a structure and flow like this:
+
+User
+Accounts
+Contacts
+Orders
+The relationship is as follows:
+
+$user->hasMany('accounts')->hasMany('contacts')->hasMany('orders');
+
+/** User ...
+        ","['php', 'laravel', 'laravel-5', 'laravel-5.2']",6,"
+3answers
+            ",Mar 25 '16 at 21:29
+php,Elasticsearch - previous/next functionality,"
+            I created a search engine to search all documents in my elasticsearch index. When a user hits a document on the searchengine resultpage he leaves the current page and opens the deatailpage of that ...
+        ","['php', 'elasticsearch', 'pagination']",6,"
+2answers
+            ",Jan 20 '15 at 16:02
+php,Slim 3 autoloader,"
+            I'm new to slim framework, and can't figure out how to use the autoloader to autoload my classes.
+
+I created a app/models/myclass.php  but of course when I try to use it I get a class not found. I'm ...
+        ","['php', 'autoload', 'slim']",6,"
+2answers
+            ",Jul 19 '15 at 11:28
+php,Facebook API - How to access my photo album?,"
+            I want to display photos from my Facebook albums on a website. What would be good way to achieve it?
+
+Do I need oAuth authentication or can I just somewhere grant my website or application access to ...
+        ","['php', 'facebook', 'gallery']",6,"
+1answer
+            ",Apr 18 '11 at 20:20
+php,php observer pattern to log user out when session times out,"
+            I'm trying to log users out when the user's session timeout happens.  Logging users out - in my case - requires modifying the user's ""online"" status in a database.
+I was thinking that I might be able ...
+        ","['php', 'session', 'timeout', 'observer-pattern']",6,"
+6answers
+            ",Oct 29 '08 at 16:11
+php,How to replace XML node with SimpleXMLElement PHP,"
+            I have the following XML (string1):
+
+<?xml version=""1.0""?>
+<root>
+   <map>
+      <operationallayers>
+         <layer label=""Security"" type=""feature"" visible=""false"" useproxy=...
+        ","['php', 'xml', 'simplexml']",6,"
+1answer
+            ",Jul 15 '13 at 18:24

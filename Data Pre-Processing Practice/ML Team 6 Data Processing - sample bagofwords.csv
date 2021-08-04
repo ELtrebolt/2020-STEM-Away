@@ -1,0 +1,502 @@
+﻿Topic,Bag of Words,Category,Tags
+Restrictons of Python compared to Ruby: lambda's,python ruby lambda restriction compared restrictons would good going expression page like wikivs restricted know cannot contain statement quote,python ,python ruby lambda restriction 
+Scale image in matplotlib without changing the axis,python matplotlib without changing scale image axis myaxe gui plot using displayed axpect auto extent display existing myimage myaxeimage fit imshow want,python ,python matplotlib 
+UnboundLocalError on nested module reimport,python unboundlocalerror nested module reimport get import sys def foo print traceback usr bin already imported minimal example,python ,python 
+"How to convert 3D RGB label image (in semantic segmentation) to 2D gray image, and class indices start from 0?",python numpy array broadcasting d gray image convert rgb label class index start semantic segmentation map one value exists want respectively,python ,python numpy array-broadcasting 
+Python minidom/xml : How to set node text with minidom api,python xml minidom api set node text file anode inside like helper function called gettext load tag currently trying pair sometext modify,python ,python xml 
+iphone Json POST request to Django server creates QueryDict within QueryDict,json iphone objective c django server creates querydict within post request nsmutableurlrequest creating using library like requestwithurl nsurl urlwithstring nsstring,json ,iphone objective-c django json 
+Find conflicted date intervals using SQL,sql server tsql find conflicted date interval using following table suppose see itemid startdate enddate null,sql ,sql sql-server tsql 
+How do you overlap widgets/frames in python tkinter?,python tkinter overlay overlap ttk widget frame even possible larger text field white box top info wondering bottom right hand corner goal used small,python ,python tkinter overlay overlap ttk 
+Tuning Postgresql performance and memory use in a python workflow,python performance postgresql memory psycopg2 tuning use workflow create table model database null default nextval sid seq regclass col int look somewhat like integer primary key,python ,python performance postgresql memory psycopg2 
+Are random seeds compatible between systems?,python random scikit learn pyspark apache spark mllib seed compatible system use made sklearn package forest model using productionise pas hyperparmeters set example,python ,python random scikit-learn pyspark apache-spark-mllib 
+pyaudio-OSError: [Errno -9999] Unanticipated host error,python record pyaudio oserror errno unanticipated host error open instantiate wf wave stream rb run p simple audio code import sys chunk wav want,python ,python record pyaudio 
+Many to many association without join table,sql java hibernate jpa 2 0 many association without join table apply database like simplified following node authority idnode int idauthorities namenode,sql ,java sql hibernate jpa jpa-2.0 
+Python psycopg2 not in utf-8,sql python psycopg2 utf psycopg conn postgresql data base like database fedour user fedpur password host port problem use connect,sql ,python sql psycopg2 utf 
+Progress Line in Matplotlib Graphs,python matplotlib progress line graph using timer objective r plot implement x started implementing possible w vertical draw feature move,python ,python matplotlib 
+Pivot / crosstab with more than one value column,sql postgresql crosstab pivot one value column select client id create table foo asset type future following resultset produce view current,sql ,sql postgresql crosstab 
+Controlling the fan speed and detecting the inside temperature of the pc with python?,python cpu controlling inside temperature pc detecting fan speed full like since running make module program loud shut required want,python ,python cpu 
+Why xgboost.cv and sklearn.cross_val_score give different results?,python machine learning scikit learn cross validation xgboost cv sklearn val score give different result xgb import panda csv label first used data set trying np train read user processed onehot pd numpy make classifier,python ,python machine-learning scikit-learn cross-validation xgboost 
+Pandas add column from one dataframe to another based on a join,python panda join dataframe one add column another based dataframes possible certain constant filter extra lookup assume want,python ,python pandas join dataframe 
+python removing whitespace from string in a list,python list removing whitespace string trailing space method alone remove strip return calling leading without copy want,python ,python list 
+How to join two tables based on substring values of fields?,sql oracle join inner two table based substring value field employee condition unid column like problem emplid u class instructor want,sql ,sql oracle join inner-join 
+django: exclude certain form elements based on a condition,python django form condition exclude certain element based field difficulty met know include whether want,python ,python django forms 
+Area intersection in Python,python numpy matplotlib intersection area code computes allowed several made space input defined x condition c take tube solution problem,python ,python numpy matplotlib intersection area 
+Compact but pretty JSON output in python?,python json 2 7 pretty print output compact human eye n indent ident newline still none single line see unreadable would like default comma written either,python ,python json python-2.7 pretty-print 
+Numpy Matrix class: Default constructor attributes for inherited class,python inheritance constructor numpy init default attribute matrix class inherited contrast something like inherits implement requires want,python ,python inheritance constructor numpy init 
+Display a list from nested json: Sencha Touch 2,json extjs javascript framework sencha touch 2 nested display list logo define test view ext restaurant etc xtype contact config extend,json ,json extjs javascript-framework sencha-touch-2 
+MS SQL datetime precision problem,sql server datetime precision m problem order two different computer stored prevent data loss case person might work situation database copy one would save,sql ,sql sql-server datetime precision 
+Duplicate postgresql schema including sequences,sql postgresql database schema multi tenant duplicate including sequence modified little bit net layout need currently create new found source customer function copy use internal,sql ,sql postgresql database-schema multi-tenant 
+Python Errno 9 Bad file descriptor in Mac OS X,python macos multiprocessing tornado errno bad file descriptor mac o x problem multiple time ftp server port ftpserver connect localhost linux following code running without f def test,python ,python macos multiprocessing tornado 
+#1136 - Column count doesn't match value count at row 1,sql mysql match value count column row id insert field one table showing trying query srikprag mlm member error db acbalance select another using,sql ,mysql sql 
+Sorting VARCHAR column with alphanumeric entries,sql server sorting alphanumeric entry varchar column a b c like using sort want,sql ,sql sql-server sorting alphanumeric 
+Is it possible to add a logic Constraint to a Foreign Key?,sql tsql foreign key constraint possible add logic added parent table kewl got two constrain basically relationship work great data,sql ,sql tsql foreign-keys constraints 
+MySQL: Unknown column in where clause error,sql php mysql error 1054 clause unknown column script value query select reason keep treating insert tutorial user example,sql ,php mysql sql mysql-error-1054 
+How to add header files in setup.py so dependencies are observed when building the extensions?,python distutils setup py building observed extension add header file dependency question seems long issuing change one motivation come specific specification,python ,python distutils setup.py 
+Getting timezone name from UTC offset,python datetime utc offset getting timezone name get asia multiple match gmt list given result example calcutta want,python ,python datetime 
+Running a Python script on a PHP server,python php script server running inside page along execute combined cgi nginx web possible attempted allowing would like know language,python ,php python 
+How to get all children of a node in tree structure ? SQL query?,sql database tree get child node structure query managerid give userid row user reporting people id list nikhil name ruchi nitin column table nilesh,sql ,sql database tree 
+MySQL: Unknown column in where clause error,sql php mysql error 1054 clause unknown column script value query select reason keep treating insert tutorial user example,sql ,php mysql sql mysql-error-1054 
+Selecting an item matching multiple tags,sql mysql many to selecting item matching multiple tag would got match select basic figure seems table want,sql ,sql mysql many-to-many 
+Update primary key Django MySQL,python mysql django model primary key update differetn pk object withe poor english try sorry method data save duplicate example problem,python ,python mysql django django-models primary-key 
+SQL Server - stored procedure suddenly become slow,sql stored procedure indexing spatial server suddenly become slow second seemed solved written typically completed problem yesterday ran well today take,sql ,sql stored-procedures indexing spatial 
+SQL using trigger for constraint,sql trigger constraint using studying got honest say really sure teacher table use let question,sql ,sql triggers constraints 
+Auto Increment a non-identity Column in sql-server,sql server tsql 2012 identity column auto increment non record insert database value one handle requirement incremented whenever specific,sql ,sql sql-server tsql sql-server-2012 
+SP_EXECUTESQL and Output Parameter,sql server tsql stored procedure sp executesql output parameter id mistake query tblzimz nvarchar null idmodul integer declare set getting would like get,sql ,sql sql-server tsql stored-procedures 
+Python: string to a list of lists,python string list split create accomplish unsure converting within following new confused ex,python ,python string list split 
+Regarding Users in Oracle 12c,sql oracle oracle12c c regarding user g create database previously need installed access system application used following command,sql ,sql oracle oracle12c 
+PySpark / Spark Window Function First/ Last Issue,sql apache spark pyspark window function last issue first understanding partition code retrieve understand able row giving incorrect result,sql ,sql apache-spark pyspark apache-spark-sql window-functions 
+Pivot / crosstab with more than one value column,sql postgresql crosstab pivot one value column select client id create table foo asset type future following resultset produce view current,sql ,sql postgresql crosstab 
+Check if multiple substrings are in pandas dataframe [duplicate],python panda select substring duplicate check dataframe multiple code kind df name str certain column line moment upper contains limited want,python ,python pandas select substring 
+How do I convert mySql SQL script to MS SQL one?,sql mysql server convert script m one incompatible mssql finally migrate customer database schema drop table received mb file dialect exists kladr data,sql ,mysql sql sql-server 
+#1136 - Column count doesn't match value count at row 1,sql mysql match value count column row id insert field one table showing trying query srikprag mlm member error db acbalance select another using,sql ,mysql sql 
+Python ROUND_HALF_UP not working as expected,python decimal currency rounding working expected round half up get doc import understand print using class quantize getcontext prec seem,python ,python decimal currency rounding 
+ImportError: No module named lxml.etree,python google app engine lxml module named importerror etree binary import showing installed trying premailer project correct path keep failing fine,python ,python google-app-engine lxml 
+SQL 'LIKE BINARY' any slower than plain 'LIKE'?,sql mysql plain like binary slower result u mystring comparison operation using django application unicode string startswith orm comparing longtext column,sql ,mysql sql 
+SqlAlchemy: export table to new database,python sql server sqlite sqlalchemy export table new database filter read like m recently started using stuck trying query write script however field,python ,python sql-server sqlite sqlalchemy 
+Why adding multiple 'nan' in python dictionary giving multiple entries?,python dictionary nan adding multiple giving entry creating np dc float key import numpy dict produce example problem like,python ,python dictionary 
+PyQt: How to get most of QListWidget,python drag and drop pyqt pyqt4 qlistwidget get dialog box clicking click single list item remove code build menu button add right qpushbutton brings,python ,python drag-and-drop pyqt pyqt4 qlistwidget 
+Calculate closest working day in Postgres,sql postgresql date postgres calculate closest working day order query based need requested delivery monday item example schedule,sql ,sql postgresql date 
+Display a list from nested json: Sencha Touch 2,json extjs javascript framework sencha touch 2 nested display list logo define test view ext restaurant etc xtype contact config extend,json ,json extjs javascript-framework sencha-touch-2 
+Add “field” of table name to SQL results from UNION?,sql mysql select union add field result table name way phone vendor simple instead user,sql ,mysql sql select union 
+Many to many association without join table,sql java hibernate jpa 2 0 many association without join table apply database like simplified following node authority idnode int idauthorities namenode,sql ,java sql hibernate jpa jpa-2.0 
+Python psycopg2 not in utf-8,sql python psycopg2 utf psycopg conn postgresql data base like database fedour user fedpur password host port problem use connect,sql ,python sql psycopg2 utf 
+jQuery function to create table using JSON data,json jquery create table using data function jsondata object local file score content display retrieve,json ,jquery json 
+Msys2 with python 3.8: ImportError: cannot import name 'open_code' from 'io',python 3 7 msys2 8 open code cannot import name msys io importerror numpy load possibly line remaining issue seems separated note per comment several edits indicated question,python ,python python-3.7 msys2 python-3.8 
+MS Access Create Table with Autoincrement and default date,sql m access autoincrement default date create table id field try statement next query always say syntax error,sql ,sql ms-access 
+Can I stop rendering variables in Django?,python django vue j stop rendering variable background kind app syntax try vuejs wanted worked share somehow specific template problem,python ,python django vue.js 
+Execution of the command requires an open and available connection. The connection's current state is broken.,sql c asp net entity framework broken current state command requires execution connection open available get qa singleton instance use using following error,sql ,c# asp.net sql entity-framework 
+python logging set level in basicConfig,python logging set level basicconfig import def show info warn debug,python ,python 
+How to analyze 'dbcc memorystatus' result in SQL Server 2008,sql server 2008 result dbcc memorystatus analyze memory pressure issue run facing part manager kb currently,sql ,sql sql-server-2008 
+"SQL joins, “there is an entry for table but it cannot be referenced”",sql postgresql postgis referenced cannot join entry table need query going error part giving failing,sql ,sql postgresql postgis 
+Python List Comprehension vs For [closed],python closed list comprehension v better performance loop item new,python ,python 
+Joining arrays within group by clause,sql array postgresql group by 9 1 joining within clause multiple row one single problem grouping two column join given aggregate id following input value want,sql ,sql arrays postgresql group-by postgresql-9.1 
+Get value from div with javascript: Always get undefined [duplicate],html javascript undefined get value always duplicate div document function sync var n getelementbyid news editor alert problem,html ,javascript html undefined 
+Create a pandas dataframe from a nested lists of unequal lengths,python list panda nested create dataframe unequal length cc created aa bb follows nest,python ,python list pandas nested 
+How to send image from image Uri through HTTP request? (React Native and Django Backend),react j javascript image reactjs http native django backend request send uri host exponent height file data picker exp user object cache output using expo cancelled false experiencedata jbaek getting,react js ,javascript image reactjs http react-native 
+"Gulp, Reactify, and Babelify not transforming together",react j reactjs gulp browserify babeljs reactify babelify transforming together src task function bundle jsx pipe transform main source app gulpfile code,react js ,reactjs gulp browserify babeljs reactify 
+How to style nested elements in react?,react j cs reactjs style nested element div via const typography theme root button demo backgroundcolor see would like child inside using styled component,react js ,css reactjs 
+Material-ui: open menu by event hover,react j reactjs material ui menu item event hover open menuitems click attribute child menuitem key index currently via onhover true agree,react js ,reactjs material-ui menu-items 
+How to know the useful height of an iOS device in React Native?,react j io reactjs native android know device useful height area notch full need using hardcoded specific case calculate set without flex view,react js ,ios reactjs react-native react-native-android react-native-ios 
+Fastest way to add pre-existing static HTML page to a React/Gatsby site,react j reactjs router gatsby fastest way site add pre existing static html page simple project working nicely using jsx another let styled bootstrap quite complex think landing,react js ,reactjs react-router gatsby 
+Proper way to implement jwplayer in react component using webpack (react-starter-kit),react j reactjs jwplayer webpack jwplayer6 es6 module loader component using starter kit implement proper way jwpalyer e include trying npm making videoplayer loading support,react js ,reactjs jwplayer webpack jwplayer6 es6-module-loader 
+React PropTypes: range of numbers,react j javascript reactjs range proptypes number inside oneof validate avoiding write better way,react js ,javascript reactjs range react-proptypes 
+Stateless React components with controlled input,react j javascript reactjs controlled input stateless component const inputcomponent make work inside prop example sate full wrapping currently,react js ,javascript reactjs 
+run response interceptor only once when multiple API calls,react j javascript asynchronous reactjs promise axios multiple api call run response interceptor error const err status use console like config undefined log,react js ,javascript asynchronous reactjs promise axios 
+Change readonly attribute of input element: ReactJS,react j javascript reactjs input element change readonly attribute inputstate state constructor prop remove add super render function html done want,react js ,javascript reactjs 
+Is there a generic way to set state in React Hooks?,react j javascript reactjs hook generic way set state value like use event usestate const name component handlechange question,react js ,javascript reactjs react-hooks 
+"
+Q: MySql very slow count on query with joins        ",statistic mysql sql query optimization q slow count join cc optimizer optimize,statistics ,mysql sql query-optimization 
+Populating ReactJS HTML Form via Javascript,react j javascript jquery reactjs populating html form via sample website inside browser context able app run rd party login working build opening,react js ,javascript jquery reactjs 
+How can “NameError: free variable 'var' referenced before assignment in enclosing scope” occur in real code?,python exception scope closure free variable var real code nameerror referenced enclosing occur assignment hanging someone dropped chatroom never seen reported following,python ,python exception scope closures free-variable 
+ReactJS + Socket.IO - Best way to handle socket connection,react j node reactjs socket io handle connection best way trying clientside realtime application hard time figuring multiple make,react js ,node.js reactjs sockets socket.io 
+How to provide a history instance to a saga?,react j reactjs router v4 redux saga history instance provide new page import used like redirect browserhistory would v browser signleton class app extends component route successful login,react js ,reactjs react-router-v4 redux-saga react-router-redux 
+How to dispatch redux action outside of a component?,react j javascript reactjs native redux dispatch action outside component file way communication using organize mobile app backend via websockets socket io project could call object,react js ,javascript reactjs react-native redux 
+util.crypto.lib. randomBytes is not a function : aws cognito js throws error on authentication,react j javascript reactjs amazon web service cognito function randombytes lib util aws throw error authentication crypto get following code wrote typeerror try user using authenticate webpack imported module sdk global,react js ,javascript reactjs amazon-web-services amazon-cognito 
+How to load AJAX in react,react j ajax reactjs load following getcomments get return commentlist map comment const code look like im trying json result go,react js ,ajax reactjs 
+redis.exceptions.ConnectionError: Error -2 connecting to localhost:6379. Name or service not known,python redis database connection py known connectionerror service localhost error connecting name exception code import mirad line env recent call last file run traceback server debian fetcher module task,python ,python redis database-connection redis-py 
+Making all variables global,python variable global making function using thought created script use incorrect way multiple would want,python ,python variables global-variables 
+Fast way to get N Min or Max elements from a list in Python,python sorting fast way list max element get n min sorted using first five random something like lambda x currently long some function of choose f,python ,python sorting 
+Dynamic list that automatically expands,python pop 11 dynamic list automatically expands construct generator called g time integer one like equivalent grows pdtolist return make say assume,python ,python pop-11 
+Django on GoogleAppEngine: performance howto,python django google app engine 2 7 cloud sql performance howto googleappengine actually written fully released asked today standard application backed week ago consequently functional relational db question e,python ,python django google-app-engine python-2.7 google-cloud-sql 
+Statement decorators,python function decorator statement code print break except n retry foo third party library import would like try range look args,python ,python function decorator 
+Flask app hangs while processing the request,python flask tornado app hang processing request single page upload html usually post panda take sec using beautifulsoup task complete simple,python ,python flask tornado 
+numpy fromiter with generator of list,python array numpy generator fromiter list j np def gen c one yield tolist dtype re int import,python ,python arrays numpy generator 
+cxfreeze aiohttp cannot import compat,python 3 5 cx freeze cxfreeze aiohttp cannot import compat web application written package dist output binary got trying running server basically use build py using,python ,python python-3.5 cx-freeze 
+Where is the python path set when I don't have a .bash_profile?,python bash profile path set running ubuntu see current question exactly,python ,python 
+"
+            A: Keras embedding layers: how do they work?
+        ",neural network work kera embedding layer example word way suppose n object able tensor mathematical representation look directly translate,neural networks , 
+How can I use react-router to trigger state changes?,react j reactjs router trigger state change use still coming wondering suppose simply update application without rendering dom node grip example,react js ,reactjs react-router 
+How to show loading UI when calling getComponent in react-router?,react j javascript reactjs router redux calling getcomponent show loading ui really new loaded screen call work fine component render display figure route,react js ,javascript reactjs react-router react-redux 
+Error rendering React.js using JVM Nashorn (Play Framework). I get “null is not a function”,react j java playframework 8 reactjs nashorn error rendering using jvm get null function play framework issue guide comprehensive going com building run tutorial http tylermcginnis apps,react js ,java playframework java-8 reactjs nashorn 
+React-table change style for each row on hover,react j javascript reactjs redux row hover table change style onmouseenter npm module let using found documentation option want,react js ,javascript reactjs redux 
+componentDidMount() is not getting called but only in a particular circumstance,react j javascript reactjs router v4 dom particular circumstance getting called componentdidmount issue require type head best really strange problem happening component clearly explain app using,react js ,javascript reactjs react-router react-router-v4 react-router-dom 
+How can I pass event to setState callback function?,react j javascript reactjs callback setstate function pas event value target possible external example somefunc,react js ,javascript reactjs callback setstate 
+React Native Parse Firestore Timestamp,react j javascript reactjs firebase google cloud firestore native parse timestamp http doc com realize absolutely documentation reference show android,react js ,javascript reactjs firebase google-cloud-firestore 
+Code coverage on JSX tests with Istanbul,react j reactjs code coverage jsx istanbul test get slipping instrument trying node module bin running finger cover launch something mocha,react js ,reactjs code-coverage react-jsx istanbul 
+Does the className attribute take on the role of the id attribute in Reactjs?,react j reactjs jsx id attribute role classname take component used instead reused rarely imply due since fact,react js ,reactjs react-jsx 
+How to use react unstated outside of render method?,react j reactjs unstated use outside render method return apisubscribe using set like api project ustated library,react js ,reactjs unstated 
+Staggering components on enter with react css transition group,react j reactjs reactcsstransitiongroup cs transition group staggering component enter looked reactcsstransitionsgroup child try using go add would like know stagger effect question get rendered within,react js ,reactjs reactcsstransitiongroup 
+Warning about calling setState on an unmounted component,react j reactjs router unmounted component warning calling setstate code mounted op usually mean please check mounting update called,react js ,reactjs react-router 
+Click on <div> to focus <input> (React) [closed],react j javascript html reactjs click closed input focus div user field stuck whenever jquery would know,react js ,javascript html reactjs 
+Changing components based on url with react router,react j javascript reactjs flux url changing component based router managing state several child considered best practice specific issue architectural question regarding layout prop,react js ,javascript reactjs flux 
+Error rendering React.js using JVM Nashorn (Play Framework). I get “null is not a function”,react j java playframework 8 reactjs nashorn error rendering using jvm get null function play framework issue guide comprehensive going com building run tutorial http tylermcginnis apps,react js ,java playframework java-8 reactjs nashorn 
+Add custom theme variable object to createMuiTheme(),react j reactjs material ui createmuitheme add custom theme variable object typography etc defined possible setup still use several pre combination default palette,react js ,reactjs material-ui 
+Keyboard input using stdio.StandardIO in twisted python,python twisted keyboard input using stdio standardio multiclient chat server program related stored run reactor doubt give,python ,python twisted keyboard-input 
+Pythonic way to “round()” like Javascript “Math.round()”?,python javascript 3 x math pythonic way round like difference make huge actually slightly different number application want,python ,javascript python python-3.x math 
+Launch Openstack Instances using python-boto,python amazon ec2 boto openstack launch instance using multiple network configured trying bad request xml opensatck setup ec responseerror got following error,python ,python amazon-ec2 boto openstack 
+How to add marker on map by Click using react-google-maps?,react j javascript reactjs google map api 3 add marker click using find component based user left struggling need help const simple example,react js ,javascript reactjs google-maps google-maps-api-3 react-google-maps 
+React setState() not updating state after $.ajax() request,react j reactjs router ajax request setstate updating state app component get rendered using checking authentication onenter asynchronous hook initial auth indexroute set,react js ,reactjs react-router 
+run response interceptor only once when multiple API calls,react j javascript asynchronous reactjs promise axios multiple api call run response interceptor error const err status use console like config undefined log,react js ,javascript asynchronous reactjs promise axios 
+How to provide a history instance to a saga?,react j reactjs router v4 redux saga history instance provide new page import used like redirect browserhistory would v browser signleton class app extends component route successful login,react js ,reactjs react-router-v4 redux-saga react-router-redux 
+I'm trying to count all letters in a txt file then display in descending order,python 3 x dictionary display trying txt file letter descending order count code information work however randomly trouble displaying title say def frequency far currently,python ,python python-3.x dictionary display 
+How to install TA-lib in google colab?,python google colaboratory ta lib colab install get platform notebook guide tried trying error also installing package without success x import print,python ,python google-colaboratory ta-lib 
+Pandas: Difference to previous value,python panda difference previous value look like group mask false true data frame given,python ,python pandas 
+Using cross_val_predict against test data set,python machine learning scikit learn data science test set using cross val predict ensemble import created confused used simple random forest model sklearn make prediction,python ,python machine-learning scikit-learn data-science 
+Python - why does time.sleep cause memory leak?,python 2 7 memory leak multiprocessing time sleep cause code deleted top seems process ran terminated correctly increasing never increased however,python ,python python-2.7 memory-leaks multiprocessing 
+"
+            A: A good machine learning technique to weed out good URLs from bad
+        ",machine learning good url weed technique bad make excellent point even let selvakuberan steve proceeding best algorithm r using expert k new york ny devi automated web page classification feature purpose package like weka tricky stompchicken think pp general picking rajaram,machine learning , 
+How to color surface with stronger contrast,python matlab plot color surface stronger contrast z x dim euclidean space function trying colormap jet following code meshgrid surf,python ,python matlab plot 
+Adjust the distance only between two subplots in matplotlib,python matplotlib two subplots adjust distance change column case row hspace use fig,python ,python matplotlib 
+how to unsubscribe with useQuery and subscribeToMore,react j reactjs apollo client usequery unsubscribe subscribetomore return function subscription doc another post shared set example mention,react js ,reactjs apollo apollo-client 
+Post an object with fetch using react js and express API server,react j node api reactjs express fetch using post object server getting trouble checked value receiving client method side send empty want,react js ,node.js api reactjs express fetch 
+History object issue with React-Router,react j javascript reactjs router history object issue simple webpage using latest version npm route installed building written index module file v,react js ,javascript reactjs react-router 
+render html strings in flask templates,python html template flask jinja2 render string markdown code database attribute show article one building put want used web page save converted,python ,python html templates flask jinja2 
+letsencrypt failed with ImportError: No module named interface,python linux let encrypt amazon letsencrypt failed importerror module named interface step google search using followed fails get currently installed version root local error easily found,python ,python linux lets-encrypt amazon-linux 
+How can I use factor-bundle with browserify programmatically?,react j node reactjs browserify bundle programmatically use factor entry point single common http www org package save want find dependency npmjs,react js ,node.js reactjs browserify 
+ReactRouter v4 - Redirect doesn't work with Switch,react j reactjs redirect router reactrouter v work switch navigation import publicpage code loginpage reactdom dom,react js ,reactjs redirect react-router 
+Manipulating x axis tick labels in matplotlib,python matplotlib panda bar chart manipulating x axis tick label extra noticed something like way graph force automatically add want le data,python ,python matplotlib pandas bar-chart 
+How to unmount a previously mounted component in stack navigator (react-navigation 2.X)?,react j reactjs native navigation x stack navigator previously mounted component unmount option diagram makepayment homepage back colorindiagram create app login user color part simplified flow,react js ,reactjs react-native react-native-navigation 
+Unhandled JS Exception: getPropertyAsObject: property '__fbRequireBatchedBridge',react j reactjs native frontend navigation drawer ionicons property fbrequirebatchedbridge unhandled exception getpropertyasobject required module coming performed update point error metro bundle believe reset,react js ,reactjs react-native frontend navigation-drawer ionicons 
+How to add marker on map by Click using react-google-maps?,react j javascript reactjs google map api 3 add marker click using find component based user left struggling need help const simple example,react js ,javascript reactjs google-maps google-maps-api-3 react-google-maps 
+Access prop outside of class in React when calling Higher Order Component,react j javascript reactjs redux form class access prop outside calling higher order component formvalueselector requires code pattern method state sting referencing us reuse connects trying use hoc,react js ,javascript reactjs react-redux redux-form 
+Compare with previous props in getDerivedStateFromProps,react j reactjs getderivedstatefromprops compare previous prop second state component new think elapse hi reset change name,react js ,reactjs 
+npm WARN react-native-maps@0.14.0 requires a peer of react@>=15.4.0 but none was installed,react j android io google map reactjs native requires npm warn peer installed none installation instruction airbnb trying run install project following command cmd problem,react js ,android ios google-maps reactjs react-native 
+Changing components based on url with react router,react j javascript reactjs flux url changing component based router managing state several child considered best practice specific issue architectural question regarding layout prop,react js ,javascript reactjs flux 
+"Python, thread and gobject",python multithreading pygtk gobject thread create framework using resource monitor client main program watchdog following thing writing socket call receive data,python ,python multithreading pygtk 
+Add custom theme variable object to createMuiTheme(),react j reactjs material ui createmuitheme add custom theme variable object typography etc defined possible setup still use several pre combination default palette,react js ,reactjs material-ui 
+"
+            A: RNN model (GRU) of word2vec to regression not learning
+        ",neural network gru learning rnn model regression word vec get sentence need regressornet using torch passed pack sequence inside intuition tl view padded feature difference dr nn swapping ax see end forward method freeze embedding layer length use permute instead answer sorted,neural networks , 
+Python Errno 9 Bad file descriptor in Mac OS X,python macos multiprocessing tornado errno bad file descriptor mac o x problem multiple time ftp server port ftpserver connect localhost linux following code running without f def test,python ,python macos multiprocessing tornado 
+Is this not a tuple?,python django tuples tuple reading improperlyconfigured wrong list error admin figure must categoryadmin field,python ,python django tuples 
+ValueError: Argument must be a dense tensor - Python and TensorFlow,python tensorflow valueerror dense tensor argument must code issue extracting image relevant png raw data tf pil import open enhanced might portion,python ,python tensorflow 
+"
+Q: Retry Pattern Vs fall back pattern in rest client        ",statistic java net algorithm rest design pattern retry v fall back client q time implementing defend either argument failure prior experience use service url suggestion based replica original http resource,statistics ,java .net algorithm rest design-patterns 
+"
+Q: How to query the metadata of indexes in PostgreSQL        ",statistic postgresql schema metadata index query q sql server extension information return denormalized result set specifically trying equivalent follows table edit,statistics ,postgresql schema metadata 
+Python: How do I access an decorated class's instance from inside a class decorator?,python decorator class instance inside access decorated self mydecorator able func method object def call point would parent example mean,python ,python decorator 
+"
+Q: Pyspark: Serialized task exceeds max allowed. Consider increasing spark.rpc.message.maxSize …        ",statistic dataframe pyspark message rpc max size serialized task exceeds allowed maxsize q consider increasing spark ask summary get calculation byte df describe show error cluster end,statistics ,dataframe pyspark message rpc max-size 
+jQuery toggle class,html jquery class audio toggle code page controlled via trouble adding add attempted function several tag toggleclass rest,html ,jquery class html audio toggle 
+"HTML5 File api, reading in an xml/text file and displaying it on the page?",html javascript file api xml reading page displaying text tried using code modified http www content com read rock display tutorial dndfiles doctype,html ,javascript file html 
+"
+Q: Lottery algorithm - PHP - math seems good, but is the function valid?        ",statistic php algorithm function valid lottery math seems good q created trial prize return get called,statistics ,php algorithm 
+"
+Q: Convert table into a vector to use hist() on r        ",big data r vector convert table q use hist operation way bigger txt read would like file day single learning,big data ,r vector 
+"
+Q: Useful book(s) on learning Object Oriented Programming in R? [closed]        ",statistic r s4 closed learning object oriented programming q useful book chapter reading ripley using s class written blogger interesting post computing venables,statistics ,r s4 
+"
+Q: Geospatial data in SQL        ",big data sql server geospatial sqlgeography q way index work long lat geography type representing calculated single point whereas size gain field le indexing column feeling thing actual stored even though space byte require,big data ,sql-server geospatial sqlgeography 
+Remove particular permission using os.chmod,python unix permission chmod remove particular using o short x filename write existing one know add,python ,python unix permissions 
+"
+Q: jQueryUI Autocomplete with clickable results        ",big data jquery ui autocomplete onclick jqueryui q clickable result jsfiddle resolve created guess contained filling welcome j help happening http fj w page load instead see deal poor skill net default behaviour input demo prevents problem bertrand,big data ,jquery jquery-ui autocomplete onclick jquery-ui-autocomplete 
+"
+Q: Amazon S3 Programmatically Access Usage Data        ",statistic python amazon s3 web service s programmatically access usage data q directly monitor downstream check download regularly anywhere able plan aws api,statistics ,python amazon-s3 amazon-web-services 
+"
+Q: how to traverse page cache tree (radix tree) of a file address space in linux kernel        ",statistic linux caching kernel radix tree file address space q traverse page cache get turn root need struct called pointer f mapping open,statistics ,linux caching linux-kernel radix-tree 
+"
+Q: How can you read keystrokes when the python program isn't in the foreground?        ",statistic python keyboard background keylogger foreground program q read keystroke simply generate general analyze next month trying throw together exactly log would like command simple want,statistics ,python keyboard background keylogger 
+"
+Q: How to get campaign ID or referrer inside iOS app        ",statistic io iphone idfa get campaign id referrer inside app q everything banner ok pt particular user install thanks analytics clicking see advance newsletter track want way link ct mt itunes connect,statistics ,ios iphone idfa 
+numpy 'module' object has no attribute 'stack',python numpy attribute stack object module library code looking really exists http doc trying org run scipy mine documentation used,python ,python numpy 
+"
+Q: Encoding a scipy sparse matrix as TFRecords        ",big data scipy tensorflow encoding sparse matrix q tfrecords work ok whole sample building zero input feed k pickle fully converting dimension hundred value fit dense numpy array store row load soon model batch non memory currently,big data ,scipy tensorflow 
+Parallelise nested for-loop in IPython,python parallel processing ipython parallelise nested loop result azimuth zenith look something like various bit code stuff eventually,python ,python parallel-processing ipython 
+"
+Q: find a matrix in a big matrix        ",statistic c algorithm find big matrix q data f appears probability total method possibly brute force approach matched p success match average e optimize,statistics ,c++ algorithm 
+"
+Q: Easy access to instagram users public profile        ",statistic rest instagram api user public profile easy access q available stats follower count getting know fetch method building keep simple osx app,statistics ,rest instagram instagram-api 
+"
+Q: Convert table into a vector to use hist() on r        ",big data r vector convert table q use hist operation way bigger txt read would like file day single learning,big data ,r vector 
+"
+            A: App Crashes saying Memory Warning Using Arc
+        ",statistic app crash saying memory warning using arc switch allocation code call tree much allocated object therefore sometimes useful see summary show,statistics , 
+"
+            A: index on url or hashing considering RAM
+        ",statistic url hashing considering ram index generate better database much lighter since already decode using fast based making application go encode m,statistics , 
+"
+Q: What are the implications of node.js?        ",machine learning javascript node j web framework implication q get create clear perhaps heard currently understand net mvc equivalent attention hype yet question gotten excited ruby jquery many people quite later maybe someone rail already hope project asp,machine learning ,javascript node.js web-frameworks 
+"
+            A: For loops in R and computational speed
+        ",statistic r computational speed loop needed book modeling ben klemens data called c programming available online know another good reference free easy step,statistics , 
+"
+Q: Pythonic way to filter data with overlapping dates        ",big data python date dictionary readability pythonic way filter q overlapping end pm start issue aug merge n list would like key update jun new test input structure result p jul team,big data ,python date dictionary readability 
+"
+Q: Can I get “BULK INSERT”-like speeds when inserting from JAVA into SQL Server?        ",big data java sql server performance 2014 bulkinsert inserting q get bulk insert like speed fastest method generated still time slower find using option unless noticed come temporary text file support reading quest output within,big data ,java sql-server performance sql-server-2014 bulkinsert 
+Can I use a machine learning model as the objective function in an optimization problem?,python machine learning optimization scikit learn scipy problem objective function model use utilize subsequently data set trying prediction purpose optimize package build sklearn decision tree regression,python ,python machine-learning optimization scikit-learn scipy 
+Pandas group by weekday (M/T/W/T/F/S/S),python panda groupby f group weekday w order like form yyyy sunday dd arrival date time series index monday calculate mm dataframe containing,python ,python pandas pandas-groupby 
+Using Mocks inside Doctests?,python testing mocking 3 5 doctest using mock inside doctests function sends email answer external action g connects wondering seems like etc performs server correct way e,python ,python testing mocking python-3.5 doctest 
+how to find the height of a node in binary tree recursively,python algorithm binary tree find node recursively height path right none left self lenght,python ,python algorithm binary-tree 
+Maximum value from a list of lists and its index,python list 2 7 nested index maximum value find row idx efficiently li suppose max want,python ,python list python-2.7 nested-lists 
+calculate histogram peaks in python,python calculate histogram peak tried signal import argrelextrema data np scipy numpy calcuate,python ,python 
+Is there a way to stop time.sleep in windows?,python window way sleep stop time similar mechanism available ready nix signaling allows method end intercepting code seems,python ,python windows 
+How to get the numbers of data rows from sqlite table in python,python sqlite data row get number table available php mysqli num devised think mean database trying returned mysql although feature seems,python ,python sqlite 
+Python Plotly format axis numbers as %,python formatting plotly format axis number x df go column dataframe col b c bar trace code pd index,python ,python formatting plotly 
+keras LSTM feeding input with the right shape,python tensorflow kera right shape lstm feeding input head value usd drop mean change predict panda dataframe following df getting data,python ,python tensorflow keras 
+Self-referencing inside class definition,python class decorator member referencing inside definition self reference object could method pas advice simple would specifically,python ,python class decorator python-decorators class-members 
+How to get horizontal scroll bar in select box in IE?,html cs internet explorer drop down menu scrollbar get horizontal scroll bar ie select box auto style overflow div class functionitem following code try implement width option value general happy name set id selector cat px,html ,html css internet-explorer drop-down-menu scrollbar 
+Python file upload from url using requests library,python request url using library file upload something like computer want,python ,python python-requests 
+Check if multiple substrings are in pandas dataframe [duplicate],python panda select substring duplicate check dataframe multiple code kind df name str certain column line moment upper contains limited want,python ,python pandas select substring 
+Set background color of layout,python qt pyqt qtstylesheets qlayout set background color layout one object label attribute setstylesheet button given visual explanation,python ,python qt pyqt qtstylesheets qlayout 
+Python - Intersectiing strings,python string intersection intersectiing character function order str tried def strintersection take two trying return write intersect first appear,python ,python string intersection 
+SQLite not saving data between uses,python 3 x sqlite us saving data following content execute drop table db cursor made sq import connection connect test module create exists,python ,python python-3.x sqlite 
+"
+Q: Read File byte for byte and parse to int        ",big data javascript parsing parse int q read file byte queryselector readbytesbuttons addeventlistener click function startbyte j document tagname found http evt tolowercase getattribute information button server want var written fix structure wise target,big data ,javascript parsing 
+"
+Q: Random sampling from a dataset, while preserving original probability distribution        ",big data java sampling probability density random preserving original distribution dataset q extent approximately possible number gathered time test value set variance close sample measurement overall middle class small example mean want,big data ,java sampling probability-density 
+"
+Q: Can I get “BULK INSERT”-like speeds when inserting from JAVA into SQL Server?        ",big data java sql server performance 2014 bulkinsert inserting q get bulk insert like speed fastest method generated still time slower find using option unless noticed come temporary text file support reading quest output within,big data ,java sql-server performance sql-server-2014 bulkinsert 
+"
+Q: Why modifying an instruction cause huge i-cache and i-TLB misses on x86?        ",statistic performance x86 64 performancecounter perf tlb miss instruction cause huge modifying cache q x machine l icache following itlb e stat counter stats load,statistics ,performance x86 x86-64 performancecounter perf 
+Convert HTML to Image in PHP without shell,html php image without shell convert display showing user creating converting result instead displaying using echo would option variable want,html ,php html image 
+"
+Q: PySpark: retrieve mean and the count of values around the mean for groups within a dataframe        ",statistic python sql apache spark window function value around group within dataframe pyspark retrieve mean q count get variable alias df stats whole dataset standard datetime stored groupby hdfs agg want loaded using time parquet first float calculate default like data,statistics ,python sql apache-spark apache-spark-sql window-functions 
+"
+Q: Does Convolutional Neural Network possess localization abilities on images?        ",neural network computer vision feature detection deep learning image convolutional posse localization ability q certain pattern true present anywhere cnn rely indicate one achieve sliding window technique know far given bounding box,neural networks ,computer-vision neural-network feature-detection deep-learning 
+Is it possible to run a command that is in a list?,python 3 x possible list run command trying cmd number seen put multiple make random corresponding program pick,python ,python python-3.x 
+"
+            A: Proper way to define a few hundred GDGs at once
+        ",statistic hundred gdgs define proper way create really want methodical bunch test job collect performance different allocation gdg file allocates iterative process,statistics , 
+"
+Q: Do I need permission for services like Fabric Crashlytics in iOS?        ",statistic io debugging crashlytics twitter fabric need permission service like q couple developed take itunes connect nice download figure app using look see time however crash,statistics ,ios debugging crashlytics twitter-fabric 
+"
+            A: Flattening multiple repeated fields in Google BigQuery
+        ",big data flattening multiple repeated field google bigquery new technique process really well written topic learn documentation lot,big data , 
+"
+            A: Cloud Functions for Firebase: purchase trigger on test purchase
+        ",data analytics test purchase firebase trigger cloud function let need must however early subscription someone renewal combat piracy affect app real android work monthly io measure question verification refund want useful counted towards in hope implement know,data analytics , 
+Map JSON string column of a JPA entity to Java object automatically,json java jpa jackson object automatically map string column entity id generationtype name item info class strategy generatedvalue private long table following structure identity,json ,java json jpa jackson 
+Convert MySQL record set to JSON string in PHP,json php mysql string convert record set function get something like recordset passed back ajax request pas javascript class returned,json ,php mysql json 
+How do I Unmarshal JSON?,json go unmarshal still learning string try tag trying field using reflection see struct however,json ,json go 
+Count particular key value from array of object,json javascript array angularjs object count particular key value id following green orange create form status want,json ,javascript arrays angularjs json object 
+jQuery JSON Decode ( PHP to Javascript),json php javascript jquery array decode autocomplete script like convert got trying go pas variable code make example know,json ,php javascript jquery arrays json 
+Jackson - Modify an attribute at runtime without annotation,json java jackson runtime without annotation attribute modify xml kind bean convert let public string getter private int code test object data say class msg setter,json ,java json jackson 
+"
+            A: pandas dataframe as latex or html table nbconvert
+        ",statistic html table nbconvert panda dataframe latex hline low ix format helper value text df join map,statistics , 
+importing JSON to mongoDB using pymongo,json python mongodb pymongo importing using url module env import sys pull trying following code usr send file urllib bin,json ,python json mongodb pymongo 
+"
+            A: reading and writing in chunks on linux using c
+        ",big data chunk reading writing linux using c file linebuf char buffer allocate error use fgets knowing mb problem fread try line break decode one sizeof large search instead see man much code actually read,big data , 
+How to parse nested JSON objects with JSON framework and Objective-C/iPhone/Xcode?,json objective c iphone xcode parse nested object framework accessing web service using data served app send native writing example,json ,objective-c iphone xcode json 
+"
+Q: Can you restrict viewing access for revenue in Firebase Analytics Dashboard?        ",statistic firebase analytics console revenue dashboard restrict viewing access q prevent also seen give develop role seems,statistics ,firebase firebase-analytics firebase-console 
+"
+Q: Arithmetic with NAN's        ",statistic c arithmetic nan q place time stream regularly taken data every whenever problem point array qnan,statistics ,c++ 
+"
+            A: What is the difference between labeled and unlabeled data?
+        ",machine learning difference unlabeled data labeled bag many different problem pick classification multidimensional feature vector case labelled typically consists point,machine learning , 
+"
+Q: Python: How to get local maxima values from 1D-array or list        ",statistic python numpy local d list q array get maximum value need got one data row werte range n import file csv,statistics ,python numpy local 
+"
+Q: Is it bad to use ALTER TABLE to resize a varchar column to a larger size?        ",statistic sql server tsql 2008 r2 resize larger size q bad use alter table varchar column statement way avoid performance hit index stored get large modification due want resource including fact affect data,statistics ,sql-server tsql sql-server-2008-r2 
+"
+            A: How does google analytics collect its data?
+        ",data analytics google collect http www doc query string request url sent server collected web page provides detailed information utm concept gaconceptsoverview html gif image j code packed made com apis activated,data analytics , 
+DataTable to Json using jquery,json asp net jquery 3 5 datatable using url code contenttype web service execute ajax type following piece post trying return application data,json ,asp.net jquery json .net-3.5 datatable 
+"
+            A: What is the difference between labeled and unlabeled data?
+        ",machine learning difference unlabeled data labeled bag many different problem pick classification multidimensional feature vector case labelled typically consists point,machine learning , 
+"
+Q: Calculate trendline and predict future results        ",data analytics javascript node j math polynomial trendline predict future result calculate q need method estimate working writing time trend current hour effectively assuming every minute total view deceleration module th site currently using project account acceleration would take far,data analytics ,javascript node.js math polynomial-math trendline 
+Reactjs - Setting State from props using setState in child component,javascript reactjs child component prop using setstate setting state listed alphabetical render order user based group following class choose sort dropdown,javascript ,javascript reactjs 
+"
+Q: Neural Networks and Image Processing to Shoot Caterpillars w/ Lasers        ",neural network image processing q shoot caterpillar w laser supremely camouflaged could train anns branch crossing recognizing people etc thing seen research using artificial problem though get thin short period naive eye look sort difficult detect place face fat,neural networks ,image-processing neural-network 
+"
+Q: boost::accumulators::rolling_mean returning incorrect mean value        ",statistic c boost accumulator q rolling mean returning incorrect value hpp namespace ba include example,statistics ,c++ boost boost-accumulators 
+"
+            A: Get title from YouTube videos
+        ",statistic get title youtube video id response request snippet query string urlencode urlopen videoid field params googleapis channelid parse your google apikey http www key item url v part com urllib categoryid,statistics , 
+"
+Q: Connecting over internet to WCF service using wsDualHttpBinding times out        ",machine learning c wcf internet connecting service using wsdualhttpbinding time q taken care get port forwarding issue resides behind firewall try curve self browser set still computer work fine see hosted client previous question run following,machine learning ,c# wcf 
+"
+Q: delete temporary files in postgresql        ",statistic postgresql memory temp table delete temporary file q looking db message realized created running query gb believe full disk space,statistics ,postgresql memory temp-tables 
+"
+Q: R - how to use rpart?        ",statistic r use rpart q test answer make find essence result read would like response include gave v vignette run output,statistics ,r 
+"
+            A: Algorithms for finding a look alike face?
+        ",statistic look alike face finding algorithm represents g characterizes recognition feature vector object simplest would task containing e,statistics , 
+"
+            A: How to save two camera's data but not influence their picture-acquire speed?
+        ",statistic picture influence acquire speed save two camera data desire kind condition finally implement stop write frame wait appropriate number cancel worker thread complete work queue,statistics , 
+"
+Q: Incremental code coverage for Python unit tests?        ",statistic python unit testing code coverage unittest py test incremental q get involved using work great coverall part last first io concerned project,statistics ,python unit-testing code-coverage python-unittest coverage.py 
+"
+Q: Python multiprocessing pipe recv() doc unclear or did I miss anything?        ",machine learning python multiprocessing pipe miss anything recv doc unclear q official tried simple example none missed script hang using print parent conn pas p use point revised would except eoferror join module recently reading process exchanging object ubuntu anyone hello try appreciative,machine learning ,python multiprocessing pipe 
+"
+Q: Why is `NaN` a possible value for type `Int` in Elm?        ",machine learning elm type possible value int q nan saw assumed think something like haskell integer result recently started see withdefault surprised,machine learning ,elm 
+"
+Q: Keep record of login time and session duration - Java - Spring Security        ",statistic security spring login usage keep record java session duration time q kind sure way reading progress shared use deal seems framework filter help,statistics ,security spring login usage-statistics 
+"
+            A: AWS Athena too slow for an api?
+        ",statistic slow aws athena api information getqueryexecution property mean see get query documentation figure queryexecution,statistics , 
+"
+Q: MySQL taking up nearly100% CPU all the time - how to diagnose what's wrong? [closed]        ",statistic mysql time closed taking cpu diagnose wrong q nearly issue machine eating ghz vital window server r enterprise intel g diagnosing one go,statistics ,mysql 
+"
+Q: How to fix the size of a ggplot in R while saving it with png()?        ",big data r ggplot2 png ggplot size q fix saving true long lat world frame library width x aes group p edit csv geom point colour white read file map enough full code usa sf header height polygon,big data ,r ggplot2 
+"
+            A: Haskell Servant Get Current Route / URL From Handler
+        ",statistic url handler haskell servant get current route vault way information ekg currently may make improved version used collect wai middleware,statistics , 
+"
+            A: Best way to organize bioinformatics projects?
+        ",bioinformatics best way organize project site directory specific answer stackexchange two question small script together interested biostar likely manage pipeline file,bioinformatics , 
+"
+            A: Combining variables together into a list
+        ",big data combining variable together list faster slow reshape merge use ag study solution subsetting row like tyler subset slower using apply generally table,big data , 
+"
+Q: Android Facebook SDK Share dialog: never return Completion Gesture        ",statistic android facebook sdk never return completion gesture share dialog q successfully posted message need getting messsage sharing using v app track however always get null,statistics ,android facebook facebook-android-sdk 
+"
+            A: bioinformatics resources
+        ",bioinformatics resource blue collar,bioinformatics , 
+"
+            A: AWS / SES Email sending… What's been your experience?
+        ",statistic s email sending experience aws monitor current limit bounce etc addressed well strongly encourage produce low monitoring usage accordingly,statistics , 
+"
+            A: Benchmarking datatables in R using lapply, is it slower?
+        ",big data slower r using lapply benchmarking datatables integer id column may floating point get convert bigger set performance small increase table lower datasets larger,big data , 
+"
+            A: Indexing and searching in hadoop
+        ",big data searching hadoop indexing love internet http www create apache solr useful link article dzone using likethecolor found index architect use com regarding,big data , 
+"
+Q: Why would the exact same SQL query result with a different execution plan when executed via …        ",statistic sql server tsql execution plan sp executesql different query result exact q would executed via updated second take minute management studio run fact remained reviewed index,statistics ,sql-server tsql sql-execution-plan sp-executesql 
+"
+Q: Update {node_counter} table programmatically in drupal        ",statistic ajax drupal 6 view module node counter q update table programmatically core question every time currently use install viewed increment count work,statistics ,ajax drupal drupal-6 drupal-views drupal-modules 
+"
+Q: gfortran openmp no threading        ",statistic multithreading fortran openmp gfortran threading q optimized p one posix gcc version f t thread model output testmp pie pkgversion gentoo,statistics ,multithreading fortran openmp 
+"
+Q: Table Valued Parameter has slow performance because of table scan        ",statistic sql server performance tsql stored procedure slow table scan q valued parameter get tvp query pas certain value join attached mil row goal alternative,statistics ,sql-server performance tsql stored-procedures 
+"
+            A: DNS query over TCP
+        ",statistic dns query tcp prior well community depending retransmission interval large possible server aggressive easily slow response based,statistics , 
+"
+Q: How would I get psycopg2 logging of query execution time?        ",statistic python postgresql would get psycopg logging q query execution time executed could clear least got debugging working trying example still seem fuzzy documentation performance,statistics ,python postgresql 
+"
+            A: Fitting a curve to specific data
+        ",data analytics fitting curve specific since function two free parameter fitted x try something like choose fit f dat c b look exponential decay via form plot adhere w p exp gnuplot analytical could help know u otherwise,data analytics , 
+"
+Q: How to Determine ASP.NET Application Domain Lifetime        ",statistic asp net ii global asax determine application domain lifetime q iisreset command called executing gathering counter reset would like value microsoft say start,statistics ,asp.net iis global-asax 
+"
+            A: Can some explain the performance behavior of the following memory allocating C program?
+        ",statistic explain performance behavior following memory allocating c program synopsis compile sub note cpu arr nice read itr also see time option vital actually entire file,statistics , 
+Conditional column arithmetic in pandas dataframe,python numpy panda dataframe conditional column arithmetic condition np import following structure nan pd mydata x,python ,python numpy pandas dataframe 
+Combine two array's data using inner join,python array arrayofarrays combine two data using inner join set arr one want,python ,python arrays arrayofarrays 
+Embedding Python in C: Error in linking - undefined reference to PyString_AsString,python c 3 x internals embedding undefined reference pystring asstring error linking code base interpreter separate application program inside try embed trying o ubuntu,python ,python c python-3.x python-internals python-embedding 
+"Python / Pyspark - Count NULL, empty and NaN",python pyspark empty count null nan filter df id value like isnull tried error message isnan always get column want,python ,python pyspark 
+Compare request.path with a reversed url in Django template,python django template reversed url compare request path base pas give current understand active html currently cs tab know working want,python ,python django django-templates 
+How do I conditionally include a file in a Sphinx 'toctree'? [duplicate],python conditional statement sphinx toctree conditionally include duplicate file maxdepth index core utils oec plotting toc certain tag would like obvious approach fails set one however,python ,python conditional-statements python-sphinx toctree 
+influxdb python: 404 page not found,python influxdb page found cant even get lib trying use following example code tutorial programm work run import,python ,python influxdb 
+ply lexmatch regular expression has different groups than a usual re,python regex lex ply different group lexmatch regular expression usual noticed sre pattern defined strange discrepancy match stored token using module compared x way,python ,python regex lex ply 
+Python ROUND_HALF_UP not working as expected,python decimal currency rounding working expected round half up get doc import understand print using class quantize getcontext prec seem,python ,python decimal currency rounding 
+How to run WordCountTopology from storm-starter in Intellij,python intellij idea apache storm starter run wordcounttopology using eclipse already suggested write topology work java api development get started want,python ,python intellij-idea apache-storm 
+Python - decimal places (putting floats into a string),python string floating point decimal place putting float print variable put str approach using heard pythonic blah got quite used f format way,python ,python string floating-point 
+Python Plotly - Align Y Axis for Scatter and Bar,python plotly scatter align bar axis graph create element different attribute one issue trying around go nicely two tried playing,python ,python plotly 
+How are images actually saved with skimage (Python),python image opencv processing matplotlib skimage actually saved currently applying suen thinning algorithm order identify object using requires later track output filament would like grayscale hone zhang,python ,python image opencv image-processing matplotlib 
+Fill na values by adding x to previous row pandas,python panda dataframe fill na value previous row adding x nan respectively data frame column named sam insert following want,python ,python pandas dataframe 
+difference between python2 and python3 - int() and input(),python 3 4 difference int input totally running result found wrote code,python ,python python-3.4 
+Multiple windows in PyQt4?,python pyqt4 pyqt multiple window begun using puzzle one thing gui qtgui followed sys com argv http zetcode part tutorial qapplication ex def main app,python ,python pyqt4 
+How do I post non-ASCII characters using httplib when content-type is “application/xml”,python django urllib2 httplib pivotaltracker type post non ascii character using content application xml code us urlib implemented pivotal tracker api expects data document module,python ,python django urllib2 httplib pivotaltracker 
+Why return type is not checked in python3?,python 3 x function type typechecking checked return str hello call name right way pep hint def greeting john example,python ,python python-3.x function types typechecking 
+Obtaining module name: x.__module__ vs x.__class__.__module__,python module obtaining name class x v obtain reason object prefer one work completely redundant seem want,python ,python module python-module 
+Running a Python script on a PHP server,python php script server running inside page along execute combined cgi nginx web possible attempted allowing would like know language,python ,php python 
+Removing html tags from a text using Regular Expression in python,python html regex tag text using regular expression removing left import urllib request remove trying def test file look far problem,python ,python html regex tags 
+How to generate n dimensional random variables in a specific range in python,python numpy scipy specific range generate n dimensional random variable one dimension various uniform tried number want,python ,python numpy scipy 
+Python list index out of range on return value of split,python 2 7 split return value range list index first element f r print trying second column sys argv simple script open txt input file import extract len writing,python ,python python-2.7 
+Cython Fatal Error: Python.h No such file or directory,python c gcc cython directory h fatal error file create executable pyx compile command line type test get use mingw using work fine,python ,python c gcc cython 
+"Resource Aquisition Is Initialization, in Python",python raii initialization resource aquisition stop method move thing several peer wanting c del code review come time new go start init,python ,python raii 
+Python Regex - checking for a capital letter with a lowercase after,python regex string capital letter checking lowercase trick garbage check trying going number coming directly bunch,python ,python regex string 
+"TypeError: function() argument after * must be a sequence, not generator",python typeerror generator must sequence function argument code inconsistently fails trying write discovered unacceptable pattern work properly initally written tiny obfuscated type checker however,python ,python typeerror 
+XCode 3.2 Ruby and Python templates,python ruby cocoa xcode pyobjc template objectivec trace project compiled opened updated missing still cannot create new given,python ,python ruby cocoa xcode pyobjc 
+raise Assertionerror vs. assert python,python error handling assert raise assertionerror v code way one reason fault effect pythonic big difference build,python ,python error-handling assert 
+Generate a set of sorted random numbers from a specific range,python random generator specific range set generate sorted number loop randrange method like x unique use sort import figured example,python ,python random generator 
+What is the most idiomatic way to index an object with a boolean array in pandas?,python panda object idiomatic way index boolean array differentiating ix us loc like particularly talking busy replacing either iloc communicates whether fact version,python ,python pandas 
+How can I change the font size in GTK?,python font gtk pygtk gtk2 change size easy way set markup text element label best span desc tahoma lbl right something silly like,python ,python fonts gtk pygtk gtk2 
+Update primary key Django MySQL,python mysql django model primary key update differetn pk object withe poor english try sorry method data save duplicate example problem,python ,python mysql django django-models primary-key 
+Check if string exists in a text file,python regex text file check string exists r return false got user def checkuserexists txt open c database read true else search,python ,python regex 
+'Reversed' comparison operator in Python,python comparison operator reversed x else raise self isinstance inner return class def init eq,python ,python comparison 
+Append dictionary to pandas dataframe in a loop,python 3 x panda append dictionary loop dataframe key value pair create dict requirement within data frame column name matching,python ,python python-3.x pandas 
+ascii codec cant decode byte 0xe9,python unicode encoding utf 8 decode ascii codec cant byte xe research know character worked work none seen solution done,python ,python unicode encoding utf-8 decode 
+How Can Python Handle systemctl stop?,python linux systemd handle systemctl stop reduce disk way script service file running command user call risk would like writes,python ,python linux systemd 
+read_csv with missing/incomplete header or irregular number of columns,python 2 7 csv panda dataframe irregular number read incomplete header column missing po file k row look like histogram sample time,python ,python python-2.7 csv pandas dataframe 
+Invert colors when plotting a PNG file using matplotlib,python opencv matplotlib invert color plotting png file using image test generated following load trying multidimensional numpy matrix transform display course,python ,python opencv matplotlib 
+Keras Extremely High Loss,python machine learning kera prediction loss extremely high pretty simple model strange characteristic trying predict price function see chose work problem,python ,python machine-learning keras prediction loss 
+Randomly extract x items from a list using python,python list random index randomly extract x item using starting lsttwo many lstone two want user input,python ,python list random indices 
+django: exclude certain form elements based on a condition,python django form condition exclude certain element based field difficulty met know include whether want,python ,python django forms 
+How can I import Pandas with Jython,python panda jython 2 7 import core pythoninterpreter string args util install new java org public static void main class,python ,python pandas jython-2.7 
+"Matplotlib: how to add xlabel, title to each subplot",python matplotlib subplot title add xlabel np import generate pyplot data trying plot multiple heatmaps using plt follows found slice numpy example subplots,python ,python matplotlib 
+How to install MySQLdb in Python 2.6 CentOS,python centos mysql install mysqldb loaded plugins base message use yum cached hostfile fastestmirror loading mirror speed voxel net extra sg getting sin,python ,python centos mysql-python 
+Python: Find count of the elements of one list in another list,python another list find count one element two present let expected output say want,python ,python 
+How do I compile multiple py files as one?,python module compilation maya pyc one compile multiple py file totally lost get single need compiled even start new toolset written many small done,python ,python module compilation maya pyc 
+Minimizing the performance issues of loading a many to many relationship,python sql orm many to flask sqlalchemy minimizing performance issue relationship loading database every occur multiple comment time list tokenizing attached id unigram storing extremely large corpus,python ,python sql orm many-to-many flask-sqlalchemy 
+List of arguments with argparse,python argparse argument list found involves rewriting way main arg pas trying currently use option py want,python ,python argparse 
+What is the advantage of Pip over Anaconda?,python pip anaconda package manager advantage difference wonder conda appear made supporter answer still however seen standard,python ,python pip anaconda package-managers 
+Decorating Python's builtin print() function,python decorator decorating builtin print function create wrapped json indent calling mydict result possible produce decorated version know ex dump,python ,python python-decorators 
+python string manipulation,python regex string manipulation character new like nested bracket remove ur e store p ax pair q want,python ,python regex string 
+Python: accept unicode strings as regular strings in doctests,python 2 7 testing pytest doctest regular string doctests accept unicode returning method docstring look passed key word original dictionary abbreviated searching new abbreviates writing,python ,python python-2.7 testing pytest doctest 
+Unpickling classes from Python 3 in Python 2,python 3 x pickle unpickling class supposed unfortunately code called fails work changed pickled using protocol name assume,python ,python python-3.x pickle 
+python divide by zero encountered in log - logistic regression,python machine learning logistic regression logarithm divide by zero encountered log code k different class implement trying multiclass classifier np x scipy import numpy special expit def cost distinguishes,python ,python machine-learning logistic-regression logarithm divide-by-zero 
+Specifying the output file name in Apache Spark,python apache spark output file name specifying defining xxxxx way mapred rather trying using org pyspark getting part hadoop mapreduce job mr migrate,python ,python apache-spark 
+Installing tensorflow on windows,python tensorflow pip window installing find install upgrade collecting could trying version satisfies,python ,python tensorflow pip 
+How to convert this for loop in list comprehension?,python list comprehension loop convert path print tried getsize o f conversion like glob want,python ,python list 
+"How to convert 3D RGB label image (in semantic segmentation) to 2D gray image, and class indices start from 0?",python numpy array broadcasting d gray image convert rgb label class index start semantic segmentation map one value exists want respectively,python ,python numpy array-broadcasting 
+How to get an windows executable from my kivy app (Pyinstaller)?,python linux package kivy pyinstaller app get window executable apk exe realised fact two program buildozer done packaged want,python ,python linux package kivy pyinstaller 
+Pythonic way to pass around many arguments,python argument pythonic way pas around many several module within function initiated contains subpackages package working main usually subpackage need,python ,python arguments 
+How to concisely represent if/else to specify CSS classes in Django templates,python django template specify cs class else concisely represent version pkg b like buildinfo certain div based release condition add v example,python ,python django django-templates 
+Use regular expression to handle nested parenthesis in math equation?,python regex math equation use regular expression handle nested parenthesis wrong way going able goal perhaps reader statement writing multiple within want,python ,python regex 
+Django uses ANSI_X3.4-1968 encoding instead of UTF-8,python django encoding utf 8 us ansi x instead user run auction gunicorn en u nginx config contains line server charset running ubuntu locale output lang,python ,python django encoding utf-8 
+Unpacking a struct ending with an ASCIIZ string,python struct asciiz string unpacking ending happens end data record endian byte use trying stored little ascii tomtom ov take apart unpack format,python ,python struct 
+Pull Tag Value using BeautifulSoup,python parsing tag beautifulsoup pull value using hard time navigating read someone direct documentation example span title funstuff,python ,python parsing tags beautifulsoup 
+Need to transfer multiple files from client to server,python socket server client transfer multiple file need working fine recently slight issue able single dropbox clone project basically making,python ,python sockets server client 
+'Expected String or Unicode' when reading JSON with Pandas,python json panda openstreetmap overpass api expected string unicode reading link unten minlat using following code pd import request try rechts minlon openstreetmaps output read valid,python ,python json pandas openstreetmap overpass-api 
+How to find all <li>'s within a specific <ul> class?,python 2 7 beautifulsoup find li ul within class specific all my environment thing one beautiful soup logic instance eg,python ,python python-2.7 beautifulsoup 
+Python: How to loop a list of lists of varying depth?,python for loop recursion varying depth list actual long b want beforehand data structure like know,python ,python for-loop recursion 
+Project Euler #18 - how to brute force all possible paths in tree-like structure using Python?,python brute force possible path like structure using project euler tree find variation stuck trying happened beyond atlantic way stuff web learn lot googling,python ,python 
+check if dictionary key has empty value,python dictionary empty value check key create planet mar trying following dict city name yass region zipcode phone address tehsil new,python ,python dictionary 
+md5 to integer bits in python,python hash md integer bit several ngrams applying convert trying anyone currently go idea hashed value would,python ,python hash 
+"ctags, vim and python code",python vim ctags exuberant code py django generate r field l language f tag apps following command model contrib import auth employee kind iv,python ,python vim ctags exuberant-ctags 
+How can I make a Post Request on Python with urllib3?,python json curl urllib3 post request urllib make ticker t ba pas trying description tenaris industry metal rgica following body api code seems currency ar altough,python ,python json curl urllib3 
+is the python dict str() function reliably sorting keys?,python string dictionary dict str function reliably sorting key produce valuepairs least rely fact dicts containing,python ,python string dictionary 
+Load BytesIO image with opencv,python opencv imread load bytesio image like trying structure code write connection read io pil stream originally,python ,python opencv imread 
+Shelve module in python not working: “db type cannot be determined”,python 2 7 persistent storage shelve dbm db type cannot determined module working seems pretty simple py file trying wondering import password storing program using wrong make main,python ,python python-2.7 persistent-storage shelve dbm 
+Python Pandas replace values by their opposite sign,python panda data processing opposite sign replace value b clean cannot trying negative corresponding positive would like,python ,python pandas data-processing 
+pandas groupby transform custom function,python panda groupby transform custom function possible a c b data,python ,python pandas 
+cxfreeze aiohttp cannot import compat,python 3 5 cx freeze cxfreeze aiohttp cannot import compat web application written package dist output binary got trying running server basically use build py using,python ,python python-3.5 cx-freeze 
+How to apply a special methods 'Mixin' to a typing.NamedTuple,python 3 6 namedtuple special method mixin apply typing love make sense case use set member hashable attribute contains dict key non often want,python ,python python-3.6 namedtuple 
+"Python slow on fetchone, hangs on fetchall",python sqlite slow fetchall fetchone hang cursor parse database first tried problem select query running script record thing phase writing unfortunately,python ,python sqlite 
+How to watch a variable in pudb?,python pudb variable watch debugging way script get notified whenever value change want,python ,python pudb 
+Python Popen grep,python popen grep buffered line execute wanted result shell like directory give test run data txt start grave,python ,python 
+Randomly sampling lines from a file,python bash sed randomly sampling line file print new n var use sample input gb txt right approach csv want,python ,python bash sed 
+TypeError: compile() expected string without null bytes,python compile expected string without null byte typeerror translate usr coding utf trying import sys urllib ast url using google api http ajax bin com env googleapis,python ,python 
+Fail to validate URL in Facebook webhook subscription with python flask on the back end and ssl,python facebook ssl flask webhook subscription back end fail validate url apache start using new messenger platform mysite fb trying got com good www setup correctly server domain name e valid certificate,python ,python facebook ssl flask 
+Python dictionary iterator performance,python performance time complexity internals dictionary iterator n iterating largest size page say element working,python ,python performance time-complexity python-internals 
+How to make n-dimensional nested for-loops in Python? [duplicate],python loop dimension make n duplicate dimensional nested x mechanism convert f range following situation,python ,python loops dimensions 
+Python - SkLearn Imputer usage,python scikit learn imputation sklearn imputer usage following question marked string na column panda dataframe replace run missing value mean want,python ,python scikit-learn imputation 
+Running a cron job in Elastic Beanstalk,python django amazon web service cron elastic beanstalk job running download file parse database work like app call run functionality update api eb data,python ,python django amazon-web-services cron amazon-elastic-beanstalk 
+getpass.getpass() function in Python not working?,python working getpass function anyway prompt using pycharm recipient trying write running sends email password console program matter window want,python ,python 
+Tkinter and thread. out of stack space (infinite loop?),python multithreading tkinter infinite loop thread stack space anyone explain solve class exception experimenting raise mechanism tclerror,python ,python multithreading tkinter 
+Apply migrations and models from all the apps,python django model apply migration apps using py migrate execute app manage schema like mainapp,python ,python django django-models 
+Shouldn't __metaclass__ force the use of a metaclass in Python?,python oop 3 x metaclass force use mechanism get understand trying metaclasses activate learn constructing specify main idea seem,python ,python oop python-3.x metaclass 
+python 2 strange list comprehension behaviour,python list comprehension strange behaviour code b c print len g k groupby else saw smth looking around,python ,python list-comprehension 
+How to use TextTestRunner class from Python unittest module in failfast mode?,python unit testing use texttestrunner class unittest module failfast mode run verbosity constructor following sample code using description suite documentation found method,python ,python unit-testing 
+How do I convert a complex number?,python complex number convert goldman calculator cmath think natural log narrowed take top row built r bio equation bot float source f problem,python ,python 
+python-docx style_id error while creating a word document,python 2 7 m word docx style id error creating document create site py c program file spss lib following ibm getting statistic tutorial available,python ,python python-2.7 ms-word python-docx 
+python zeep: send un-escaped xml as content,python soap client zeep escaped xml send un content response tried repo even get sending think installed trying researched suds pretty much like github issue sadly yet,python ,python soap soap-client zeep 
+Is there a Python equivalent of MATLAB's conv2 function?,python matlab matrix convolution equivalent conv function b interested something module computation specifically,python ,python matlab matrix convolution 
+How can I find endpoints of binary skeleton image in OpenCV?,python c opencv image processing binary skeleton find endpoint four using open cv end point coordinate applicable case efficiency would like pixel,python ,python c++ opencv image-processing 
+How to update a progress bar in a loop?,python 2 7 user interface tkinter progress bar update loop easy method easily implement need let since already pretty complicated script solution without much mess,python ,python python-2.7 user-interface tkinter 
+Getting a grid of a matrix via logical indexing in Numpy,python matlab numpy matrix indexing getting grid via logical part false true reshape function using rewrite trying x follows idx originally,python ,python matlab numpy matrix-indexing 
+Mandelbrot set displays incorrectly,python 3 x mandelbrot set display incorrectly pygame module c dim yrange import math r using xrange attempt program init def mapmandelbrot,python ,python python-3.x mandelbrot 
+pandas cut(): how to convert nans? Or to convert the output to non-categorical?,python panda categorical data convert output cut non nan run groupby input using need something else dataframe column,python ,python pandas categorical-data 
+how to convert canvas to image to upload to flask?,python javascript ajax canvas flask convert upload image string base tried alright trying use first resized file using todataurl,python ,javascript python ajax canvas flask 
+How to set timeout to threads? [duplicate],python window multithreading 2 7 timeout duplicate thread set code least catch exception answer work multi using threading x second found describing finish want,python ,python windows multithreading python-2.7 timeout 
+Accessing MySQL from Python 3: Access denied for user,python mysql accessing access denied user host database import following method tried connector config password,python ,python mysql 
+Python monkey patch private function,python monkeypatching monkey patch private function speaks get call data back b module another defined website via urllib,python ,python monkeypatching 
+"What's the difference between a 'function', 'method' and 'bound method' in Python 3?",python function 3 x internals difference method bound f class fcaef least type related observed def pas,python ,python function python-3.x python-internals 
+"
+Q: How to aggregate values over a bigger than RAM gzip'ed csv file?        ",bioinformatics python csv gzip bigger ram ed file aggregate value q programming especially built go script included one clumn new individual called vcf starter,bioinformatics ,python csv gzip bioinformatics 
+Controlling the fan speed and detecting the inside temperature of the pc with python?,python cpu controlling inside temperature pc detecting fan speed full like since running make module program loud shut required want,python ,python cpu 
+HTTPS Request in Kivy,python android ssl kivy aws api gateway http request hosted moved app tied first struggling urlrequest library,python ,android python ssl kivy aws-api-gateway 
+Cannot allocate 1.6 GB in Python,python memory management numpy gb cannot allocate empty pylab import complex x memoryerror win dtype code produce ram million least,python ,python memory-management numpy 
+django-pytest setup_method database issue,python django unit testing pytest setup method database issue also though tested reproduced following set behaviour ubuntu,python ,python django unit-testing pytest pytest-django 
+How can I rearrange array items moving dependencies on top?,php array algorithm multidimensional rearrange item moving dependency top depend another one may test b c depends following,php ,php arrays algorithm multidimensional-array 
+PDO Setting PDO::MYSQL_ATTR_FOUND_ROWS fails,php mysql pdo setting attr found row fails appear phpinfo true trying set attribute cannot seem using,php ,php mysql pdo 
+"
+Q: Reasonable way to have different versions of None?        ",neural network python 3 x numpy nonetype different version none reasonable way q input form good strategy library come think maybe nothing worse ram linear algebra recursive fit eventually careful data,neural networks ,python python-3.x numpy nonetype 
+"MongoDB Exception: Server reports wire version 0, but version of libmongoc requires at least 3",php mongodb mamp libmongoc exception least version requires server report wire fatal error driver localhost connectionexception uncaught,php ,php mongodb mamp libmongoc 
+How to use Laravel's hasManyThrough across 4 tables,php laravel 5 2 hasmanythrough across table use user account contact order flow like hasmany structure follows relationship,php ,php laravel laravel-5 laravel-5.2 
+Elasticsearch - previous/next functionality,php elasticsearch pagination next functionality previous document created index open current page deatailpage user hit search engine searchengine resultpage leaf,php ,php elasticsearch pagination 
+Slim 3 autoloader,php autoload slim autoloader get created try model use framework app class figure new myclass found course,php ,php autoload slim 
+Facebook API - How to access my photo album?,php facebook gallery photo album access api display somewhere grant good way website application need oauth authentication would achieve want,php ,php facebook gallery 
+php observer pattern to log user out when session times out,php session timeout observer pattern time log user happens database thinking requires modifying trying case online status able logging might,php ,php session timeout observer-pattern 
+How to replace XML node with SimpleXMLElement PHP,php xml simplexml replace node simplexmlelement visible false map operationallayers layer label security following type feature useproxy string version root,php ,php xml simplexml 
