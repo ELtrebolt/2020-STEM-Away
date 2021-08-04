@@ -10,39 +10,37 @@ _Technical:_
   **Python (Basic)** – For Loops, Lists, Conditionals
 
   **Data Mining (Basic)** – Beautiful Soup and Selenium
+
   **Pandas Dataframe**
 
 _Tools:_
 
   **Code Management:** Git, Github
+
   **Project Management:** Slack, Asana
+
   **Code Editing:** Anaconda, Python, Visual Studio Code
 
 _Soft Skills:_
 
-  Learning Mindset
-  Online Collaboration
-  Problem Solving & Troubleshooting
+  Learning Mindset, Online Collaboration, Problem Solving & Troubleshooting
   
 **Achievement Highlights**
 
-  Worked with a team in scraping and combining data from a website
-  Used Beautiful Soup and Selenium for web scraping
+  Worked with a team in scraping and combining data from a website. Used Beautiful Soup and Selenium for web scraping
   
 **Meetings Attended**
 
-  2-3 Weekly ML Team 6 meetings
-  2 Weekly Codecademy Group meetings
+  2-3 Weekly ML Team 6 meetings & 2 Weekly Codecademy Group meetings
 
 **Goals for Upcoming Meetings**
-  Make observations and begin data pre-processing
-  Learn basic machine learning models for recommender systems
+  Make observations and begin data pre-processing. Learn basic machine learning models for recommender systems
 
 **Tasks Done**
 
   **Plan Data Collection:** Collaborated with a small group to record observations about the Codecademy forum. Made a report including the metrics, navigation, display, topic elements, and useful categories of the forum.
-  **
-  Data Collection:** Scraped a portion of the categories from the Codecademy forum and put together each topic’s title, category, tags, content, and comments into a csv file. Collaborated with the team in scraping the right elements and optimizing code.
+
+  **Data Collection:** Scraped a portion of the categories from the Codecademy forum and put together each topic’s title, category, tags, content, and comments into a csv file. Collaborated with the team in scraping the right elements and optimizing code.
   
 ## Weeks 3-4: August 3rd – August 14th
 
@@ -51,24 +49,22 @@ _Soft Skills:_
 _Technical:_
 
   **Python (Basic)** – Dictionaries, Functions
+
   **Data Pre-Processing (Basic)** – Tokenize, Rake, Lemmatizer
+
   **Machine Learning Models** – TF-IDF score, Vectors, Cosine Similarity
 
 _Tools:_
 
-Jupyter Notebook
-Microsoft Excel
+Jupyter Notebook, Microsoft Excel
 
 _Soft Skills:_
 
-  Learning Mindset
-  Problem Solving & Troubleshooting
-  Resourcefulness
+  Learning Mindset, Problem Solving & Troubleshooting, Resourcefulness
   
 **Achievement Highlights**
 
-  Performed data cleaning
-  Began working with Machine Learning models
+  Performed data cleaning, Began working with Machine Learning models
   
 **Meetings Attended**
 
@@ -98,13 +94,11 @@ _Tools:_
   
 _Soft Skills:_
 
-  Public Speaking / Presenting
-  Professionalism
+  Public Speaking / Presenting, Professionalism
   
 **Achievement Highlights**
 
-  Implemented recommender system
-  Completed final presentation
+  Implemented recommender system, Completed final presentation
 
 **Meetings Attended**
 
