@@ -8,6 +8,7 @@ Machine Learning internship with STEM-Away in July 2020. Worked with Recommendat
 _Technical:_
 
   **Python (Basic)** – For Loops, Lists, Conditionals
+
   **Data Mining (Basic)** – Beautiful Soup and Selenium
   **Pandas Dataframe**
 
