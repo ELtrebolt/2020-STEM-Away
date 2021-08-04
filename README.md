@@ -1,5 +1,7 @@
 # 2020-STEM-Away
 Machine Learning internship with STEM-Away in July 2020. Worked with Recommendation and Classification systems using Natural Language Processing. See certificate at https://www.stemaway.com/pub/certificate-5715 and self assessment at https://stemaway.com/t/eltrebolt-machine-learning-pathway/5715
+
+
 Weeks 1-2: July 20th – July 31st
 
 Things Learned
